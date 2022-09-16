@@ -1,1 +1,10 @@
 .vscode/c_cpp_properties.json
+.vscode
+
+input.in
+output.out
+arquivoDesordenado.txt
+
+pesquisa.exe
+a.out
+

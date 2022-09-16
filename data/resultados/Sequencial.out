@@ -1,0 +1,2056 @@
+METODO: 1 
+QUANTIADE: 100 
+SITUACAO: 1
+
+-----------------TESTE: 1/20 | CHAVE: 20-----------------
+
+Registro foi localizado. Chave: 20. Dado 1: 387357621
+
+Numero Tranferencia Indexacao: 5
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.000304
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 10
+Tempo decorrido Pesquisa: 0.000194
+
+-----------------TESTE: 2/20 | CHAVE: 78-----------------
+
+Registro foi localizado. Chave: 78. Dado 1: 318663032
+
+Numero Tranferencia Indexacao: 5
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.000150
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 12
+Tempo decorrido Pesquisa: 0.000034
+
+-----------------TESTE: 3/20 | CHAVE: 53-----------------
+
+Registro foi localizado. Chave: 53. Dado 1: 709524856
+
+Numero Tranferencia Indexacao: 5
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.000124
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 9
+Tempo decorrido Pesquisa: 0.000044
+
+-----------------TESTE: 4/20 | CHAVE: 71-----------------
+
+Registro foi localizado. Chave: 71. Dado 1: 1315537270
+
+Numero Tranferencia Indexacao: 5
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.000189
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 6
+Tempo decorrido Pesquisa: 0.000036
+
+-----------------TESTE: 5/20 | CHAVE: 24-----------------
+
+Registro foi localizado. Chave: 24. Dado 1: 1985157561
+
+Numero Tranferencia Indexacao: 5
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.000133
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 10
+Tempo decorrido Pesquisa: 0.000037
+
+-----------------TESTE: 6/20 | CHAVE: 61-----------------
+
+Registro foi localizado. Chave: 61. Dado 1: 692976453
+
+Numero Tranferencia Indexacao: 5
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.000121
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 9
+Tempo decorrido Pesquisa: 0.000033
+
+-----------------TESTE: 7/20 | CHAVE: 11-----------------
+
+Registro foi localizado. Chave: 11. Dado 1: 206917698
+
+Numero Tranferencia Indexacao: 5
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.000122
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 6
+Tempo decorrido Pesquisa: 0.000033
+
+-----------------TESTE: 8/20 | CHAVE: 81-----------------
+
+Registro foi localizado. Chave: 81. Dado 1: 1296496529
+
+Numero Tranferencia Indexacao: 5
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.000101
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 10
+Tempo decorrido Pesquisa: 0.000033
+
+-----------------TESTE: 9/20 | CHAVE: 27-----------------
+
+Registro foi localizado. Chave: 27. Dado 1: 2086510892
+
+Numero Tranferencia Indexacao: 5
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.000109
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 6
+Tempo decorrido Pesquisa: 0.000028
+
+-----------------TESTE: 10/20 | CHAVE: 24-----------------
+
+Registro foi localizado. Chave: 24. Dado 1: 1985157561
+
+Numero Tranferencia Indexacao: 5
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.000153
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 10
+Tempo decorrido Pesquisa: 0.000028
+
+-----------------TESTE: 11/20 | CHAVE: 67-----------------
+
+Registro foi localizado. Chave: 67. Dado 1: 766670417
+
+Numero Tranferencia Indexacao: 5
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.000100
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 8
+Tempo decorrido Pesquisa: 0.000026
+
+-----------------TESTE: 12/20 | CHAVE: 96-----------------
+
+Registro foi localizado. Chave: 96. Dado 1: 1363261548
+
+Numero Tranferencia Indexacao: 5
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.000095
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 13
+Tempo decorrido Pesquisa: 0.000025
+
+-----------------TESTE: 13/20 | CHAVE: 27-----------------
+
+Registro foi localizado. Chave: 27. Dado 1: 2086510892
+
+Numero Tranferencia Indexacao: 5
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.000084
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 6
+Tempo decorrido Pesquisa: 0.000023
+
+-----------------TESTE: 14/20 | CHAVE: 86-----------------
+
+Registro foi localizado. Chave: 86. Dado 1: 2073982379
+
+Numero Tranferencia Indexacao: 5
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.000101
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 12
+Tempo decorrido Pesquisa: 0.000025
+
+-----------------TESTE: 15/20 | CHAVE: 46-----------------
+
+Registro foi localizado. Chave: 46. Dado 1: 586379504
+
+Numero Tranferencia Indexacao: 5
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.000124
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 11
+Tempo decorrido Pesquisa: 0.000028
+
+-----------------TESTE: 16/20 | CHAVE: 36-----------------
+
+Registro foi localizado. Chave: 36. Dado 1: 1301514758
+
+Numero Tranferencia Indexacao: 5
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.000127
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 11
+Tempo decorrido Pesquisa: 0.000025
+
+-----------------TESTE: 17/20 | CHAVE: 53-----------------
+
+Registro foi localizado. Chave: 53. Dado 1: 709524856
+
+Numero Tranferencia Indexacao: 5
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.000086
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 9
+Tempo decorrido Pesquisa: 0.000023
+
+-----------------TESTE: 18/20 | CHAVE: 96-----------------
+
+Registro foi localizado. Chave: 96. Dado 1: 1363261548
+
+Numero Tranferencia Indexacao: 5
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.000085
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 13
+Tempo decorrido Pesquisa: 0.000024
+
+-----------------TESTE: 19/20 | CHAVE: 42-----------------
+
+Registro foi localizado. Chave: 42. Dado 1: 1619255817
+
+Numero Tranferencia Indexacao: 5
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.000088
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 11
+Tempo decorrido Pesquisa: 0.000025
+
+-----------------TESTE: 20/20 | CHAVE: 85-----------------
+
+Registro foi localizado. Chave: 85. Dado 1: 518091568
+
+Numero Tranferencia Indexacao: 5
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.000089
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 10
+Tempo decorrido Pesquisa: 0.000024
+
+-------------------MEDIA DOS RESULTADOS-------------------
+
+Numero Tranferencia Media Indexacao: 5.000000
+Numero Comparacoes Media Indexacao: 0.000000
+Tempo decorrido Media Indexacao: 0.000124
+
+Numero Tranferencia Media Pesquisa: 1.000000
+Numero Comparacoes Media Pesquisa: 9.600000
+Tempo decorrido Media Pesquisa: 0.000037
+
+
+----------------------------------------------------------------------------------------------------------------------------
+
+METODO: 1 
+QUANTIADE: 1000 
+SITUACAO: 1
+
+-----------------TESTE: 1/20 | CHAVE: 135-----------------
+
+Registro foi localizado. Chave: 135. Dado 1: 827754787
+
+Numero Tranferencia Indexacao: 33
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.001654
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 8
+Tempo decorrido Pesquisa: 0.000063
+
+-----------------TESTE: 2/20 | CHAVE: 111-----------------
+
+Registro foi localizado. Chave: 111. Dado 1: 1759067128
+
+Numero Tranferencia Indexacao: 33
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.001372
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 5
+Tempo decorrido Pesquisa: 0.000058
+
+-----------------TESTE: 3/20 | CHAVE: 936-----------------
+
+Registro foi localizado. Chave: 936. Dado 1: 903165217
+
+Numero Tranferencia Indexacao: 33
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.001525
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 39
+Tempo decorrido Pesquisa: 0.000057
+
+-----------------TESTE: 4/20 | CHAVE: 227-----------------
+
+Registro foi localizado. Chave: 227. Dado 1: 1546320923
+
+Numero Tranferencia Indexacao: 33
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.001554
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 13
+Tempo decorrido Pesquisa: 0.000050
+
+-----------------TESTE: 5/20 | CHAVE: 197-----------------
+
+Registro foi localizado. Chave: 197. Dado 1: 1809814042
+
+Numero Tranferencia Indexacao: 33
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.001418
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 14
+Tempo decorrido Pesquisa: 0.000052
+
+-----------------TESTE: 6/20 | CHAVE: 928-----------------
+
+Registro foi localizado. Chave: 928. Dado 1: 611374866
+
+Numero Tranferencia Indexacao: 33
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.001679
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 39
+Tempo decorrido Pesquisa: 0.000064
+
+-----------------TESTE: 7/20 | CHAVE: 618-----------------
+
+Registro foi localizado. Chave: 618. Dado 1: 814448508
+
+Numero Tranferencia Indexacao: 33
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.001725
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 29
+Tempo decorrido Pesquisa: 0.000047
+
+-----------------TESTE: 8/20 | CHAVE: 477-----------------
+
+Registro foi localizado. Chave: 477. Dado 1: 1701881752
+
+Numero Tranferencia Indexacao: 33
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.001731
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 22
+Tempo decorrido Pesquisa: 0.000047
+
+-----------------TESTE: 9/20 | CHAVE: 473-----------------
+
+Registro foi localizado. Chave: 473. Dado 1: 1135317322
+
+Numero Tranferencia Indexacao: 33
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.001175
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 22
+Tempo decorrido Pesquisa: 0.000046
+
+-----------------TESTE: 10/20 | CHAVE: 295-----------------
+
+Registro foi localizado. Chave: 295. Dado 1: 1457826255
+
+Numero Tranferencia Indexacao: 33
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.001235
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 13
+Tempo decorrido Pesquisa: 0.000049
+
+-----------------TESTE: 11/20 | CHAVE: 269-----------------
+
+Registro foi localizado. Chave: 269. Dado 1: 1325124293
+
+Numero Tranferencia Indexacao: 33
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.001340
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 16
+Tempo decorrido Pesquisa: 0.000051
+
+-----------------TESTE: 12/20 | CHAVE: 793-----------------
+
+Registro foi localizado. Chave: 793. Dado 1: 1656532877
+
+Numero Tranferencia Indexacao: 33
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.001133
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 32
+Tempo decorrido Pesquisa: 0.000040
+
+-----------------TESTE: 13/20 | CHAVE: 625-----------------
+
+Registro foi localizado. Chave: 625. Dado 1: 1025164089
+
+Numero Tranferencia Indexacao: 33
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.001180
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 27
+Tempo decorrido Pesquisa: 0.000070
+
+-----------------TESTE: 14/20 | CHAVE: 222-----------------
+
+Registro foi localizado. Chave: 222. Dado 1: 1749359792
+
+Numero Tranferencia Indexacao: 33
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.001511
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 16
+Tempo decorrido Pesquisa: 0.000072
+
+-----------------TESTE: 15/20 | CHAVE: 664-----------------
+
+Registro foi localizado. Chave: 664. Dado 1: 93467038
+
+Numero Tranferencia Indexacao: 33
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.001567
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 30
+Tempo decorrido Pesquisa: 0.000062
+
+-----------------TESTE: 16/20 | CHAVE: 901-----------------
+
+Registro foi localizado. Chave: 901. Dado 1: 1893491253
+
+Numero Tranferencia Indexacao: 33
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.001609
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 36
+Tempo decorrido Pesquisa: 0.000088
+
+-----------------TESTE: 17/20 | CHAVE: 236-----------------
+
+Registro foi localizado. Chave: 236. Dado 1: 1833785668
+
+Numero Tranferencia Indexacao: 33
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.001539
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 17
+Tempo decorrido Pesquisa: 0.000088
+
+-----------------TESTE: 18/20 | CHAVE: 27-----------------
+
+Registro foi localizado. Chave: 27. Dado 1: 2086510892
+
+Numero Tranferencia Indexacao: 33
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.001584
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 6
+Tempo decorrido Pesquisa: 0.000071
+
+-----------------TESTE: 19/20 | CHAVE: 783-----------------
+
+Registro foi localizado. Chave: 783. Dado 1: 234511585
+
+Numero Tranferencia Indexacao: 33
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.001754
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 26
+Tempo decorrido Pesquisa: 0.000061
+
+-----------------TESTE: 20/20 | CHAVE: 963-----------------
+
+Registro foi localizado. Chave: 963. Dado 1: 210878669
+
+Numero Tranferencia Indexacao: 33
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.001259
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 36
+Tempo decorrido Pesquisa: 0.000040
+
+-------------------MEDIA DOS RESULTADOS-------------------
+
+Numero Tranferencia Media Indexacao: 33.000000
+Numero Comparacoes Media Indexacao: 0.000000
+Tempo decorrido Media Indexacao: 0.001477
+
+Numero Tranferencia Media Pesquisa: 1.000000
+Numero Comparacoes Media Pesquisa: 22.300000
+Tempo decorrido Media Pesquisa: 0.000059
+
+
+----------------------------------------------------------------------------------------------------------------------------
+
+METODO: 1 
+QUANTIADE: 10000 
+SITUACAO: 1
+
+-----------------TESTE: 1/20 | CHAVE: 8004-----------------
+
+Registro foi localizado. Chave: 8004. Dado 1: 614753900
+
+Numero Tranferencia Indexacao: 314
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.016349
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 260
+Tempo decorrido Pesquisa: 0.000042
+
+-----------------TESTE: 2/20 | CHAVE: 4050-----------------
+
+Registro foi localizado. Chave: 4050. Dado 1: 1990757813
+
+Numero Tranferencia Indexacao: 314
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.009837
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 136
+Tempo decorrido Pesquisa: 0.000041
+
+-----------------TESTE: 3/20 | CHAVE: 4412-----------------
+
+Registro foi localizado. Chave: 4412. Dado 1: 1009496826
+
+Numero Tranferencia Indexacao: 314
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.012034
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 147
+Tempo decorrido Pesquisa: 0.000044
+
+-----------------TESTE: 4/20 | CHAVE: 5831-----------------
+
+Registro foi localizado. Chave: 5831. Dado 1: 739837743
+
+Numero Tranferencia Indexacao: 314
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.010962
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 186
+Tempo decorrido Pesquisa: 0.000061
+
+-----------------TESTE: 5/20 | CHAVE: 236-----------------
+
+Registro foi localizado. Chave: 236. Dado 1: 1833785668
+
+Numero Tranferencia Indexacao: 314
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.011703
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 17
+Tempo decorrido Pesquisa: 0.000048
+
+-----------------TESTE: 6/20 | CHAVE: 1058-----------------
+
+Registro foi localizado. Chave: 1058. Dado 1: 869416415
+
+Numero Tranferencia Indexacao: 314
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.013301
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 43
+Tempo decorrido Pesquisa: 0.000064
+
+-----------------TESTE: 7/20 | CHAVE: 9019-----------------
+
+Registro foi localizado. Chave: 9019. Dado 1: 776455246
+
+Numero Tranferencia Indexacao: 314
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.015681
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 287
+Tempo decorrido Pesquisa: 0.000046
+
+-----------------TESTE: 8/20 | CHAVE: 8841-----------------
+
+Registro foi localizado. Chave: 8841. Dado 1: 1739180079
+
+Numero Tranferencia Indexacao: 314
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.010091
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 284
+Tempo decorrido Pesquisa: 0.000045
+
+-----------------TESTE: 9/20 | CHAVE: 954-----------------
+
+Registro foi localizado. Chave: 954. Dado 1: 1555986202
+
+Numero Tranferencia Indexacao: 314
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.010902
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 39
+Tempo decorrido Pesquisa: 0.000054
+
+-----------------TESTE: 10/20 | CHAVE: 1761-----------------
+
+Registro foi localizado. Chave: 1761. Dado 1: 57409811
+
+Numero Tranferencia Indexacao: 314
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.012895
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 63
+Tempo decorrido Pesquisa: 0.000085
+
+-----------------TESTE: 11/20 | CHAVE: 2578-----------------
+
+Registro foi localizado. Chave: 2578. Dado 1: 1184118169
+
+Numero Tranferencia Indexacao: 314
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.016368
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 90
+Tempo decorrido Pesquisa: 0.000052
+
+-----------------TESTE: 12/20 | CHAVE: 4441-----------------
+
+Registro foi localizado. Chave: 4441. Dado 1: 1818371944
+
+Numero Tranferencia Indexacao: 314
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.027147
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 146
+Tempo decorrido Pesquisa: 0.000051
+
+-----------------TESTE: 13/20 | CHAVE: 9873-----------------
+
+Registro foi localizado. Chave: 9873. Dado 1: 284052603
+
+Numero Tranferencia Indexacao: 314
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.014745
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 316
+Tempo decorrido Pesquisa: 0.000165
+
+-----------------TESTE: 14/20 | CHAVE: 8866-----------------
+
+Registro foi localizado. Chave: 8866. Dado 1: 1096723481
+
+Numero Tranferencia Indexacao: 314
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.012146
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 287
+Tempo decorrido Pesquisa: 0.000054
+
+-----------------TESTE: 15/20 | CHAVE: 1668-----------------
+
+Registro foi localizado. Chave: 1668. Dado 1: 1459740878
+
+Numero Tranferencia Indexacao: 314
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.012324
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 62
+Tempo decorrido Pesquisa: 0.000059
+
+-----------------TESTE: 16/20 | CHAVE: 3422-----------------
+
+Registro foi localizado. Chave: 3422. Dado 1: 1590473160
+
+Numero Tranferencia Indexacao: 314
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.011065
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 116
+Tempo decorrido Pesquisa: 0.000045
+
+-----------------TESTE: 17/20 | CHAVE: 6795-----------------
+
+Registro foi localizado. Chave: 6795. Dado 1: 235829637
+
+Numero Tranferencia Indexacao: 314
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.011376
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 218
+Tempo decorrido Pesquisa: 0.000060
+
+-----------------TESTE: 18/20 | CHAVE: 5287-----------------
+
+Registro foi localizado. Chave: 5287. Dado 1: 887620851
+
+Numero Tranferencia Indexacao: 314
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.012109
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 169
+Tempo decorrido Pesquisa: 0.000055
+
+-----------------TESTE: 19/20 | CHAVE: 9251-----------------
+
+Registro foi localizado. Chave: 9251. Dado 1: 1447475852
+
+Numero Tranferencia Indexacao: 314
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.010655
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 295
+Tempo decorrido Pesquisa: 0.000045
+
+-----------------TESTE: 20/20 | CHAVE: 6268-----------------
+
+Registro foi localizado. Chave: 6268. Dado 1: 1881918469
+
+Numero Tranferencia Indexacao: 314
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.012870
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 205
+Tempo decorrido Pesquisa: 0.000055
+
+-------------------MEDIA DOS RESULTADOS-------------------
+
+Numero Tranferencia Media Indexacao: 314.000000
+Numero Comparacoes Media Indexacao: 0.000000
+Tempo decorrido Media Indexacao: 0.013228
+
+Numero Tranferencia Media Pesquisa: 1.000000
+Numero Comparacoes Media Pesquisa: 168.300000
+Tempo decorrido Media Pesquisa: 0.000059
+
+
+----------------------------------------------------------------------------------------------------------------------------
+
+METODO: 1 
+QUANTIADE: 100000 
+SITUACAO: 1
+
+-----------------TESTE: 1/20 | CHAVE: 63934-----------------
+
+Registro foi localizado. Chave: 63934. Dado 1: 1897105770
+
+Numero Tranferencia Indexacao: 3126
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 3.800762
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 2007
+Tempo decorrido Pesquisa: 0.000064
+
+-----------------TESTE: 2/20 | CHAVE: 96520-----------------
+
+Registro foi localizado. Chave: 96520. Dado 1: 301878375
+
+Numero Tranferencia Indexacao: 3126
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.132593
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 3026
+Tempo decorrido Pesquisa: 0.000077
+
+-----------------TESTE: 3/20 | CHAVE: 93413-----------------
+
+Registro foi localizado. Chave: 93413. Dado 1: 719462250
+
+Numero Tranferencia Indexacao: 3126
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.098294
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 2927
+Tempo decorrido Pesquisa: 0.000053
+
+-----------------TESTE: 4/20 | CHAVE: 8559-----------------
+
+Registro foi localizado. Chave: 8559. Dado 1: 774804582
+
+Numero Tranferencia Indexacao: 3126
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.093393
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 269
+Tempo decorrido Pesquisa: 0.000046
+
+-----------------TESTE: 5/20 | CHAVE: 24095-----------------
+
+Registro foi localizado. Chave: 24095. Dado 1: 1848238604
+
+Numero Tranferencia Indexacao: 3126
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.095680
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 764
+Tempo decorrido Pesquisa: 0.000044
+
+-----------------TESTE: 6/20 | CHAVE: 77429-----------------
+
+Registro foi localizado. Chave: 77429. Dado 1: 1796440691
+
+Numero Tranferencia Indexacao: 3126
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.095428
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 2427
+Tempo decorrido Pesquisa: 0.000055
+
+-----------------TESTE: 7/20 | CHAVE: 55460-----------------
+
+Registro foi localizado. Chave: 55460. Dado 1: 1443322067
+
+Numero Tranferencia Indexacao: 3126
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.095634
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 1743
+Tempo decorrido Pesquisa: 0.000049
+
+-----------------TESTE: 8/20 | CHAVE: 94331-----------------
+
+Registro foi localizado. Chave: 94331. Dado 1: 981459071
+
+Numero Tranferencia Indexacao: 3126
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.101784
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 2953
+Tempo decorrido Pesquisa: 0.000052
+
+-----------------TESTE: 9/20 | CHAVE: 60809-----------------
+
+Registro foi localizado. Chave: 60809. Dado 1: 1478354547
+
+Numero Tranferencia Indexacao: 3126
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.090953
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 1908
+Tempo decorrido Pesquisa: 0.000052
+
+-----------------TESTE: 10/20 | CHAVE: 99243-----------------
+
+Registro foi localizado. Chave: 99243. Dado 1: 1022324392
+
+Numero Tranferencia Indexacao: 3126
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.096288
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 3107
+Tempo decorrido Pesquisa: 0.000066
+
+-----------------TESTE: 11/20 | CHAVE: 64646-----------------
+
+Registro foi localizado. Chave: 64646. Dado 1: 631921338
+
+Numero Tranferencia Indexacao: 3126
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.106559
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 2030
+Tempo decorrido Pesquisa: 0.000050
+
+-----------------TESTE: 12/20 | CHAVE: 78813-----------------
+
+Registro foi localizado. Chave: 78813. Dado 1: 1844519986
+
+Numero Tranferencia Indexacao: 3126
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.091269
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 2470
+Tempo decorrido Pesquisa: 0.000055
+
+-----------------TESTE: 13/20 | CHAVE: 9645-----------------
+
+Registro foi localizado. Chave: 9645. Dado 1: 196447097
+
+Numero Tranferencia Indexacao: 3126
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.094949
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 309
+Tempo decorrido Pesquisa: 0.000048
+
+-----------------TESTE: 14/20 | CHAVE: 59058-----------------
+
+Registro foi localizado. Chave: 59058. Dado 1: 551106924
+
+Numero Tranferencia Indexacao: 3126
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.106181
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 1855
+Tempo decorrido Pesquisa: 0.000049
+
+-----------------TESTE: 15/20 | CHAVE: 54644-----------------
+
+Registro foi localizado. Chave: 54644. Dado 1: 523678754
+
+Numero Tranferencia Indexacao: 3126
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.102574
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 1717
+Tempo decorrido Pesquisa: 0.000053
+
+-----------------TESTE: 16/20 | CHAVE: 89882-----------------
+
+Registro foi localizado. Chave: 89882. Dado 1: 125243096
+
+Numero Tranferencia Indexacao: 3126
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.095321
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 2818
+Tempo decorrido Pesquisa: 0.000052
+
+-----------------TESTE: 17/20 | CHAVE: 60116-----------------
+
+Registro foi localizado. Chave: 60116. Dado 1: 1252494982
+
+Numero Tranferencia Indexacao: 3126
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.094796
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 1888
+Tempo decorrido Pesquisa: 0.000048
+
+-----------------TESTE: 18/20 | CHAVE: 43663-----------------
+
+Registro foi localizado. Chave: 43663. Dado 1: 1711700231
+
+Numero Tranferencia Indexacao: 3126
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.103908
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 1366
+Tempo decorrido Pesquisa: 0.000061
+
+-----------------TESTE: 19/20 | CHAVE: 55075-----------------
+
+Registro foi localizado. Chave: 55075. Dado 1: 1376046943
+
+Numero Tranferencia Indexacao: 3126
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.094065
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 1727
+Tempo decorrido Pesquisa: 0.000052
+
+-----------------TESTE: 20/20 | CHAVE: 77422-----------------
+
+Registro foi localizado. Chave: 77422. Dado 1: 2147291405
+
+Numero Tranferencia Indexacao: 3126
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.099517
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 2429
+Tempo decorrido Pesquisa: 0.000050
+
+-------------------MEDIA DOS RESULTADOS-------------------
+
+Numero Tranferencia Media Indexacao: 3126.000000
+Numero Comparacoes Media Indexacao: 0.000000
+Tempo decorrido Media Indexacao: 0.284497
+
+Numero Tranferencia Media Pesquisa: 1.000000
+Numero Comparacoes Media Pesquisa: 1987.000000
+Tempo decorrido Media Pesquisa: 0.000054
+
+
+----------------------------------------------------------------------------------------------------------------------------
+
+METODO: 1 
+QUANTIADE: 100 
+SITUACAO: 2
+
+-----------------TESTE: 1/20 | CHAVE: 999975-----------------
+
+Registro foi localizado. Chave: 999975. Dado 1: 1073621204
+
+Numero Tranferencia Indexacao: 5
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.000218
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 10
+Tempo decorrido Pesquisa: 0.000033
+
+-----------------TESTE: 2/20 | CHAVE: 999993-----------------
+
+Registro foi localizado. Chave: 999993. Dado 1: 1743287133
+
+Numero Tranferencia Indexacao: 5
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.000097
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 10
+Tempo decorrido Pesquisa: 0.000024
+
+-----------------TESTE: 3/20 | CHAVE: 999935-----------------
+
+Registro foi localizado. Chave: 999935. Dado 1: 2086548118
+
+Numero Tranferencia Indexacao: 5
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.000169
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 12
+Tempo decorrido Pesquisa: 0.000025
+
+-----------------TESTE: 4/20 | CHAVE: 999950-----------------
+
+Registro foi localizado. Chave: 999950. Dado 1: 2110102797
+
+Numero Tranferencia Indexacao: 5
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.000092
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 9
+Tempo decorrido Pesquisa: 0.000025
+
+-----------------TESTE: 5/20 | CHAVE: 999927-----------------
+
+Registro foi localizado. Chave: 999927. Dado 1: 1946538435
+
+Numero Tranferencia Indexacao: 5
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.000088
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 12
+Tempo decorrido Pesquisa: 0.000024
+
+-----------------TESTE: 6/20 | CHAVE: 999915-----------------
+
+Registro foi localizado. Chave: 999915. Dado 1: 1753290421
+
+Numero Tranferencia Indexacao: 5
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.000125
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 12
+Tempo decorrido Pesquisa: 0.000024
+
+-----------------TESTE: 7/20 | CHAVE: 999976-----------------
+
+Registro foi localizado. Chave: 999976. Dado 1: 597842180
+
+Numero Tranferencia Indexacao: 5
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.000082
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 4
+Tempo decorrido Pesquisa: 0.000023
+
+-----------------TESTE: 8/20 | CHAVE: 999932-----------------
+
+Registro foi localizado. Chave: 999932. Dado 1: 1774159337
+
+Numero Tranferencia Indexacao: 5
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.000078
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 8
+Tempo decorrido Pesquisa: 0.000022
+
+-----------------TESTE: 9/20 | CHAVE: 999976-----------------
+
+Registro foi localizado. Chave: 999976. Dado 1: 597842180
+
+Numero Tranferencia Indexacao: 5
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.000103
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 4
+Tempo decorrido Pesquisa: 0.000026
+
+-----------------TESTE: 10/20 | CHAVE: 999973-----------------
+
+Registro foi localizado. Chave: 999973. Dado 1: 1625468826
+
+Numero Tranferencia Indexacao: 5
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.000079
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 10
+Tempo decorrido Pesquisa: 0.000022
+
+-----------------TESTE: 11/20 | CHAVE: 999912-----------------
+
+Registro foi localizado. Chave: 999912. Dado 1: 1972564828
+
+Numero Tranferencia Indexacao: 5
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.000114
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 6
+Tempo decorrido Pesquisa: 0.000023
+
+-----------------TESTE: 12/20 | CHAVE: 999942-----------------
+
+Registro foi localizado. Chave: 999942. Dado 1: 1295774588
+
+Numero Tranferencia Indexacao: 5
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.000079
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 9
+Tempo decorrido Pesquisa: 0.000022
+
+-----------------TESTE: 13/20 | CHAVE: 999952-----------------
+
+Registro foi localizado. Chave: 999952. Dado 1: 620407276
+
+Numero Tranferencia Indexacao: 5
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.000080
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 3
+Tempo decorrido Pesquisa: 0.000057
+
+-----------------TESTE: 14/20 | CHAVE: 999999-----------------
+
+Registro foi localizado. Chave: 999999. Dado 1: 21265214
+
+Numero Tranferencia Indexacao: 5
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.000082
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 10
+Tempo decorrido Pesquisa: 0.000025
+
+-----------------TESTE: 15/20 | CHAVE: 999931-----------------
+
+Registro foi localizado. Chave: 999931. Dado 1: 1386411682
+
+Numero Tranferencia Indexacao: 5
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.000121
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 12
+Tempo decorrido Pesquisa: 0.000024
+
+-----------------TESTE: 16/20 | CHAVE: 999905-----------------
+
+Registro foi localizado. Chave: 999905. Dado 1: 58727561
+
+Numero Tranferencia Indexacao: 5
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.000178
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 12
+Tempo decorrido Pesquisa: 0.000027
+
+-----------------TESTE: 17/20 | CHAVE: 999917-----------------
+
+Registro foi localizado. Chave: 999917. Dado 1: 1910949335
+
+Numero Tranferencia Indexacao: 5
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.000107
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 12
+Tempo decorrido Pesquisa: 0.000027
+
+-----------------TESTE: 18/20 | CHAVE: 999970-----------------
+
+Registro foi localizado. Chave: 999970. Dado 1: 753740163
+
+Numero Tranferencia Indexacao: 5
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.000090
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 8
+Tempo decorrido Pesquisa: 0.000024
+
+-----------------TESTE: 19/20 | CHAVE: 999922-----------------
+
+Registro foi localizado. Chave: 999922. Dado 1: 523609657
+
+Numero Tranferencia Indexacao: 5
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.000102
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 10
+Tempo decorrido Pesquisa: 0.000024
+
+-----------------TESTE: 20/20 | CHAVE: 999908-----------------
+
+Registro foi localizado. Chave: 999908. Dado 1: 1436340170
+
+Numero Tranferencia Indexacao: 5
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.000081
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 8
+Tempo decorrido Pesquisa: 0.000022
+
+-------------------MEDIA DOS RESULTADOS-------------------
+
+Numero Tranferencia Media Indexacao: 5.000000
+Numero Comparacoes Media Indexacao: 0.000000
+Tempo decorrido Media Indexacao: 0.000108
+
+Numero Tranferencia Media Pesquisa: 1.000000
+Numero Comparacoes Media Pesquisa: 9.050000
+Tempo decorrido Media Pesquisa: 0.000026
+
+
+----------------------------------------------------------------------------------------------------------------------------
+
+METODO: 1 
+QUANTIADE: 1000 
+SITUACAO: 2
+
+-----------------TESTE: 1/20 | CHAVE: 999575-----------------
+
+Registro foi localizado. Chave: 999575. Dado 1: 279685
+
+Numero Tranferencia Indexacao: 33
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.001477
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 23
+Tempo decorrido Pesquisa: 0.000045
+
+-----------------TESTE: 2/20 | CHAVE: 999676-----------------
+
+Registro foi localizado. Chave: 999676. Dado 1: 915006627
+
+Numero Tranferencia Indexacao: 33
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.001164
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 16
+Tempo decorrido Pesquisa: 0.000048
+
+-----------------TESTE: 3/20 | CHAVE: 999543-----------------
+
+Registro foi localizado. Chave: 999543. Dado 1: 919040926
+
+Numero Tranferencia Indexacao: 33
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.001298
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 24
+Tempo decorrido Pesquisa: 0.000053
+
+-----------------TESTE: 4/20 | CHAVE: 999929-----------------
+
+Registro foi localizado. Chave: 999929. Dado 1: 771507351
+
+Numero Tranferencia Indexacao: 33
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.001200
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 12
+Tempo decorrido Pesquisa: 0.000040
+
+-----------------TESTE: 5/20 | CHAVE: 999265-----------------
+
+Registro foi localizado. Chave: 999265. Dado 1: 141438373
+
+Numero Tranferencia Indexacao: 33
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.001190
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 32
+Tempo decorrido Pesquisa: 0.000039
+
+-----------------TESTE: 6/20 | CHAVE: 999899-----------------
+
+Registro foi localizado. Chave: 999899. Dado 1: 191065633
+
+Numero Tranferencia Indexacao: 33
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.001300
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 13
+Tempo decorrido Pesquisa: 0.000047
+
+-----------------TESTE: 7/20 | CHAVE: 999695-----------------
+
+Registro foi localizado. Chave: 999695. Dado 1: 1272761605
+
+Numero Tranferencia Indexacao: 33
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.001239
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 19
+Tempo decorrido Pesquisa: 0.000053
+
+-----------------TESTE: 8/20 | CHAVE: 999797-----------------
+
+Registro foi localizado. Chave: 999797. Dado 1: 586602635
+
+Numero Tranferencia Indexacao: 33
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.001221
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 16
+Tempo decorrido Pesquisa: 0.000047
+
+-----------------TESTE: 9/20 | CHAVE: 999884-----------------
+
+Registro foi localizado. Chave: 999884. Dado 1: 1726618161
+
+Numero Tranferencia Indexacao: 33
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.001153
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 9
+Tempo decorrido Pesquisa: 0.000043
+
+-----------------TESTE: 10/20 | CHAVE: 999268-----------------
+
+Registro foi localizado. Chave: 999268. Dado 1: 368123589
+
+Numero Tranferencia Indexacao: 33
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.001123
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 28
+Tempo decorrido Pesquisa: 0.000039
+
+-----------------TESTE: 11/20 | CHAVE: 999374-----------------
+
+Registro foi localizado. Chave: 999374. Dado 1: 2130534006
+
+Numero Tranferencia Indexacao: 33
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.001088
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 27
+Tempo decorrido Pesquisa: 0.000045
+
+-----------------TESTE: 12/20 | CHAVE: 999108-----------------
+
+Registro foi localizado. Chave: 999108. Dado 1: 515693616
+
+Numero Tranferencia Indexacao: 33
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.001103
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 33
+Tempo decorrido Pesquisa: 0.000037
+
+-----------------TESTE: 13/20 | CHAVE: 999262-----------------
+
+Registro foi localizado. Chave: 999262. Dado 1: 1330415195
+
+Numero Tranferencia Indexacao: 33
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.001103
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 31
+Tempo decorrido Pesquisa: 0.000038
+
+-----------------TESTE: 14/20 | CHAVE: 999158-----------------
+
+Registro foi localizado. Chave: 999158. Dado 1: 490618779
+
+Numero Tranferencia Indexacao: 33
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.001214
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 34
+Tempo decorrido Pesquisa: 0.000037
+
+-----------------TESTE: 15/20 | CHAVE: 999458-----------------
+
+Registro foi localizado. Chave: 999458. Dado 1: 2114567094
+
+Numero Tranferencia Indexacao: 33
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.001165
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 24
+Tempo decorrido Pesquisa: 0.000041
+
+-----------------TESTE: 16/20 | CHAVE: 999389-----------------
+
+Registro foi localizado. Chave: 999389. Dado 1: 1220519577
+
+Numero Tranferencia Indexacao: 33
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.001234
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 29
+Tempo decorrido Pesquisa: 0.000052
+
+-----------------TESTE: 17/20 | CHAVE: 999922-----------------
+
+Registro foi localizado. Chave: 999922. Dado 1: 523609657
+
+Numero Tranferencia Indexacao: 33
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.001792
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 10
+Tempo decorrido Pesquisa: 0.000057
+
+-----------------TESTE: 18/20 | CHAVE: 999683-----------------
+
+Registro foi localizado. Chave: 999683. Dado 1: 2065668879
+
+Numero Tranferencia Indexacao: 33
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.001320
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 19
+Tempo decorrido Pesquisa: 0.000063
+
+-----------------TESTE: 19/20 | CHAVE: 999370-----------------
+
+Registro foi localizado. Chave: 999370. Dado 1: 207564115
+
+Numero Tranferencia Indexacao: 33
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.001547
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 27
+Tempo decorrido Pesquisa: 0.000058
+
+-----------------TESTE: 20/20 | CHAVE: 999398-----------------
+
+Registro foi localizado. Chave: 999398. Dado 1: 1393549149
+
+Numero Tranferencia Indexacao: 33
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.001216
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 26
+Tempo decorrido Pesquisa: 0.000046
+
+-------------------MEDIA DOS RESULTADOS-------------------
+
+Numero Tranferencia Media Indexacao: 33.000000
+Numero Comparacoes Media Indexacao: 0.000000
+Tempo decorrido Media Indexacao: 0.001257
+
+Numero Tranferencia Media Pesquisa: 1.000000
+Numero Comparacoes Media Pesquisa: 22.600000
+Tempo decorrido Media Pesquisa: 0.000046
+
+
+----------------------------------------------------------------------------------------------------------------------------
+
+METODO: 1 
+QUANTIADE: 10000 
+SITUACAO: 2
+
+-----------------TESTE: 1/20 | CHAVE: 991656-----------------
+
+Registro foi localizado. Chave: 991656. Dado 1: 830237905
+
+Numero Tranferencia Indexacao: 314
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.023237
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 264
+Tempo decorrido Pesquisa: 0.000058
+
+-----------------TESTE: 2/20 | CHAVE: 996082-----------------
+
+Registro foi localizado. Chave: 996082. Dado 1: 452196111
+
+Numero Tranferencia Indexacao: 314
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.013068
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 130
+Tempo decorrido Pesquisa: 0.000051
+
+-----------------TESTE: 3/20 | CHAVE: 993589-----------------
+
+Registro foi localizado. Chave: 993589. Dado 1: 155713973
+
+Numero Tranferencia Indexacao: 314
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.012456
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 210
+Tempo decorrido Pesquisa: 0.000098
+
+-----------------TESTE: 4/20 | CHAVE: 991757-----------------
+
+Registro foi localizado. Chave: 991757. Dado 1: 1542042416
+
+Numero Tranferencia Indexacao: 314
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.011307
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 267
+Tempo decorrido Pesquisa: 0.000047
+
+-----------------TESTE: 5/20 | CHAVE: 994030-----------------
+
+Registro foi localizado. Chave: 994030. Dado 1: 121288579
+
+Numero Tranferencia Indexacao: 314
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.010869
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 194
+Tempo decorrido Pesquisa: 0.000048
+
+-----------------TESTE: 6/20 | CHAVE: 993220-----------------
+
+Registro foi localizado. Chave: 993220. Dado 1: 2020911561
+
+Numero Tranferencia Indexacao: 314
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.010981
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 217
+Tempo decorrido Pesquisa: 0.000048
+
+-----------------TESTE: 7/20 | CHAVE: 997763-----------------
+
+Registro foi localizado. Chave: 997763. Dado 1: 121640772
+
+Numero Tranferencia Indexacao: 314
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.011973
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 79
+Tempo decorrido Pesquisa: 0.000056
+
+-----------------TESTE: 8/20 | CHAVE: 994548-----------------
+
+Registro foi localizado. Chave: 994548. Dado 1: 1231811726
+
+Numero Tranferencia Indexacao: 314
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.010451
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 176
+Tempo decorrido Pesquisa: 0.000046
+
+-----------------TESTE: 9/20 | CHAVE: 997391-----------------
+
+Registro foi localizado. Chave: 997391. Dado 1: 1219962919
+
+Numero Tranferencia Indexacao: 314
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.011285
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 91
+Tempo decorrido Pesquisa: 0.000046
+
+-----------------TESTE: 10/20 | CHAVE: 996734-----------------
+
+Registro foi localizado. Chave: 996734. Dado 1: 595026982
+
+Numero Tranferencia Indexacao: 314
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.010258
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 110
+Tempo decorrido Pesquisa: 0.000056
+
+-----------------TESTE: 11/20 | CHAVE: 997905-----------------
+
+Registro foi localizado. Chave: 997905. Dado 1: 1868911946
+
+Numero Tranferencia Indexacao: 314
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.010947
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 75
+Tempo decorrido Pesquisa: 0.000049
+
+-----------------TESTE: 12/20 | CHAVE: 999615-----------------
+
+Registro foi localizado. Chave: 999615. Dado 1: 285519631
+
+Numero Tranferencia Indexacao: 314
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.010549
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 22
+Tempo decorrido Pesquisa: 0.000051
+
+-----------------TESTE: 13/20 | CHAVE: 991059-----------------
+
+Registro foi localizado. Chave: 991059. Dado 1: 1422668865
+
+Numero Tranferencia Indexacao: 314
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.010744
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 289
+Tempo decorrido Pesquisa: 0.000065
+
+-----------------TESTE: 14/20 | CHAVE: 992449-----------------
+
+Registro foi localizado. Chave: 992449. Dado 1: 1446919581
+
+Numero Tranferencia Indexacao: 314
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.011421
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 245
+Tempo decorrido Pesquisa: 0.000055
+
+-----------------TESTE: 15/20 | CHAVE: 998545-----------------
+
+Registro foi localizado. Chave: 998545. Dado 1: 1806010469
+
+Numero Tranferencia Indexacao: 314
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.011306
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 55
+Tempo decorrido Pesquisa: 0.000057
+
+-----------------TESTE: 16/20 | CHAVE: 996325-----------------
+
+Registro foi localizado. Chave: 996325. Dado 1: 16529658
+
+Numero Tranferencia Indexacao: 314
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.011282
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 124
+Tempo decorrido Pesquisa: 0.000047
+
+-----------------TESTE: 17/20 | CHAVE: 995997-----------------
+
+Registro foi localizado. Chave: 995997. Dado 1: 958793450
+
+Numero Tranferencia Indexacao: 314
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.011086
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 135
+Tempo decorrido Pesquisa: 0.000048
+
+-----------------TESTE: 18/20 | CHAVE: 994889-----------------
+
+Registro foi localizado. Chave: 994889. Dado 1: 1232732344
+
+Numero Tranferencia Indexacao: 314
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.011362
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 169
+Tempo decorrido Pesquisa: 0.000048
+
+-----------------TESTE: 19/20 | CHAVE: 995122-----------------
+
+Registro foi localizado. Chave: 995122. Dado 1: 1473685609
+
+Numero Tranferencia Indexacao: 314
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.011747
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 160
+Tempo decorrido Pesquisa: 0.000050
+
+-----------------TESTE: 20/20 | CHAVE: 995882-----------------
+
+Registro foi localizado. Chave: 995882. Dado 1: 273392345
+
+Numero Tranferencia Indexacao: 314
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.011003
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 136
+Tempo decorrido Pesquisa: 0.000060
+
+-------------------MEDIA DOS RESULTADOS-------------------
+
+Numero Tranferencia Media Indexacao: 314.000000
+Numero Comparacoes Media Indexacao: 0.000000
+Tempo decorrido Media Indexacao: 0.011867
+
+Numero Tranferencia Media Pesquisa: 1.000000
+Numero Comparacoes Media Pesquisa: 157.400000
+Tempo decorrido Media Pesquisa: 0.000054
+
+
+----------------------------------------------------------------------------------------------------------------------------
+
+METODO: 1 
+QUANTIADE: 100000 
+SITUACAO: 2
+
+-----------------TESTE: 1/20 | CHAVE: 966157-----------------
+
+Registro foi localizado. Chave: 966157. Dado 1: 850937446
+
+Numero Tranferencia Indexacao: 3126
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 5.160915
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 1067
+Tempo decorrido Pesquisa: 0.000062
+
+-----------------TESTE: 2/20 | CHAVE: 900145-----------------
+
+Registro foi localizado. Chave: 900145. Dado 1: 333304933
+
+Numero Tranferencia Indexacao: 3126
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.155743
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 3130
+Tempo decorrido Pesquisa: 0.000059
+
+-----------------TESTE: 3/20 | CHAVE: 957638-----------------
+
+Registro foi localizado. Chave: 957638. Dado 1: 1434005922
+
+Numero Tranferencia Indexacao: 3126
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.134117
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 1331
+Tempo decorrido Pesquisa: 0.000055
+
+-----------------TESTE: 4/20 | CHAVE: 923420-----------------
+
+Registro foi localizado. Chave: 923420. Dado 1: 602411251
+
+Numero Tranferencia Indexacao: 3126
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.178692
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 2399
+Tempo decorrido Pesquisa: 0.000057
+
+-----------------TESTE: 5/20 | CHAVE: 973304-----------------
+
+Registro foi localizado. Chave: 973304. Dado 1: 1325050048
+
+Numero Tranferencia Indexacao: 3126
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.168375
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 838
+Tempo decorrido Pesquisa: 0.000044
+
+-----------------TESTE: 6/20 | CHAVE: 914097-----------------
+
+Registro foi localizado. Chave: 914097. Dado 1: 1836544168
+
+Numero Tranferencia Indexacao: 3126
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.129899
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 2694
+Tempo decorrido Pesquisa: 0.000053
+
+-----------------TESTE: 7/20 | CHAVE: 991458-----------------
+
+Registro foi localizado. Chave: 991458. Dado 1: 61008750
+
+Numero Tranferencia Indexacao: 3126
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.120873
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 274
+Tempo decorrido Pesquisa: 0.000043
+
+-----------------TESTE: 8/20 | CHAVE: 910227-----------------
+
+Registro foi localizado. Chave: 910227. Dado 1: 1470628846
+
+Numero Tranferencia Indexacao: 3126
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.128179
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 2815
+Tempo decorrido Pesquisa: 0.000131
+
+-----------------TESTE: 9/20 | CHAVE: 902781-----------------
+
+Registro foi localizado. Chave: 902781. Dado 1: 799874143
+
+Numero Tranferencia Indexacao: 3126
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.125197
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 3048
+Tempo decorrido Pesquisa: 0.000074
+
+-----------------TESTE: 10/20 | CHAVE: 959828-----------------
+
+Registro foi localizado. Chave: 959828. Dado 1: 1951912758
+
+Numero Tranferencia Indexacao: 3126
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.107333
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 1261
+Tempo decorrido Pesquisa: 0.000045
+
+-----------------TESTE: 11/20 | CHAVE: 909274-----------------
+
+Registro foi localizado. Chave: 909274. Dado 1: 1574910683
+
+Numero Tranferencia Indexacao: 3126
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.110389
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 2843
+Tempo decorrido Pesquisa: 0.000051
+
+-----------------TESTE: 12/20 | CHAVE: 924438-----------------
+
+Registro foi localizado. Chave: 924438. Dado 1: 1863024751
+
+Numero Tranferencia Indexacao: 3126
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.111089
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 2369
+Tempo decorrido Pesquisa: 0.000060
+
+-----------------TESTE: 13/20 | CHAVE: 955911-----------------
+
+Registro foi localizado. Chave: 955911. Dado 1: 1154815711
+
+Numero Tranferencia Indexacao: 3126
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.102552
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 1387
+Tempo decorrido Pesquisa: 0.000050
+
+-----------------TESTE: 14/20 | CHAVE: 922863-----------------
+
+Registro foi localizado. Chave: 922863. Dado 1: 415975354
+
+Numero Tranferencia Indexacao: 3126
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.094078
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 2420
+Tempo decorrido Pesquisa: 0.000051
+
+-----------------TESTE: 15/20 | CHAVE: 966196-----------------
+
+Registro foi localizado. Chave: 966196. Dado 1: 1564736333
+
+Numero Tranferencia Indexacao: 3126
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.114092
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 1062
+Tempo decorrido Pesquisa: 0.000045
+
+-----------------TESTE: 16/20 | CHAVE: 969942-----------------
+
+Registro foi localizado. Chave: 969942. Dado 1: 611739626
+
+Numero Tranferencia Indexacao: 3126
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.095635
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 947
+Tempo decorrido Pesquisa: 0.000059
+
+-----------------TESTE: 17/20 | CHAVE: 909732-----------------
+
+Registro foi localizado. Chave: 909732. Dado 1: 283297625
+
+Numero Tranferencia Indexacao: 3126
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.118191
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 2826
+Tempo decorrido Pesquisa: 0.000066
+
+-----------------TESTE: 18/20 | CHAVE: 987608-----------------
+
+Registro foi localizado. Chave: 987608. Dado 1: 1983535340
+
+Numero Tranferencia Indexacao: 3126
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.124401
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 391
+Tempo decorrido Pesquisa: 0.000055
+
+-----------------TESTE: 19/20 | CHAVE: 908138-----------------
+
+Registro foi localizado. Chave: 908138. Dado 1: 312927840
+
+Numero Tranferencia Indexacao: 3126
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.113762
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 2878
+Tempo decorrido Pesquisa: 0.000054
+
+-----------------TESTE: 20/20 | CHAVE: 930772-----------------
+
+Registro foi localizado. Chave: 930772. Dado 1: 1857453105
+
+Numero Tranferencia Indexacao: 3126
+Numero Comparacoes Indexacao: 0
+Tempo decorrido Indexacao: 0.126536
+
+Numero Tranferencia Pesquisa: 1
+Numero Comparacoes Pesquisa: 2169
+Tempo decorrido Pesquisa: 0.000068
+
+-------------------MEDIA DOS RESULTADOS-------------------
+
+Numero Tranferencia Media Indexacao: 3126.000000
+Numero Comparacoes Media Indexacao: 0.000000
+Tempo decorrido Media Indexacao: 0.376002
+
+Numero Tranferencia Media Pesquisa: 1.000000
+Numero Comparacoes Media Pesquisa: 1907.450000
+Tempo decorrido Media Pesquisa: 0.000059
+
+
+----------------------------------------------------------------------------------------------------------------------------
+
