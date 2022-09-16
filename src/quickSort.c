@@ -1,4 +1,4 @@
-#include "headers/QuickSort.h"
+#include "headers/quickSort.h"
 
 int quicksort(int quantidade, int situacao, int opcional){
     printf("Teste\n");

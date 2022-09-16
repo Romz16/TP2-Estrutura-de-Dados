@@ -1,6 +1,6 @@
 #Windows Makefile
-all: main.o Uteis.o QuickSort.o OdBlocosSubstituicao.o OdBlocos2F.o
-	@gcc ./obj/main.o ./obj/Uteis.o ./obj/QuickSort.o ./obj/OdBlocosSubstituicao.o ./obj/OdBlocos2F.o -o ordenacoa.exe -Wall
+all: main.o uteis.o quickSort.o intercalacao2F.o selecSub.o sortInterno.o
+	@gcc ./obj/main.o ./obj/uteis.o ./obj/quickSort.o ./obj/intercalacao2F.o ./obj/selecSub.o ./obj/sortInterno.o -o ordenacoa.exe -Wall
 
 debug: 
 	@gcc ./src/*.c -o pesquisaDebug.exe -g
@@ -8,17 +8,20 @@ debug:
 main.o: ./src/main.c
 	@gcc -c ./src/main.c -o ./obj/main.o
 
-Uteis.o: ./src/Uteis.c
-	@gcc -c ./src/Uteis.c -o ./obj/Uteis.o
+uteis.o: ./src/uteis.c
+	@gcc -c ./src/uteis.c -o ./obj/uteis.o
 
-QuickSort.o: ./src/QuickSort.c
-	@gcc -c ./src/QuickSort.c -o ./obj/QuickSort.o
+quickSort.o: ./src/quickSort.c
+	@gcc -c ./src/quickSort.c -o ./obj/quickSort.o
 
-OdBlocosSubstituicao.o: ./src/OdBlocosSubstituicao.c
-	@gcc -c ./src/OdBlocosSubstituicao.c -o ./obj/OdBlocosSubstituicao.o
+intercalacao2F.o: ./src/intercalacao2F.c
+	@gcc -c ./src/intercalacao2F.c -o ./obj/intercalacao2F.o
 
-OdBlocos2F.o: ./src/OdBlocos2F.c
-	@gcc -c ./src/OdBlocos2F.c -o ./obj/OdBlocos2F.o
+selecSub.o: ./src/selecSub.c
+	@gcc -c ./src/selecSub.c -o ./obj/selecSub.o
+
+sortInterno.o: ./src/sortInterno.c
+	@gcc -c ./src/sortInterno.c -o ./obj/sortInterno.o
 
 run:
 	@./ordenacoa.exe

@@ -6,8 +6,9 @@
 #include <time.h>
 
 #include "structs.h"
-#include "QuickSort.h"
-#include "OdBlocosSubstituicao.h"
-#include "OdBlocos2F.h"
+#include "quickSort.h"
+#include "sortInterno.h"
+#include "selecSub.h"
+#include "intercalacao2F.h"
 
 #endif 
