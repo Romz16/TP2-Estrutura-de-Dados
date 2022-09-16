@@ -2,6 +2,9 @@
 
 #include "headers/uteis.h"
 
+//gcc ./src/*.c -o ordenacao.exe -Wall
+//./ordenacao.exe
+
 int main(int argc, char const *argv[]) {
     printf("\n===== TP1 - Estrutura de Dados II =====\n\n");
 

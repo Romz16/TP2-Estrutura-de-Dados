@@ -1,30 +1,30 @@
 #Windows Makefile
 all: main.o uteis.o quickSort.o intercalacao2F.o selecSub.o sortInterno.o
-	@gcc ./obj/main.o ./obj/uteis.o ./obj/quickSort.o ./obj/intercalacao2F.o ./obj/selecSub.o ./obj/sortInterno.o -o ordenacoa.exe -Wall
+	@gcc ./obj/main.o ./obj/uteis.o ./obj/quickSort.o ./obj/intercalacao2F.o ./obj/selecSub.o ./obj/sortInterno.o -o ordenacao.exe -Wall
 
 debug: 
 	@gcc ./src/*.c -o pesquisaDebug.exe -g
 
 main.o: ./src/main.c
-	@gcc -c ./src/main.c -o ./obj/main.o
+	@gcc -c ./src/main.c -o ./obj/main.o -Wall
 
 uteis.o: ./src/uteis.c
-	@gcc -c ./src/uteis.c -o ./obj/uteis.o
+	@gcc -c ./src/uteis.c -o ./obj/uteis.o -Wall
 
 quickSort.o: ./src/quickSort.c
-	@gcc -c ./src/quickSort.c -o ./obj/quickSort.o
+	@gcc -c ./src/quickSort.c -o ./obj/quickSort.o -Wall
 
 intercalacao2F.o: ./src/intercalacao2F.c
-	@gcc -c ./src/intercalacao2F.c -o ./obj/intercalacao2F.o
+	@gcc -c ./src/intercalacao2F.c -o ./obj/intercalacao2F.o -Wall
 
 selecSub.o: ./src/selecSub.c
-	@gcc -c ./src/selecSub.c -o ./obj/selecSub.o
+	@gcc -c ./src/selecSub.c -o ./obj/selecSub.o -Wall
 
 sortInterno.o: ./src/sortInterno.c
-	@gcc -c ./src/sortInterno.c -o ./obj/sortInterno.o
+	@gcc -c ./src/sortInterno.c -o ./obj/sortInterno.o -Wall
 
 run:
-	@./ordenacoa.exe
+	@./ordenacao.exe
 
 go:
 	@make all
