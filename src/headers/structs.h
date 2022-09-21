@@ -1,8 +1,7 @@
 #ifndef STRUCTS_H
 #define STRUCTS_H
 
-typedef struct Aluno
-{
+typedef struct{
     long int nInscricao;
     double nota;
     char estado[2];

@@ -1,6 +1,6 @@
 #Windows Makefile
-all: main.o uteis.o quickSort.o intercalacao2F.o selecSub.o sortInterno.o
-	@gcc ./obj/main.o ./obj/uteis.o ./obj/quickSort.o ./obj/intercalacao2F.o ./obj/selecSub.o ./obj/sortInterno.o -o ordenacao.exe -Wall
+all: main.o uteis.o intercalacao2F.o selecSub.o sortInterno.o
+	@gcc ./obj/main.o ./obj/uteis.o ./obj/intercalacao2F.o ./obj/selecSub.o ./obj/sortInterno.o -o ordenacao.exe -Wall
 
 debug: 
 	@gcc ./src/*.c -o pesquisaDebug.exe -g
@@ -10,9 +10,6 @@ main.o: ./src/main.c
 
 uteis.o: ./src/uteis.c
 	@gcc -c ./src/uteis.c -o ./obj/uteis.o -Wall
-
-quickSort.o: ./src/quickSort.c
-	@gcc -c ./src/quickSort.c -o ./obj/quickSort.o -Wall
 
 intercalacao2F.o: ./src/intercalacao2F.c
 	@gcc -c ./src/intercalacao2F.c -o ./obj/intercalacao2F.o -Wall
