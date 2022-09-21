@@ -6,7 +6,6 @@
 #include <time.h>
 
 #include "structs.h"
-#include "quickSort.h"
 #include "sortInterno.h"
 #include "selecSub.h"
 #include "intercalacao2F.h"
