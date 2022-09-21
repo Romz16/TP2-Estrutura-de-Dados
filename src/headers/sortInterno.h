@@ -4,6 +4,10 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
-#include "structs.h"
 
-#endif 
+#include "structs.h"
+#include "uteis.h"
+
+void quick_sort_int (TipoBloco *a, int n);
+
+#endif
