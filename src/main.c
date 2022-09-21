@@ -9,10 +9,6 @@
 
 int main(int argc, char const *argv[]) {
 
-    abrirFitas(1);
-    return 1;
-    criaArquivo();
-
     // printf("\n===== TP1 - Estrutura de Dados II =====\n\n");
 
     // int metodo = -1;      
@@ -43,7 +39,6 @@ int main(int argc, char const *argv[]) {
     //         break;
     //     case 2:
     //         break;
-
     //     case 3:
     //         break;
 

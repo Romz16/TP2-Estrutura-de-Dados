@@ -19,8 +19,6 @@ typedef struct{
     char curso[30];
 }aluno;
 
-
-
 void quick_sort_int (TipoBloco *a, int n) {
     int i, j,temp;
     double p;

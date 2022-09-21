@@ -9,5 +9,10 @@ typedef struct{
     char curso[30];
 }aluno;
 
+typedef struct TipoBloco{	
+	aluno v[10];
+	int n;
+	int pertence[10];
+}TipoBloco;
 
 #endif

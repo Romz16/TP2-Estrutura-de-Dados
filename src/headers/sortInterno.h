@@ -1,5 +1,5 @@
-#ifndef SUB_H
-#define SUB_H
+#ifndef SORTINT_H
+#define SORTINT_H
 
 #include <stdlib.h>
 #include <stdio.h>

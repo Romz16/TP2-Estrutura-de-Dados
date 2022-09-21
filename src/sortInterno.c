@@ -1,5 +1,5 @@
 #include "headers/sortInterno.h"
-#include "headers/structs.h"
+#include "headers/uteis.h"
 
 void quick_sort_int (TipoBloco *a, int n) {
     int i, j,temp;

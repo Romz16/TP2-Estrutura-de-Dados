@@ -6,4 +6,6 @@
 #include <time.h>
 #include "structs.h"
 
+int driverSelecSub(int metodo, int quantidade, int situacao);
+
 #endif 

@@ -17,7 +17,6 @@
 void criaArquivo(){
     FILE *arquivoPadrao = fopen("data/arquivoDesordenado.txt", "r");
     if(arquivoPadrao == NULL){
-        printf("---------\n");
         return;
     }
 
@@ -37,9 +36,7 @@ void criaArquivo(){
 }
 
 //Funcao que retorna vetor de ponteiroas para todas as fitas
-FILE **abrirFitas(int situacao){
-    FILE *arquivo[20];
-
+int abrirFitas(int situacao, FILE **vetorFitas){
     char nomeArquivo[50];
     char numero[10];
 
@@ -49,15 +46,13 @@ FILE **abrirFitas(int situacao){
         strcat(numero, ".txt");
         strcat(nomeArquivo, numero);
 
-        printf("%s\n", nomeArquivo);
-
         //a para criar os arquivos 
-        if((arquivo[i] = fopen(nomeArquivo, "r+")) == NULL){
-            printf("-----\n");
-            return NULL;
+        if((vetorFitas[i] = fopen(nomeArquivo, "r+")) == NULL){
+            return 0;
         }
     }
-    return arquivo;
+
+    return 1;
 }
 
 //Funcao para abrir o arquivo 
@@ -80,6 +75,83 @@ FILE *abrirArquivo(int situacao){
     }
 
     return arquivo;
+}
+
+//Geradore Romulo
+int geradados()
+{
+    int sit = 3;
+    int tam = 1000;
+    int i;
+    Item reg;
+    FILE *Arq, *Saida;
+	
+    Saida = fopen ("teste.bin", "w+b");
+    if(Saida == NULL)
+    {
+        return FALSE;
+    }
+	
+
+    
+    switch(sit)
+    {
+        case 1:
+        {
+			Arq = fopen("PROVAO_ORDENADO.txt","r");
+			if(Arq == NULL)
+			{
+				return FALSE;
+			}
+            for(i=0; i<tam; i++)
+			{
+				fscanf(Arq,"%ld %f %s ",&reg.mat,&reg.nota,reg.estado);
+				fgets(reg.cidade,50,Arq);
+				fscanf(Arq," %[A-Z a-z]\n",reg.curso);
+				
+				fwrite(&reg, sizeof(Item), 1, Saida);
+			}
+            break;
+        }
+        case 2:
+        {
+			Arq = fopen("PROVAO_DECRESCENTE.txt","r");
+			if(Arq == NULL)
+			{
+				return FALSE;
+			}
+            for(i=0; i<tam; i++)
+			{
+				fscanf(Arq,"%ld %f %s ",&reg.mat,&reg.nota,reg.estado);
+				fgets(reg.cidade,50,Arq);
+				fscanf(Arq," %[A-Z a-z]\n",reg.curso);
+				
+				fwrite(&reg, sizeof(Item), 1, Saida);
+			}
+            break;
+        }
+        case 3:
+        {
+			Arq = fopen("PROVAO.txt","r");
+			if(Arq == NULL)
+			{
+				return FALSE;
+			}
+			for(i=0; i<tam; i++)
+			{
+				fscanf(Arq,"%ld %f %s ",&reg.mat,&reg.nota,reg.estado);
+				fgets(reg.cidade,50,Arq);
+				fscanf(Arq,"  %[A-Z a-z]\n",reg.curso);
+				
+				fwrite(&reg, sizeof(Item), 1, Saida);
+			}
+            break;
+        }
+    }
+	
+    fclose(Saida);
+    fclose(Arq);
+    return TRUE;
 }
 
 //Funcao para os testes
