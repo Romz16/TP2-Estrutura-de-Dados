@@ -7,7 +7,7 @@
 
 int main(int argc, char const *argv[]) {
     printf("\n===== TP1 - Estrutura de Dados II =====\n\n");
-
+printf("aaa");
     int metodo = -1;      
     int quantidade = -1;  
     int situacao = 1;     
