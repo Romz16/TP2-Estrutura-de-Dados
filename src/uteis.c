@@ -15,15 +15,19 @@
 
 //Funcao para criar o arquivo ordenada Acendente e desendentemente em memoria principal
 void criaArquivo(){
-    FILE *arquivoPadrao = fopen("data/arquivoDesordenado.txt", "r");
-    if(arquivoPadrao == NULL){
+    FILE *arquivo = fopen("data/arquivoDesordenado.txt", "r");
+    if(arquivo == NULL){
         return;
     }
 
     aluno alunos[100];
 
     for (int i = 0; i < 100; i++){
-        fscanf(arquivoPadrao, "%li %lf %2s %50s %30s", &alunos[i].nInscricao, &alunos[i].nota, alunos[i].estado, alunos[i].cidade, alunos[i].curso);
+        fscanf(arquivo, "%ld %lf", &alunos[i].nInscricao, &alunos[i].nota);
+        fgets(alunos[i].estado, 2, arquivo);
+        fgets(alunos[i].cidade, 50, arquivo);
+        fgets(alunos[i].curso, 30, arquivo);
+        
         printf("-%li-%lf-%s-%s-%s-\n", alunos[i].nInscricao, alunos[i].nota, alunos[i].estado, alunos[i].cidade, alunos[i].curso);
     }
 
