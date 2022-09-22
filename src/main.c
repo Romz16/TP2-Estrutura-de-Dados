@@ -9,7 +9,7 @@
 
 int main(int argc, char const *argv[]) {
     
-    driverSelecSub(0, 10, 3);
+    driverSelecSub(0, 100, 3);
 
     // printf("\n===== TP1 - Estrutura de Dados II =====\n\n");
 

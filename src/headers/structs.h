@@ -4,7 +4,7 @@
 #define TRUE 1
 #define FALSE 0
 
-#define MAXINTERNO 20
+#define MAXINTERNO 5
 #define MAXFITAS 40
 
 typedef struct{
