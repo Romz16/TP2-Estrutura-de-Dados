@@ -19,9 +19,6 @@ int driverSelecSub(int metodo, int quantidade, int situacao){
         fgets(alunoTmp.campoAluno.estado, 4, arquivo);
         fgets(alunoTmp.campoAluno.cidade, 52, arquivo);
         fgets(alunoTmp.campoAluno.curso, 33, arquivo);
-
-        //alunoTmp.campoAluno.curso[31] = ' ';
-
         alunoTmp.campoAluno.chave = atof(alunoTmp.campoAluno.nota);
         alunoTmp.marcado = 0;
         
@@ -36,14 +33,11 @@ int driverSelecSub(int metodo, int quantidade, int situacao){
     
     }    
 
-    return 1;
-
     //escreve o item na fita atual
     int countFitas = 0;
     int countMarcados = 0;
     for (int i = 0; i < quantidade; i++){
-        //alunos[0].campoAluno.curso[31] = '\0';
-        fprintf(vetorFitas[countFitas], "%s %s %s %s %s |", alunos[0].campoAluno.nInscricao, alunos[0].campoAluno.nota, alunos[0].campoAluno.estado, alunos[0].campoAluno.cidade, alunos[0].campoAluno.curso);
+        fprintf(vetorFitas[countFitas], "%s %s %s %s %s", alunos[0].campoAluno.nInscricao, alunos[0].campoAluno.nota, alunos[0].campoAluno.estado, alunos[0].campoAluno.cidade, alunos[0].campoAluno.curso);
         //nao esta nos ultimos 20
         if(i < quantidade-MAXINTERNO){
 
@@ -52,7 +46,6 @@ int driverSelecSub(int metodo, int quantidade, int situacao){
             fgets(alunoTmp.campoAluno.estado, 4, arquivo);
             fgets(alunoTmp.campoAluno.cidade, 52, arquivo);
             fgets(alunoTmp.campoAluno.curso, 33, arquivo);
-
             alunoTmp.campoAluno.chave = atof(alunoTmp.campoAluno.nota);
 
             if(alunoTmp.campoAluno.chave < alunos[0].campoAluno.chave){
