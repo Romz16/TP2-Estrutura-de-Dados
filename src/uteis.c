@@ -28,7 +28,6 @@ void criaArquivo(){
         fgets(alunos[i].cidade, 50, arquivo);
         fgets(alunos[i].curso, 30, arquivo);
         
-        printf("-%li-%lf-%s-%s-%s-\n", alunos[i].nInscricao, alunos[i].nota, alunos[i].estado, alunos[i].cidade, alunos[i].curso);
     }
 
     //Ordena crescente
@@ -39,24 +38,21 @@ void criaArquivo(){
     
 }
 
-//Funcao que retorna vetor de ponteiroas para todas as fitas
-int abrirFitas(int situacao, FILE **vetorFitas){
-    char nomeArquivo[50];
-    char numero[10];
+int abrirFitas(FILE **fp){
+    char nomeArquivo[50] = "";
+    size_t idx = 0;
 
-    for (int i = 1; i <= 20; i++){
-        strcpy(nomeArquivo, "data/fitas/fita");
-        sprintf(numero, "%i", i);
-        strcat(numero, ".txt");
-        strcat(nomeArquivo, numero);
-
-        //a para criar os arquivos 
-        if((vetorFitas[i] = fopen(nomeArquivo, "r+")) == NULL){
-            return 0;
+    for (size_t i = 0; i < MAXFITAS; i++) {
+        sprintf (nomeArquivo, "data/fitas/fita%zu.txt", i);
+        fp[idx] = fopen (nomeArquivo, "w");
+        if (!fp[idx]){ 
+            printf("Erro ao Abrir arquivo Fita: %s\n", nomeArquivo);
+            continue;
         }
+        idx++;
     }
 
-    return 1;
+    return (int)idx;
 }
 
 //Funcao para abrir o arquivo 
