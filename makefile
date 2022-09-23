@@ -29,6 +29,9 @@ heap.o: ./src/heap.c
 run:
 	@./ordenacao.exe
 
+out:
+	@./ordenacao.exe > data/testes/output.out
+
 go:
 	@make all
 	@make run

@@ -16,9 +16,9 @@ void heapify(selecSub alunos[], int size, int i){
     int menor = i;
     int l = 2 * i + 1;
     int r = 2 * i + 2;
-    if ((l < size && alunos[l].campoAluno.nota < alunos[menor].campoAluno.nota))
+    if ((l < size && alunos[l].campoAluno.nota < alunos[menor].campoAluno.nota) && alunos[l].marcado == 0 && alunos[menor].marcado == 0)
       menor = l;
-    if ((r < size && alunos[r].campoAluno.nota < alunos[menor].campoAluno.nota))
+    if ((r < size && alunos[r].campoAluno.nota < alunos[menor].campoAluno.nota) && alunos[r].marcado == 0 && alunos[menor].marcado == 0)
       menor = r;
     if (menor != i){
       swap(&alunos[i], &alunos[menor]);
