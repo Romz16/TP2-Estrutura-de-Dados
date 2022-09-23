@@ -14,5 +14,6 @@ int GerarArq();
 void criaArquivo();
 int abrirFitas(FILE **fp);
 FILE *abrirArquivo(int situacao);
+void printFitas();
 
 #endif 

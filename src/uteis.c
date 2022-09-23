@@ -15,20 +15,34 @@
 
 //Funcao para criar o arquivo ordenada Acendente e desendentemente em memoria principal
 void criaArquivo(){
-    FILE *arquivo = fopen("data/arquivoDesordenado.txt", "r");
-    if(arquivo == NULL){
+    FILE *arquivoTxt = fopen("data/PROVAO.txt", "r");
+    FILE *arquivoBin = fopen("data/arquivosBin/Desordenado.dat", "wb");
+    if(arquivoTxt == NULL){
         return;
     }
 
-    aluno alunos[100];
+    aluno alunos;
+    char tmp[100];
 
-    for (int i = 0; i < 100; i++){
-        fscanf(arquivo, "%ld %lf", &alunos[i].nInscricao, &alunos[i].nota);
-        fgets(alunos[i].estado, 2, arquivo);
-        fgets(alunos[i].cidade, 50, arquivo);
-        fgets(alunos[i].curso, 30, arquivo);
+    for (int i = 0; i < 471705; i++){
+        fscanf(arquivoTxt, "%ld %lf", &alunos.nInscricao, &alunos.nota);
+        //printf("-%ld-%lf-\n", alunos.nInscricao, alunos.nota);
+
+        fgets(tmp, 5, arquivoTxt);
+        //printf("-%s-\n", tmp);
+        strcpy(alunos.estado, tmp);
+
+        fgets(tmp, 52, arquivoTxt);
+        //printf("-%s-\n", tmp);
+        strcpy(alunos.cidade, tmp);
         
-        printf("%ld-%lf-%s-%s-%s", alunos[i].nInscricao, alunos[i].nota, alunos[i].estado, alunos[i].cidade, alunos[i].curso);
+        fgets(tmp, 30, arquivoTxt);
+        //printf("-%s-\n", tmp);
+        strcpy(alunos.curso, tmp);
+
+        fwrite(&alunos, sizeof(aluno), 1, arquivoBin);
+        
+        //printf("%ld-%lf-%s-%s-%s", alunos.nInscricao, alunos.nota, alunos.estado, alunos.cidade, alunos.curso);
     }
 
     //Ordena crescente
@@ -44,8 +58,8 @@ int abrirFitas(FILE **fp){
     size_t idx = 0;
 
     for (size_t i = 0; i < MAXFITAS; i++) {
-        sprintf (nomeArquivo, "data/fitas/fita%zu.txt", i);
-        fp[idx] = fopen (nomeArquivo, "w");
+        sprintf (nomeArquivo, "data/fitas/fita%zu.dat", i);
+        fp[idx] = fopen (nomeArquivo, "wb");
         if (!fp[idx]){ 
             printf("Erro ao Abrir arquivo Fita: %s\n", nomeArquivo);
             continue;
@@ -56,20 +70,47 @@ int abrirFitas(FILE **fp){
     return (int)idx;
 }
 
+void printFitas(){
+    FILE *fitas[MAXFITAS];
+    char nomeArquivo[50] = "";
+    size_t idx = 0;
+    aluno tmp;
+
+    for (size_t i = 0; i < MAXFITAS; i++) {
+        sprintf (nomeArquivo, "data/fitas/fita%zu.dat", i);
+        fitas[idx] = fopen (nomeArquivo, "rb");
+        if (!fitas[idx]){ 
+            printf("Erro ao Abrir arquivo Fita: %s\n", nomeArquivo);
+            continue;
+        }
+        idx++;
+    }
+
+    for (int i = 0; i < 40; i++){
+        while (fread(&tmp, sizeof(aluno), 1, fitas[i]) == 1){
+            printf("FITA: %i\n", i);
+            printf("%li-%lf-%s-%s-%s\n", tmp.nInscricao, tmp.nota, tmp.estado, tmp.cidade, tmp.curso);
+        }
+    }
+    for (int i = 0; i < MAXFITAS; i++){
+        fclose(fitas[i]);
+    }
+}
+
 //Funcao para abrir o arquivo 
 FILE *abrirArquivo(int situacao){
     FILE *arquivo;
 
-    char nomeArquivo[50] = "data/";
+    char nomeArquivo[50] = "data/arquivosBin/";
 
     if(situacao == 1)
-        strcat(nomeArquivo, "arquivoCrescente.txt");
+        strcat(nomeArquivo, "Crescente.txt");
     else if(situacao == 2)
-        strcat(nomeArquivo, "arquivoDecrescente.txt");
+        strcat(nomeArquivo, "Decrescente.txt");
     else if(situacao == 3)
-        strcat(nomeArquivo, "arquivoDesordenado.txt");
+        strcat(nomeArquivo, "Desordenado.txt");
 
-    arquivo = fopen(nomeArquivo, "r");
+    arquivo = fopen(nomeArquivo, "rb");
     if(arquivo == NULL){
         printf("Erro Ao Abrir Arquivo %s\n", nomeArquivo);
         return NULL;
