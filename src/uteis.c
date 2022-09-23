@@ -24,26 +24,35 @@ void criaArquivo(){
     aluno alunos;
     char tmp[100];
 
-    for (int i = 0; i < 471705; i++){
+    for (int i = 0; i < 2; i++){
         fscanf(arquivoTxt, "%ld %lf", &alunos.nInscricao, &alunos.nota);
-        //printf("-%ld-%lf-\n", alunos.nInscricao, alunos.nota);
 
-        fgets(tmp, 5, arquivoTxt);
-        //printf("-%s-\n", tmp);
-        strcpy(alunos.estado, tmp);
+        //Le espaco
+        fgets(tmp, 2, arquivoTxt);
 
-        fgets(tmp, 52, arquivoTxt);
-        //printf("-%s-\n", tmp);
-        strcpy(alunos.cidade, tmp);
+        //le estado
+        fgets(alunos.estado, 3, arquivoTxt);
+
+        //Le espaco
+        fgets(tmp, 2, arquivoTxt);
+
+        //le cidade
+        fgets(alunos.cidade, 50, arquivoTxt);
         
-        fgets(tmp, 30, arquivoTxt);
-        //printf("-%s-\n", tmp);
-        strcpy(alunos.curso, tmp);
+        //Le espaco
+        fgets(tmp, 3, arquivoTxt);
+
+        //le curso
+        fgets(alunos.curso, 30, arquivoTxt);
+
+        //le quebra de linha
+        fgets(tmp, 3, arquivoTxt);
 
         fwrite(&alunos, sizeof(aluno), 1, arquivoBin);
         
-        //printf("%ld-%lf-%s-%s-%s", alunos.nInscricao, alunos.nota, alunos.estado, alunos.cidade, alunos.curso);
+        //printf("%ld-%lf-%s-%s-%s-\n", alunos.nInscricao, alunos.nota, alunos.estado, alunos.cidade, alunos.curso);
     }
+
 
     //Ordena crescente
     //Escreve no arquivo arquivoCrescente.txt
@@ -87,9 +96,9 @@ void printFitas(){
     }
 
     for (int i = 0; i < 40; i++){
+        printf("FITA: %i\n", i);
         while (fread(&tmp, sizeof(aluno), 1, fitas[i]) == 1){
-            printf("FITA: %i\n", i);
-            printf("%li-%lf-%s-%s-%s\n", tmp.nInscricao, tmp.nota, tmp.estado, tmp.cidade, tmp.curso);
+            printf("%li-%lf-%s-%s-%s-\n", tmp.nInscricao, tmp.nota, tmp.estado, tmp.cidade, tmp.curso);
         }
     }
     for (int i = 0; i < MAXFITAS; i++){
@@ -104,11 +113,11 @@ FILE *abrirArquivo(int situacao){
     char nomeArquivo[50] = "data/arquivosBin/";
 
     if(situacao == 1)
-        strcat(nomeArquivo, "Crescente.txt");
+        strcat(nomeArquivo, "Crescente.dat");
     else if(situacao == 2)
-        strcat(nomeArquivo, "Decrescente.txt");
+        strcat(nomeArquivo, "Decrescente.dat");
     else if(situacao == 3)
-        strcat(nomeArquivo, "Desordenado.txt");
+        strcat(nomeArquivo, "Desordenado.dat");
 
     arquivo = fopen(nomeArquivo, "rb");
     if(arquivo == NULL){
@@ -120,8 +129,7 @@ FILE *abrirArquivo(int situacao){
 }
 
 //Geradore Romulo
-int geradados()
-{
+int geradados(){
     int sit = 3;
     int tam = 1000;
     int i;

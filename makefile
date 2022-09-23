@@ -3,7 +3,7 @@ all: main.o uteis.o intercalacao2F.o selecSub.o sortInterno.o
 	@gcc ./obj/main.o ./obj/uteis.o ./obj/intercalacao2F.o ./obj/selecSub.o ./obj/sortInterno.o -o ordenacao.exe -Wall
 
 debug: 
-	@gcc ./src/*.c -o pesquisaDebug.exe -g
+	@gcc ./src/*.c -o ordenacaoDebug.exe -g
 
 main.o: ./src/main.c
 	@gcc -c ./src/main.c -o ./obj/main.o -Wall

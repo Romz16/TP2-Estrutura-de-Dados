@@ -17,6 +17,7 @@ int driverSelecSub(int metodo, int quantidade, int situacao){
 
     for (int i = 0; i < MAXINTERNO && i < quantidade; i++){
       fread(&alunoTmp.campoAluno, sizeof(aluno), 1, arquivo);
+      //printf("*%ld-%lf-%s-%s-%s*\n", alunoTmp.campoAluno.nInscricao, alunoTmp.campoAluno.nota, alunoTmp.campoAluno.estado, alunoTmp.campoAluno.cidade, alunoTmp.campoAluno.curso);
       insert(alunos, alunoTmp);
     }    
 
@@ -25,6 +26,7 @@ int driverSelecSub(int metodo, int quantidade, int situacao){
     int countMarcados = 0;
     for (int i = 0; i < quantidade; i++){
       fwrite(&alunos[0], sizeof(aluno), 1, vetorFitas[countFitas]);
+      //printf("*%ld-%lf-%s-%s-%s*\n", alunos[0].campoAluno.nInscricao, alunos[0].campoAluno.nota, alunos[0].campoAluno.estado, alunos[0].campoAluno.cidade, alunos[0].campoAluno.curso);
       
       //nao esta nos ultimos 20
       if(i < quantidade-MAXINTERNO){
@@ -61,9 +63,9 @@ int driverSelecSub(int metodo, int quantidade, int situacao){
         }
     }   
     
-    for (int i = 0; i < MAXFITAS; i++){
-      fclose(vetorFitas[i]);
-    }
+    // for (int i = 0; i < MAXFITAS; i++){
+    //   fclose(vetorFitas[i]);
+    // }
 
     printFitas();
     
