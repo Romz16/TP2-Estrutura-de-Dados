@@ -1,8 +1,6 @@
-#include "headers/selecSub.h"
 #include "headers/uteis.h"
 
 #include <stdlib.h>
-double atof(const char *string);
 
 int driverSelecSub(int metodo, int quantidade, int situacao){
     FILE *vetorFitas[MAXFITAS/2] = {NULL};

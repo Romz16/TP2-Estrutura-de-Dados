@@ -1,4 +1,3 @@
-#include "headers/intercalacao2F.h"
 #include "headers/uteis.h"
 
 //Blocos de 20 registros

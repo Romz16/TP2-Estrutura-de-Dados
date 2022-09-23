@@ -9,6 +9,7 @@
 #include "sortInterno.h"
 #include "selecSub.h"
 #include "intercalacao2F.h"
+#include "quickSortExterno.h"
 
 int GerarArq();
 void criaArquivo();

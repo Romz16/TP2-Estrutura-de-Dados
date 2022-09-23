@@ -1,4 +1,3 @@
-#include "headers/sortInterno.h"
 #include "headers/uteis.h"
 
 void quick_sort_int (TipoBloco *a, int n) {
