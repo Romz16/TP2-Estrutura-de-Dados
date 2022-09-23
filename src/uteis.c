@@ -28,6 +28,7 @@ void criaArquivo(){
         fgets(alunos[i].cidade, 50, arquivo);
         fgets(alunos[i].curso, 30, arquivo);
         
+        printf("%ld-%lf-%s-%s-%s", alunos[i].nInscricao, alunos[i].nota, alunos[i].estado, alunos[i].cidade, alunos[i].curso);
     }
 
     //Ordena crescente
