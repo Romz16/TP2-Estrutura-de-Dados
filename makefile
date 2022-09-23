@@ -1,5 +1,5 @@
 #Windows Makefile
-all: main.o uteis.o intercalacao2F.o selecSub.o sortInterno.o
+all: main.o uteis.o intercalacao2F.o selecSub.o sortInterno.o quickSortExterno.o
 	@gcc ./obj/main.o ./obj/uteis.o ./obj/intercalacao2F.o ./obj/selecSub.o ./obj/sortInterno.o ./obj/quickSortExterno.o -o ordenacao.exe -Wall
 
 debug: 
@@ -17,11 +17,11 @@ intercalacao2F.o: ./src/intercalacao2F.c
 selecSub.o: ./src/selecSub.c
 	@gcc -c ./src/selecSub.c -o ./obj/selecSub.o -Wall
 
-sortInterno.o: ./src/sortInterno.c
-	@gcc -c ./src/sortInterno.c -o ./obj/sortInterno.o -Wall
-
 quickSortExterno.o: ./src/quickSortExterno.c
 	@gcc -c ./src/quickSortExterno.c -o ./obj/quickSortExterno.o -Wall
+
+sortInterno.o: ./src/sortInterno.c
+	@gcc -c ./src/sortInterno.c -o ./obj/sortInterno.o -Wall
 
 run:
 	@./ordenacao.exe
