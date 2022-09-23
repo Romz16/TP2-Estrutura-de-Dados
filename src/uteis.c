@@ -134,7 +134,7 @@ int geradados(){
     int sit = 3;
     int tam = 1000;
     int i;
-    Item reg;
+    aluno reg;
     FILE *Arq, *Saida;
 	
     Saida = fopen ("teste.bin", "w+b");
@@ -156,11 +156,11 @@ int geradados(){
 			}
             for(i=0; i<tam; i++)
 			{
-				fscanf(Arq,"%ld %f %s ",&reg.mat,&reg.nota,reg.estado);
+				fscanf(Arq,"%ld %lf %s ",&reg.nInscricao,&reg.nota,reg.estado);
 				fgets(reg.cidade,50,Arq);
 				fscanf(Arq," %[A-Z a-z]\n",reg.curso);
 				
-				fwrite(&reg, sizeof(Item), 1, Saida);
+				fwrite(&reg, sizeof(aluno), 1, Saida);
 			}
             break;
         }
@@ -173,11 +173,11 @@ int geradados(){
 			}
             for(i=0; i<tam; i++)
 			{
-				fscanf(Arq,"%ld %f %s ",&reg.mat,&reg.nota,reg.estado);
+				fscanf(Arq,"%ld %lf %s ",&reg.nInscricao,&reg.nota,reg.estado);
 				fgets(reg.cidade,50,Arq);
 				fscanf(Arq," %[A-Z a-z]\n",reg.curso);
 				
-				fwrite(&reg, sizeof(Item), 1, Saida);
+				fwrite(&reg, sizeof(aluno), 1, Saida);
 			}
             break;
         }
@@ -190,11 +190,11 @@ int geradados(){
 			}
 			for(i=0; i<tam; i++)
 			{
-				fscanf(Arq,"%ld %f %s ",&reg.mat,&reg.nota,reg.estado);
+				fscanf(Arq,"%ld %lf %s ",&reg.nInscricao,&reg.nota,reg.estado);
 				fgets(reg.cidade,50,Arq);
 				fscanf(Arq,"  %[A-Z a-z]\n",reg.curso);
 				
-				fwrite(&reg, sizeof(Item), 1, Saida);
+				fwrite(&reg, sizeof(aluno), 1, Saida);
 			}
             break;
         }

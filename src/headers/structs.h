@@ -16,14 +16,6 @@ typedef struct{
 }aluno;
 
 typedef struct{
-    long mat;
-    float nota;
-    char estado[3];
-    char cidade[51];
-    char curso[31];
-}Item;
-
-typedef struct{
     aluno campoAluno;
     int marcado;
 }selecSub;
