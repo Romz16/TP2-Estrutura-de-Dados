@@ -24,7 +24,7 @@ void criaArquivo(){
     aluno alunos;
     char tmp[100];
 
-    for (int i = 0; i < 2; i++){
+    for (int i = 0; i < 471705; i++){
         fscanf(arquivoTxt, "%ld %lf", &alunos.nInscricao, &alunos.nota);
 
         //Le espaco
@@ -53,13 +53,14 @@ void criaArquivo(){
         //printf("%ld-%lf-%s-%s-%s-\n", alunos.nInscricao, alunos.nota, alunos.estado, alunos.cidade, alunos.curso);
     }
 
-
     //Ordena crescente
     //Escreve no arquivo arquivoCrescente.txt
 
     //Ordena decrescente
     //Escreve no arquivo arquivoDecrescente.txt
     
+    fclose(arquivoBin);
+    fclose(arquivoTxt);    
 }
 
 int abrirFitas(FILE **fp){

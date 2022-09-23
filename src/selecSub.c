@@ -17,6 +17,7 @@ int driverSelecSub(int metodo, int quantidade, int situacao){
       fread(&alunoTmp.campoAluno, sizeof(aluno), 1, arquivo);
       //printf("*%ld-%lf-%s-%s-%s*\n", alunoTmp.campoAluno.nInscricao, alunoTmp.campoAluno.nota, alunoTmp.campoAluno.estado, alunoTmp.campoAluno.cidade, alunoTmp.campoAluno.curso);
       insert(alunos, alunoTmp);
+
     }    
 
     //escreve o item na fita atual
@@ -85,9 +86,9 @@ void heapify(selecSub alunos[], int size, int i){
     int menor = i;
     int l = 2 * i + 1;
     int r = 2 * i + 2;
-    if ((l < size && alunos[l].campoAluno.nota < alunos[menor].campoAluno.nota) && alunos[l].marcado == 0)
+    if ((l < size && alunos[l].campoAluno.nota < alunos[menor].campoAluno.nota))
       menor = l;
-    if ((r < size && alunos[r].campoAluno.nota < alunos[menor].campoAluno.nota) && alunos[r].marcado == 0)
+    if ((r < size && alunos[r].campoAluno.nota < alunos[menor].campoAluno.nota))
       menor = r;
     if (menor != i){
       swap(&alunos[i], &alunos[menor]);

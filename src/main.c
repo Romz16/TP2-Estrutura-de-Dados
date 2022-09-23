@@ -10,7 +10,8 @@
 //gdb ./ordenacaoDebug.exe
 
 int main(int argc, char const *argv[]) {
-    
+
+    //criaArquivo();
     driverSelecSub(0, 100, 3);
 
 
