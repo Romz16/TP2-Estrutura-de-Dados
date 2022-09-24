@@ -6,6 +6,8 @@
 
 int main(int argc, char const *argv[]) {
 
+    //criaArquivo();
+    //printRegistros(1, 200);
     driverSelecSub(100, 3);
     return 1;
 

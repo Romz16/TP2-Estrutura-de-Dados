@@ -16,50 +16,66 @@
 //Funcao para criar o arquivo ordenada Acendente e desendentemente em memoria principal
 void criaArquivo(){
     FILE *arquivoTxt = fopen("data/PROVAO.txt", "r");
-    FILE *arquivoBin = fopen("data/arquivosBin/Desordenado.dat", "wb");
+    FILE *arquivoBinDesordenado = fopen("data/arquivosBin/Desordenado.dat", "wb");
     if(arquivoTxt == NULL){
         return;
     }
 
-    aluno alunos;
+    aluno alunoTmp;
+    aluno alunos[200];
     char tmp[100];
 
     for (int i = 0; i < 471705; i++){
-        fscanf(arquivoTxt, "%ld %lf", &alunos.nInscricao, &alunos.nota);
+        fscanf(arquivoTxt, "%ld %lf", &alunoTmp.nInscricao, &alunoTmp.nota);
 
         //Le espaco
         fgets(tmp, 2, arquivoTxt);
-
         //le estado
-        fgets(alunos.estado, 3, arquivoTxt);
-
+        fgets(alunoTmp.estado, 3, arquivoTxt);
         //Le espaco
         fgets(tmp, 2, arquivoTxt);
-
         //le cidade
-        fgets(alunos.cidade, 50, arquivoTxt);
-        
+        fgets(alunoTmp.cidade, 50, arquivoTxt);
         //Le espaco
         fgets(tmp, 3, arquivoTxt);
-
         //le curso
-        fgets(alunos.curso, 30, arquivoTxt);
-
+        fgets(alunoTmp.curso, 30, arquivoTxt);
         //le quebra de linha
         fgets(tmp, 3, arquivoTxt);
+        fwrite(&alunoTmp, sizeof(aluno), 1, arquivoBinDesordenado);
 
-        fwrite(&alunos, sizeof(aluno), 1, arquivoBin);
+        if(i < 200)
+            alunos[i] = alunoTmp;
         
-        //printf("%ld-%lf-%s-%s-%s-\n", alunos.nInscricao, alunos.nota, alunos.estado, alunos.cidade, alunos.curso);
+        //printf("%ld-%lf-%s-%s-%s-\n", alunoTmp.nInscricao, alunoTmp.nota, alunoTmp.estado, alunoTmp.cidade, alunoTmp.curso);
     }
 
     //Ordena crescente
     //Escreve no arquivo arquivoCrescente.txt
+    int i, j, min_idx;
+    // One by one move boundary of unsorted subarray
+    for (i = 0; i < 200-1; i++){
+        // Find the minimum element in unsorted array
+        min_idx = i;
+        for (j = i+1; j < 200; j++)
+          if (alunos[j].nota < alunos[min_idx].nota)
+            min_idx = j;
+ 
+        // Swap the found minimum element with the first element
+           if(min_idx != i){
+            aluno temp = alunos[min_idx];
+            alunos[min_idx] = alunos[i];
+            alunos[i] = temp;
+           }
+    }
+    FILE *arquivoBinCrescente = fopen("data/arquivosBin/Crescente.dat", "wb");
+    fwrite(alunos, sizeof(aluno)*200, 1, arquivoBinCrescente);
 
     //Ordena decrescente
     //Escreve no arquivo arquivoDecrescente.txt
     
-    fclose(arquivoBin);
+    fclose(arquivoBinDesordenado);
+    fclose(arquivoBinCrescente);
     fclose(arquivoTxt);    
 }
 

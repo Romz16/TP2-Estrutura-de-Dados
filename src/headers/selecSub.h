@@ -7,5 +7,6 @@
 #include "structs.h"
 
 int driverSelecSub(int quantidade, int situacao);
+void verificaSaida();
 
 #endif 
