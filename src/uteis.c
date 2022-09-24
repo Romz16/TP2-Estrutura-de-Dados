@@ -97,9 +97,9 @@ void printFitas(){
     }
 
     for (int i = 0; i < 40; i++){
-        printf("FITA: %i\n", i);
+        printf("----------FITA: %i----------\n", i);
         while (fread(&tmp, sizeof(aluno), 1, fitas[i]) == 1){
-            printf("%li-%lf-%s-%s-%s-\n", tmp.nInscricao, tmp.nota, tmp.estado, tmp.cidade, tmp.curso);
+            printf("%.2lf\n", tmp.nota);
         }
     }
     for (int i = 0; i < MAXFITAS; i++){

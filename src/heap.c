@@ -1,55 +1,82 @@
 #include <stdio.h>
 #include "headers/uteis.h"
 
-//ADAPTAR = ITEM Marcadao = Maior que todos
-int size = 0;
-void swap(selecSub *a, selecSub *b){
-  selecSub temp = *b;
-  *b = *a;
-  *a = temp;
+// Function to swap the position of two elements
+ 
+void swap(selecSub* a, selecSub* b)
+{
+ 
+    selecSub temp = *a;
+ 
+    *a = *b;
+ 
+    *b = temp;
 }
-void heapify(selecSub alunos[], int size, int i){
-  if (size == 1){
-    printf("Single element in the heap");
-  }
-  else{
-    int menor = i;
-    int l = 2 * i + 1;
-    int r = 2 * i + 2;
-    if ((l < size && alunos[l].campoAluno.nota < alunos[menor].campoAluno.nota) && alunos[l].marcado == 0 && alunos[menor].marcado == 0)
-      menor = l;
-    if ((r < size && alunos[r].campoAluno.nota < alunos[menor].campoAluno.nota) && alunos[r].marcado == 0 && alunos[menor].marcado == 0)
-      menor = r;
-    if (menor != i){
-      swap(&alunos[i], &alunos[menor]);
-      heapify(alunos, size, menor);
-    }
-  }
-}
-void insert(selecSub alunos[], selecSub alunoTmp){
-  if (size == 0){
-    alunos[0] = alunoTmp;
-    size += 1;
-  }
-  else{
-    alunos[size] = alunoTmp;
-    size += 1;
-    for (int i = size / 2 - 1; i >= 0; i--){
-      heapify(alunos, size, i);
-    }
-  }
-}
+ 
+// To heapify a subtree rooted with node i
+// which is an index in arr[].
+// n is size of heap
+void heapify(selecSub arr[], int N, int i)
+{
+    // Find maior among root, left child and right child
+ 
+    // Initialize maior as root
+    int maior = i;
+ 
+    // left = 2*i + 1
+    int left = 2 * i + 1;
+ 
+    // right = 2*i + 2
+    int right = 2 * i + 2;
+ 
+    // If left child is larger than root
+    if (left < N && (arr[left].campoAluno.nota > arr[maior].campoAluno.nota || arr[right].marcado == 1)){
+        maior = left;
+	}
+ 
+    // If right child is larger than maior
+    // so far
+    if (right < N && (arr[right].campoAluno.nota > arr[maior].campoAluno.nota || arr[left].marcado == 1)){
+        maior = right;
+	}
 
-void deleteRoot(selecSub alunos[], selecSub alunoTmp){
-  int i;
-  for (i = 0; i < size; i++)  {
-    if (alunoTmp.campoAluno.nota == alunos[i].campoAluno.nota)
-      break;
-  }
-
-  swap(&alunos[i], &alunos[size - 1]);
-  size -= 1;
-  for (int i = size / 2 - 1; i >= 0; i--){
-    heapify(alunos, size, i);
-  }
+    // Swap and continue heapifying if root is not maior
+    // If maior is not root
+    if (maior != i) {
+ 
+        swap(&arr[i], &arr[maior]);
+ 
+        // Recursively heapify the affected
+        // sub-tree
+        heapify(arr, N, maior);
+    }
+}
+ 
+// Main function to do heap sort
+void heapSort(selecSub arr[], int N)
+{
+ 
+    // Build max heap
+    for (int i = N / 2 - 1; i >= 0; i--)
+ 
+        heapify(arr, N, i);
+ 
+    // Heap sort
+    for (int i = N - 1; i >= 0; i--) {
+ 
+        swap(&arr[0], &arr[i]);
+ 
+        // Heapify root element to get highest element at
+        // root again
+        heapify(arr, i, 0);
+    }
+}
+ 
+// A utility function to print array of size n
+void printArray(selecSub arr[], int N)
+{
+    printf("HEAP\n");
+    for (int i = 0; i < N; i++)
+        printf("%.2lf=%i\n", arr[i].campoAluno.nota, arr[i].marcado);
+    printf("FIM\n");
 }

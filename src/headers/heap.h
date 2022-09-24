@@ -6,10 +6,11 @@
 #include <time.h>
 #include "structs.h"
 
-void swap(selecSub *a, selecSub *b);
-void heapify(selecSub alunos[], int size, int i);
-void insert(selecSub alunos[], selecSub alunoTmp);
-void deleteRoot(selecSub alunos[], selecSub alunoTmp);
+void printArray(selecSub arr[], int N);
+void heapSort(selecSub arr[], int N);
+void heapify(selecSub arr[], int N, int i);
+void swap(selecSub* a, selecSub* b);
+
 
 
 

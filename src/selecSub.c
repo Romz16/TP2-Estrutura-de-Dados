@@ -2,6 +2,8 @@
 
 #include <stdlib.h>
 
+//692
+
 int driverSelecSub(int metodo, int quantidade, int situacao){
   FILE *vetorFitas[MAXFITAS/2] = {NULL};
   if(abrirFitas(vetorFitas) != MAXFITAS)  
@@ -12,28 +14,24 @@ int driverSelecSub(int metodo, int quantidade, int situacao){
 
   selecSub alunos[MAXINTERNO];
   selecSub alunoTmp;
+  selecSub tmpTroca;
+
+  int countFitas = 0;
+  int countFitasUsadas = 0;
+  int countMarcados = 0;
 
   for (int i = 0; i < MAXINTERNO && i < quantidade; i++){
     fread(&alunoTmp.campoAluno, sizeof(aluno), 1, arquivo);
     alunoTmp.marcado = 0;
-    //printf("*%ld-%lf-%s-%s-%s*\n", alunoTmp.campoAluno.nInscricao, alunoTmp.campoAluno.nota, alunoTmp.campoAluno.estado, alunoTmp.campoAluno.cidade, alunoTmp.campoAluno.curso);
-    insert(alunos, alunoTmp);
-
+    alunos[i] = alunoTmp;
   }    
 
-  printf("HEAP\n");
-  for (int i = 0; i < MAXINTERNO; i++){
-    printf("%.2lf=%i\n", alunos[i].campoAluno.nota, alunos[i].marcado);
-  }
-  printf("FIM\n");
-  
+  heapSort(alunos, MAXINTERNO-countMarcados);
+  printArray(alunos, MAXINTERNO-countMarcados);
 
   //escreve o item na fita atual
-  int countFitas = 0;
-  int countMarcados = 0;
   for (int i = 0; i < quantidade; i++){
     fwrite(&alunos[0], sizeof(aluno), 1, vetorFitas[countFitas]);
-    //printf("*%ld-%lf-%s-%s-%s*\n", alunos[0].campoAluno.nInscricao, alunos[0].campoAluno.nota, alunos[0].campoAluno.estado, alunos[0].campoAluno.cidade, alunos[0].campoAluno.curso);
     
     //nao esta nos ultimos 20
     if(i < quantidade-MAXINTERNO){
@@ -43,48 +41,62 @@ int driverSelecSub(int metodo, int quantidade, int situacao){
 
       if(alunoTmp.campoAluno.nota < alunos[0].campoAluno.nota){
         alunoTmp.marcado = 1;
+        alunos[0] = alunoTmp;
         countMarcados++;
-      }
-      else
-        alunoTmp.marcado = 0;   
-      
-      deleteRoot(alunos, alunos[0]);
-      insert(alunos, alunoTmp);
 
+        tmpTroca = alunos[0];
+        alunos[0] = alunos[MAXINTERNO-countMarcados];
+        alunos[MAXINTERNO-countMarcados] = tmpTroca;
+      }
+      else{
+        alunoTmp.marcado = 0;  
+        alunos[0] = alunoTmp;
+      } 
+      
       if(countMarcados == MAXINTERNO && countFitas != MAXFITAS/2-1){
         countFitas++;
+        countFitasUsadas++;
         countMarcados = 0;
         for (int i = 0; i < MAXINTERNO; i++)
           alunos[i].marcado = 0; 
       }
-      if(countMarcados == MAXINTERNO && countFitas == MAXFITAS/2-1){
+      else if(countMarcados == MAXINTERNO && countFitas == MAXFITAS/2-1){
         countFitas = 0;
         countMarcados = 0;
         for (int i = 0; i < MAXINTERNO; i++)
           alunos[i].marcado = 0; 
       }
+
+      heapSort(alunos, MAXINTERNO-countMarcados);
+      printArray(alunos, MAXINTERNO);
           
     }
-      //esta nos últimos 20
-      //Escreve a raiz e deleta o raiz e refaz o heep 
+    //esta nos últimos 20
+    //Escreve a raiz e deleta o raiz e refaz o heep 
     else{
-      for (int i = 0; i < MAXINTERNO; i++)
-        alunos[i].marcado = 0;                
-      
-      deleteRoot(alunos, alunos[0]);
-    }
+      printf("ULTIMOS 20\n");
+      heapSort(alunos, MAXINTERNO);
+      printArray(alunos, MAXINTERNO);
 
-    printf("HEAP\n");
-    for (int i = 0; i < MAXINTERNO; i++){
-      printf("%.2lf=%i\n", alunos[i].campoAluno.nota, alunos[i].marcado);
-    }
-    printf("FIM\n");
+      if(countFitas != MAXFITAS/2-1){
+        countFitas++;
+        countFitasUsadas++;
+      }
+      else if (countFitas == MAXFITAS/2-1){
+        countFitas++;
+      }
 
+      for (int j = 0; j < MAXINTERNO; j++){
+        alunos[j].marcado = 0;            
+        fwrite(&alunos[j], sizeof(aluno), 1, vetorFitas[countFitas]);
+      }    
+      break;
+    }
   }   
   
-  // for (int i = 0; i < MAXFITAS; i++){
-  //   fclose(vetorFitas[i]);
-  // }
+  for (int i = 0; i < countFitasUsadas; i++){
+    fclose(vetorFitas[i]);
+  }
 
   printFitas();
   
