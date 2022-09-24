@@ -2,8 +2,6 @@
 
 #include <stdlib.h>
 
-//692
-
 int driverSelecSub(int metodo, int quantidade, int situacao){
   FILE *vetorFitas[MAXFITAS/2] = {NULL};
   if(abrirFitas(vetorFitas) != MAXFITAS)  
@@ -54,6 +52,9 @@ int driverSelecSub(int metodo, int quantidade, int situacao){
       } 
       
       if(countMarcados == MAXINTERNO && countFitas != MAXFITAS/2-1){
+        alunoTmp.campoAluno.nota = -1;
+        fwrite(&alunoTmp, sizeof(aluno), 1, vetorFitas[countFitas]);
+
         countFitas++;
         countFitasUsadas++;
         countMarcados = 0;
@@ -61,6 +62,9 @@ int driverSelecSub(int metodo, int quantidade, int situacao){
           alunos[i].marcado = 0; 
       }
       else if(countMarcados == MAXINTERNO && countFitas == MAXFITAS/2-1){
+        alunoTmp.campoAluno.nota = -1;
+        fwrite(&alunoTmp, sizeof(aluno), 1, vetorFitas[countFitas]);
+        
         countFitas = 0;
         countMarcados = 0;
         for (int i = 0; i < MAXINTERNO; i++)
@@ -75,8 +79,16 @@ int driverSelecSub(int metodo, int quantidade, int situacao){
     //Escreve a raiz e deleta o raiz e refaz o heep 
     else{
       printf("ULTIMOS 20\n");
-      heapSort(alunos, MAXINTERNO);
+
+      tmpTroca = alunos[0];
+      alunos[0] = alunos[MAXINTERNO-1];
+      alunos[MAXINTERNO-1] = tmpTroca;
+
+      heapSort(alunos, MAXINTERNO-1);
       printArray(alunos, MAXINTERNO);
+
+      alunoTmp.campoAluno.nota = -1;
+      fwrite(&alunoTmp, sizeof(aluno), 1, vetorFitas[countFitas]);
 
       if(countFitas != MAXFITAS/2-1){
         countFitas++;
@@ -86,15 +98,19 @@ int driverSelecSub(int metodo, int quantidade, int situacao){
         countFitas++;
       }
 
-      for (int j = 0; j < MAXINTERNO; j++){
+      for (int j = 0; j < MAXINTERNO-1; j++){
         alunos[j].marcado = 0;            
         fwrite(&alunos[j], sizeof(aluno), 1, vetorFitas[countFitas]);
       }    
+
+      alunoTmp.campoAluno.nota = -1;
+      fwrite(&alunoTmp, sizeof(aluno), 1, vetorFitas[countFitas]);
+
       break;
     }
   }   
   
-  for (int i = 0; i < countFitasUsadas; i++){
+  for (int i = 0; i <= countFitasUsadas; i++){
     fclose(vetorFitas[i]);
   }
 

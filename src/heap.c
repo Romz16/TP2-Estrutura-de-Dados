@@ -30,13 +30,13 @@ void heapify(selecSub arr[], int N, int i)
     int right = 2 * i + 2;
  
     // If left child is larger than root
-    if (left < N && (arr[left].campoAluno.nota > arr[maior].campoAluno.nota || arr[right].marcado == 1)){
+    if (left < N && (arr[left].campoAluno.nota > arr[maior].campoAluno.nota)){
         maior = left;
 	}
  
     // If right child is larger than maior
     // so far
-    if (right < N && (arr[right].campoAluno.nota > arr[maior].campoAluno.nota || arr[left].marcado == 1)){
+    if (right < N && (arr[right].campoAluno.nota > arr[maior].campoAluno.nota)){
         maior = right;
 	}
 
