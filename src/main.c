@@ -18,7 +18,6 @@ int main(int argc, char const *argv[]) {
     int metodo = -1;      
     int quantidade = -1;  
     int situacao = 1;     
-    //int opcional = 0;     
 
     if (argv[1] != NULL) {
         metodo = atoi(argv[1]);
@@ -30,8 +29,7 @@ int main(int argc, char const *argv[]) {
                 situacao = atoi(argv[3]);
 
                 if (argv[4] != NULL) {
-                    //opcional = atoi(argv[4]);
-                    printRegistros(3, 100);
+                    printRegistros(situacao, quantidade);
                 }
             }
         }

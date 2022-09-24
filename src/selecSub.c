@@ -101,12 +101,12 @@ int driverSelecSub(int quantidade, int situacao){
 
   fclose(arquivo);
   //verificaSaida();
-  printFitas();
+  //printFitas();
   
   return 1;
 }
 
-#define QUANTIDADE 100
+#define QUANTIDADE 1000
 void verificaSaida(){
 
   aluno vetorAlunosFitas[QUANTIDADE];
