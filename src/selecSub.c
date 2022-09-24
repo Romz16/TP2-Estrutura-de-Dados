@@ -12,33 +12,29 @@ int driverSelecSub(int quantidade, int situacao){
 
   FILE *arquivo = abrirArquivo(situacao);
 
-  selecSub alunos[MAXINTERNO];
-  selecSub alunoTmp;
-  selecSub tmpTroca;
+  aluno alunos[MAXINTERNO];
+  aluno alunoTmp;
+  aluno tmpTroca;
 
   int countFitas = 0;
   int countFitasUsadas = 0;
   int countMarcados = 0;
 
   for (int i = 0; i < MAXINTERNO && i < quantidade; i++){
-    fread(&alunoTmp.campoAluno, sizeof(aluno), 1, arquivo);
-    alunoTmp.marcado = 0;
+    fread(&alunoTmp, sizeof(aluno), 1, arquivo);
     alunos[i] = alunoTmp;
   }    
 
   heapSort(alunos, MAXINTERNO-countMarcados);
-  //printArray(alunos, MAXINTERNO-countMarcados);
 
   for (int i = 0; i < quantidade; i++){
-    fwrite(&alunos[0].campoAluno, sizeof(aluno), 1, vetorFitas[countFitas]);
+    fwrite(&alunos[0], sizeof(aluno), 1, vetorFitas[countFitas]);
     
     if(i < quantidade-MAXINTERNO){
 
-      fread(&alunoTmp.campoAluno, sizeof(aluno), 1, arquivo);
-      //printf("ENTRANDO: %.2lf\n", alunoTmp.campoAluno.nota);
+      fread(&alunoTmp, sizeof(aluno), 1, arquivo);
 
-      if(alunoTmp.campoAluno.nota < alunos[0].campoAluno.nota){
-        alunoTmp.marcado = 1;
+      if(alunoTmp.nota < alunos[0].nota){
         alunos[0] = alunoTmp;
         countMarcados++;
 
@@ -47,45 +43,37 @@ int driverSelecSub(int quantidade, int situacao){
         alunos[MAXINTERNO-countMarcados] = tmpTroca;
       }
       else{
-        alunoTmp.marcado = 0;  
         alunos[0] = alunoTmp;
       } 
       
       if(countMarcados == MAXINTERNO && countFitas != MAXFITAS/2-1){
-        alunoTmp.campoAluno.nota = -1;
-        fwrite(&alunoTmp.campoAluno, sizeof(aluno), 1, vetorFitas[countFitas]);
+        alunoTmp.nota = -1;
+        fwrite(&alunoTmp, sizeof(aluno), 1, vetorFitas[countFitas]);
 
         countFitas++;
         countFitasUsadas++;
         countMarcados = 0;
-        for (int i = 0; i < MAXINTERNO; i++)
-          alunos[i].marcado = 0; 
       }
       else if(countMarcados == MAXINTERNO && countFitas == MAXFITAS/2-1){
-        alunoTmp.campoAluno.nota = -1;
-        fwrite(&alunoTmp.campoAluno, sizeof(aluno), 1, vetorFitas[countFitas]);
+        alunoTmp.nota = -1;
+        fwrite(&alunoTmp, sizeof(aluno), 1, vetorFitas[countFitas]);
         
         countFitas = 0;
         countMarcados = 0;
-        for (int i = 0; i < MAXINTERNO; i++)
-          alunos[i].marcado = 0; 
       }
 
       heapSort(alunos, MAXINTERNO-countMarcados);
-      //printArray(alunos, MAXINTERNO);
           
     }
     else{
-      //printf("ULTIMOS 20\n");
 
       tmpTroca = alunos[0];
       alunos[0] = alunos[MAXINTERNO-1];
       alunos[MAXINTERNO-1] = tmpTroca;
 
       heapSort(alunos, MAXINTERNO-1);
-      //printArray(alunos, MAXINTERNO);
 
-      alunoTmp.campoAluno.nota = -1;
+      alunoTmp.nota = -1;
       fwrite(&alunoTmp, sizeof(aluno), 1, vetorFitas[countFitas]);
 
       if(countFitas != MAXFITAS/2-1){
@@ -97,11 +85,10 @@ int driverSelecSub(int quantidade, int situacao){
       }
 
       for (int j = 0; j < MAXINTERNO-1; j++){
-        alunos[j].marcado = 0;            
         fwrite(&alunos[j], sizeof(aluno), 1, vetorFitas[countFitas]);
       }    
 
-      alunoTmp.campoAluno.nota = -1;
+      alunoTmp.nota = -1;
       fwrite(&alunoTmp, sizeof(aluno), 1, vetorFitas[countFitas]);
 
       break;
@@ -113,9 +100,8 @@ int driverSelecSub(int quantidade, int situacao){
   }
 
   fclose(arquivo);
-  //printFitas();
-
-  verificaSaida();
+  //verificaSaida();
+  printFitas();
   
   return 1;
 }
@@ -132,62 +118,56 @@ void verificaSaida(){
   char nomeArquivo[50] = "";
   size_t idx = 0;
   aluno tmp;
-
   for (size_t i = 0; i < MAXFITAS; i++) {
-      sprintf (nomeArquivo, "data/fitas/fita%zu.dat", i);
-      fitas[idx] = fopen (nomeArquivo, "rb");
-      if (!fitas[idx]){ 
-          printf("Erro ao Abrir arquivo Fita: %s\n", nomeArquivo);
-          continue;
-      }
-      idx++;
+    sprintf (nomeArquivo, "data/fitas/fita%zu.dat", i);
+    fitas[idx] = fopen (nomeArquivo, "rb");
+    if (!fitas[idx]){ 
+      printf("Erro ao Abrir arquivo Fita: %s\n", nomeArquivo);
+      continue;
+    }
+    idx++;
   }
 
   int k = 0;
   for (int i = 0; i < 40; i++){
-      while (fread(&tmp, sizeof(aluno), 1, fitas[i]) == 1){
-        if(tmp.nota != -1){
-          vetorAlunosFitas[k] = tmp;
-          k++;
-        }
+    while (fread(&tmp, sizeof(aluno), 1, fitas[i]) == 1){
+      if(tmp.nota != -1){
+        vetorAlunosFitas[k] = tmp;
+        k++;
       }
+    }
   }
 
 
   for (int i = 0; i < QUANTIDADE; i++){
-      fread(&tmp, sizeof(aluno), 1, arquivo);
-      vetorAlunosArquivo[i] = tmp;
+    fread(&tmp, sizeof(aluno), 1, arquivo);
+    vetorAlunosArquivo[i] = tmp;
   }
 
   int i, j, min_idx;
-  // One by one move boundary of unsorted subarray
   for (i = 0; i < QUANTIDADE-1; i++){
-      // Find the minimum element in unsorted array
-      min_idx = i;
-      for (j = i+1; j < QUANTIDADE; j++)
-        if (vetorAlunosArquivo[j].nota < vetorAlunosArquivo[min_idx].nota)
-          min_idx = j;
+    min_idx = i;
+    for (j = i+1; j < QUANTIDADE; j++)
+      if (vetorAlunosArquivo[j].nota < vetorAlunosArquivo[min_idx].nota)
+        min_idx = j;
 
-      // Swap the found minimum element with the first element
-          if(min_idx != i){
-          aluno temp = vetorAlunosArquivo[min_idx];
-          vetorAlunosArquivo[min_idx] = vetorAlunosArquivo[i];
-          vetorAlunosArquivo[i] = temp;
-          }
+    if(min_idx != i){
+      aluno temp = vetorAlunosArquivo[min_idx];
+      vetorAlunosArquivo[min_idx] = vetorAlunosArquivo[i];
+      vetorAlunosArquivo[i] = temp;
+    }
   }
   for (i = 0; i < QUANTIDADE-1; i++){
-      // Find the minimum element in unsorted array
-      min_idx = i;
-      for (j = i+1; j < QUANTIDADE; j++)
-        if (vetorAlunosFitas[j].nota < vetorAlunosFitas[min_idx].nota)
-          min_idx = j;
+    min_idx = i;
+    for (j = i+1; j < QUANTIDADE; j++)
+      if (vetorAlunosFitas[j].nota < vetorAlunosFitas[min_idx].nota)
+        min_idx = j;
 
-      // Swap the found minimum element with the first element
-          if(min_idx != i){
-          aluno temp = vetorAlunosFitas[min_idx];
-          vetorAlunosFitas[min_idx] = vetorAlunosFitas[i];
-          vetorAlunosFitas[i] = temp;
-          }
+    if(min_idx != i){
+      aluno temp = vetorAlunosFitas[min_idx];
+      vetorAlunosFitas[min_idx] = vetorAlunosFitas[i];
+      vetorAlunosFitas[i] = temp;
+    }
   }
 
   for (int i = 0; i < QUANTIDADE; i++){

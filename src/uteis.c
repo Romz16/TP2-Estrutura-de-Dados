@@ -53,20 +53,17 @@ void criaArquivo(){
     //Ordena crescente
     //Escreve no arquivo arquivoCrescente.txt
     int i, j, min_idx;
-    // One by one move boundary of unsorted subarray
     for (i = 0; i < 200-1; i++){
-        // Find the minimum element in unsorted array
         min_idx = i;
         for (j = i+1; j < 200; j++)
           if (alunos[j].nota < alunos[min_idx].nota)
             min_idx = j;
  
-        // Swap the found minimum element with the first element
-           if(min_idx != i){
+        if(min_idx != i){
             aluno temp = alunos[min_idx];
             alunos[min_idx] = alunos[i];
             alunos[i] = temp;
-           }
+        }
     }
     FILE *arquivoBinCrescente = fopen("data/arquivosBin/Crescente.dat", "wb");
     fwrite(alunos, sizeof(aluno)*200, 1, arquivoBinCrescente);

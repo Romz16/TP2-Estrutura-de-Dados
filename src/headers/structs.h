@@ -15,11 +15,6 @@ typedef struct{
     char curso[31];
 }aluno;
 
-typedef struct{
-    aluno campoAluno;
-    int marcado;
-}selecSub;
-
 typedef struct TipoBloco{	
 	aluno v[10];
 	int n;

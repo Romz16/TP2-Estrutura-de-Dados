@@ -9,7 +9,7 @@ int main(int argc, char const *argv[]) {
     //criaArquivo();
     //printRegistros(1, 200);
     driverSelecSub(100, 3);
-    return 1;
+    return 0;
 
     printf("\n===== TP1 - Estrutura de Dados II =====\n\n");
 
