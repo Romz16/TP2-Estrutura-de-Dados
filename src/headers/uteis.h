@@ -20,5 +20,6 @@ void criaArquivo();
 int abrirFitas(FILE **fp);
 FILE *abrirArquivo(int situacao);
 void printFitas();
+void printRegistros(int situacao, int quantidade);
 
 #endif 

@@ -2,7 +2,7 @@
 
 #include <stdlib.h>
 
-int driverSelecSub(int metodo, int quantidade, int situacao){
+int driverSelecSub(int quantidade, int situacao){
   FILE *vetorFitas[MAXFITAS/2] = {NULL};
   if(abrirFitas(vetorFitas) != MAXFITAS)  
     return 0;
@@ -32,7 +32,7 @@ int driverSelecSub(int metodo, int quantidade, int situacao){
     if(i < quantidade-MAXINTERNO){
 
       fread(&alunoTmp.campoAluno, sizeof(aluno), 1, arquivo);
-      printf("ENTRANDO: %.2lf\n", alunoTmp.campoAluno.nota);
+      //printf("ENTRANDO: %.2lf\n", alunoTmp.campoAluno.nota);
 
       if(alunoTmp.campoAluno.nota < alunos[0].campoAluno.nota){
         alunoTmp.marcado = 1;
@@ -73,7 +73,7 @@ int driverSelecSub(int metodo, int quantidade, int situacao){
           
     }
     else{
-      printf("ULTIMOS 20\n");
+      //printf("ULTIMOS 20\n");
 
       tmpTroca = alunos[0];
       alunos[0] = alunos[MAXINTERNO-1];
@@ -109,7 +109,8 @@ int driverSelecSub(int metodo, int quantidade, int situacao){
     fclose(vetorFitas[i]);
   }
 
-  //printFitas();
+  fclose(arquivo);
+  printFitas();
   
   return 1;
 }

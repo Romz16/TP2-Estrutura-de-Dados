@@ -129,6 +129,17 @@ FILE *abrirArquivo(int situacao){
     return arquivo;
 }
 
+void printRegistros(int situacao, int quantidade){
+    FILE *arquivo = abrirArquivo(situacao);
+    aluno alunoTmp;
+
+    for (int i = 0; i < quantidade; i++){
+        fread(&alunoTmp, sizeof(aluno), 1, arquivo);
+        printf("%li\t%lf\t%s\t%s\t%s\n", alunoTmp.nInscricao, alunoTmp.nota, alunoTmp.estado, alunoTmp.cidade, alunoTmp.curso);
+    }
+    fclose(arquivo);
+}
+
 //Geradore Romulo
 int geradados(){
     int sit = 3;
