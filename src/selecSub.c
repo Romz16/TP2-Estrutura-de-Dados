@@ -95,13 +95,13 @@ int driverSelecSub(int quantidade, int situacao){
     }
   }   
   
-  for (int i = 0; i <= countFitasUsadas; i++){
+  for (int i = 0; i <= countFitasUsadas && i < MAXFITAS/2; i++){
     fclose(vetorFitas[i]);
   }
 
   fclose(arquivo);
-  verificaSaida();
-  //printFitas();
+  //verificaSaida();
+  printFitas();
   
   return 1;
 }
