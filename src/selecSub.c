@@ -100,8 +100,8 @@ int driverSelecSub(int quantidade, int situacao){
   }
 
   fclose(arquivo);
-  //verificaSaida();
-  printFitas();
+  verificaSaida();
+  //printFitas();
   
   return 1;
 }
