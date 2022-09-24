@@ -191,6 +191,8 @@ void verificaSaida(){
   }
 
   for (int i = 0; i < QUANTIDADE; i++){
+    if(vetorAlunosArquivo[i].nota != vetorAlunosFitas[i].nota)
+      printf("ERRO = ");
     printf("%.2lf / %.2lf\n", vetorAlunosArquivo[i].nota, vetorAlunosFitas[i].nota);
   }
   
