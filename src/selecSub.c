@@ -7,7 +7,6 @@ int driverSelecSub(int metodo, int quantidade, int situacao){
   if(abrirFitas(vetorFitas) != MAXFITAS)  
     return 0;
 
-
   FILE *arquivo = abrirArquivo(situacao);
 
   selecSub alunos[MAXINTERNO];
@@ -25,13 +24,11 @@ int driverSelecSub(int metodo, int quantidade, int situacao){
   }    
 
   heapSort(alunos, MAXINTERNO-countMarcados);
-  printArray(alunos, MAXINTERNO-countMarcados);
+  //printArray(alunos, MAXINTERNO-countMarcados);
 
-  //escreve o item na fita atual
   for (int i = 0; i < quantidade; i++){
     fwrite(&alunos[0], sizeof(aluno), 1, vetorFitas[countFitas]);
     
-    //nao esta nos ultimos 20
     if(i < quantidade-MAXINTERNO){
 
       fread(&alunoTmp.campoAluno, sizeof(aluno), 1, arquivo);
@@ -72,11 +69,9 @@ int driverSelecSub(int metodo, int quantidade, int situacao){
       }
 
       heapSort(alunos, MAXINTERNO-countMarcados);
-      printArray(alunos, MAXINTERNO);
+      //printArray(alunos, MAXINTERNO);
           
     }
-    //esta nos últimos 20
-    //Escreve a raiz e deleta o raiz e refaz o heep 
     else{
       printf("ULTIMOS 20\n");
 
@@ -85,7 +80,7 @@ int driverSelecSub(int metodo, int quantidade, int situacao){
       alunos[MAXINTERNO-1] = tmpTroca;
 
       heapSort(alunos, MAXINTERNO-1);
-      printArray(alunos, MAXINTERNO);
+      //printArray(alunos, MAXINTERNO);
 
       alunoTmp.campoAluno.nota = -1;
       fwrite(&alunoTmp, sizeof(aluno), 1, vetorFitas[countFitas]);
@@ -114,7 +109,7 @@ int driverSelecSub(int metodo, int quantidade, int situacao){
     fclose(vetorFitas[i]);
   }
 
-  printFitas();
+  //printFitas();
   
   return 1;
 }
