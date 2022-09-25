@@ -27,4 +27,6 @@ void imprimeContadores(Contadores);
 //Usado no quicksort externo quando o tamanho de uma subarquivo é inferior a quantidqade mínima disponível de memória interna.
 void selectionSortExterno(int,int,FILE**,FILE**,Contadores*);
 
+void resetFitas();
+
 #endif 

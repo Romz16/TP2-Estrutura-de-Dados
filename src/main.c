@@ -2,8 +2,13 @@
 /* 
 gdb ./ordenacaoDebug.exe
  */
+
+//Forma de resetar as fitas a cada execução 
+
 int main(int argc, char const *argv[]) {
 
+    resetFitas();
+    
     driverSelecSub(100, 3);
     intercalaSelecSub(3, 100);
     return 0;

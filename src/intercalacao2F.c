@@ -22,7 +22,7 @@ void intercalaSelecSub(int situacao, int quantidade){
 
     //Primeiro Bloco com os primerios elementros de cada fita 
     for (int i = 0; i < MAXFITAS/2; i++){
-        if(fread(&blocos[i].campoAluno, sizeof(Aluno), 1, vetorFitas[i]) == 1 && blocos[i].campoAluno.nota != -1){
+        if(fread(&blocos[i].campoAluno, sizeof(Aluno), 1, vetorFitas[i]) == 1){
             blocos[i].fimFita = 0;
             blocos[i].fitaOrigem = i; 
 
@@ -40,8 +40,7 @@ void intercalaSelecSub(int situacao, int quantidade){
     }
 
 
-    for (int i = 0; i < quantidade; i++){
-    
+    for (int k = 0; k < quantidade; k++){
         //Ordenacao do vetor 
         int i, j, min_idx;
         for (i = 0; i < MAXFITAS/2-1; i++){
@@ -57,51 +56,38 @@ void intercalaSelecSub(int situacao, int quantidade){
             }
         }
 
-        //Print vetor
-        for (int i = 0; i < MAXFITAS/2; i++){
-            printf("%lf\n", blocos[i].campoAluno.nota);
-        }
-        
         //Escreve na fita de saida
-        fwrite(&blocos[0].campoAluno, sizeof(Aluno), 1, vetorFitas[fitaEscritaAtual]);
+        if(blocos[0].campoAluno.nota != -1)
+            fwrite(&blocos[0].campoAluno, sizeof(Aluno), 1, vetorFitas[fitaEscritaAtual]);
+        else{
+            k--;
+        }
 
-        //Le o proximo item 
+
         int fitaOrigimTmp = blocos[0].fitaOrigem;
-        if(fread(&blocos[0].campoAluno, sizeof(Aluno), 1, vetorFitas[fitaOrigimTmp]) == 1 && blocos[i].campoAluno.nota != -1){
-            blocos[i].fimFita = 0;
+        if(fread(&blocos[0].campoAluno, sizeof(Aluno), 1, vetorFitas[fitaOrigimTmp]) == 1){
+            blocos[0].fimFita = 0;
 
-            if(blocos[i].campoAluno.nota != -1)
-                blocos[i].fimBloco = 0;
-            else{            
-                blocos[i].fimBloco = 1;
-                blocos[i].campoAluno.nota = INT_MAX;
+            if(blocos[0].campoAluno.nota != -1)
+                blocos[0].fimBloco = 0;
+            else if(blocos[0].campoAluno.nota == 1){            
+                blocos[0].fimBloco = 1;
+                blocos[0].campoAluno.nota = INT_MAX;
             }
         }
         else{
-            blocos[i].fimFita = 1;
-            blocos[i].campoAluno.nota = INT_MAX;
+            blocos[0].fimFita = 1;
+            blocos[0].campoAluno.nota = INT_MAX;
         }
+     
+        // printf("----------\n");
+        // for (int t = 0; t < MAXFITAS/2; t++){
+        //     printf("%lf\n", blocos[t].campoAluno.nota);
+        // }
+        // printf("----------\n");
 
-        //Verifica se chegou ao fim de todas as fitas
-        //Significa que deve-se alternar o set de fitas (entrada vira sadia e saida vira entrada)
-        int fimFitas = 0;
-        for (int i = 0; i < MAXFITAS/2; i++){
-            if(blocos[i].fimFita == 0){
-                fimFitas = 1;
-            }
-        }
-        if(fimFitas == 0)
-            break;
-
-        int avancarFita = 0;
-        for (int i = 0; i < MAXFITAS/2; i++){
-            if(blocos[i].fimBloco == 0){
-                avancarFita = 1;
-            }
-        }
-        if(avancarFita == 0){
-
-        }
+        //Se leu -1 = Não pode mais ler dessa fita nessa intercalação
+        //Se ler -1 em todas as fitas = Uma intercalação completa 
         
     }
         
