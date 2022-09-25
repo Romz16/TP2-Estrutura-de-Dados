@@ -130,7 +130,7 @@ int abrirFitas(FILE **fp){
 
     for (size_t i = 0; i < MAXFITAS; i++) {
         sprintf (nomeArquivo, "data/fitas/fita%zu.dat", i);
-        fp[idx] = fopen (nomeArquivo, "wb");
+        fp[idx] = fopen (nomeArquivo, "r+b");
         if (!fp[idx]){ 
             printf("Erro ao Abrir arquivo Fita: %s\n", nomeArquivo);
             continue;
@@ -149,7 +149,7 @@ void printFitas(){
 
     for (size_t i = 0; i < MAXFITAS; i++) {
         sprintf (nomeArquivo, "data/fitas/fita%zu.dat", i);
-        fitas[idx] = fopen (nomeArquivo, "rb");
+        fitas[idx] = fopen (nomeArquivo, "r+b");
         if (!fitas[idx]){ 
             printf("Erro ao Abrir arquivo Fita: %s\n", nomeArquivo);
             continue;
@@ -175,11 +175,19 @@ FILE *abrirArquivo(int situacao){
     char nomeArquivo[50] = "data/arquivosBin/";
 
     if(situacao == 1)
-        strcat(nomeArquivo, "Aleatorio.dat");
-    else if(situacao == 2)
         strcat(nomeArquivo, "Ascendente.dat");
-    else if(situacao == 3)
+    else if(situacao == 2)
         strcat(nomeArquivo, "Descendente.dat");
+    else if(situacao == 3)
+        strcat(nomeArquivo, "Aleatorio.dat");
+    else if(situacao == 4){
+        arquivo = fopen("data/resultado.txt", "w");
+        if(arquivo == NULL){
+           printf("Falha ao abrir arquivos %s\n", nomeArquivo);
+            return NULL;
+        }
+        return arquivo;
+    }
 
     arquivo = fopen(nomeArquivo, "rb");
     if(arquivo == NULL){

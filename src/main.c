@@ -4,6 +4,10 @@ gdb ./ordenacaoDebug.exe
  */
 int main(int argc, char const *argv[]) {
 
+    driverSelecSub(100, 3);
+    intercalaSelecSub(3, 100);
+    return 0;
+
 
     printf("\n===== TP1 - Estrutura de Dados II =====\n\n");
 
