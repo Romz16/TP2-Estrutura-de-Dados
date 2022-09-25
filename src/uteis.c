@@ -102,7 +102,7 @@ void selectionSortExterno(int left,int tam,FILE**leitura,FILE**escrita,Contadore
     fseek(*leitura,(left*sizeof(Aluno)),SEEK_SET);
     fseek(*escrita,(left*sizeof(Aluno)),SEEK_SET);
 
-    Aluno *vetor = malloc(tam*sizeof(Aluno));
+    Aluno *vetor = (Aluno*) malloc(tam*sizeof(Aluno));
     
     fread(vetor,sizeof(Aluno),tam,*leitura);
 
