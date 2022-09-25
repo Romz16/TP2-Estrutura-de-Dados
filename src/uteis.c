@@ -6,9 +6,9 @@
 
 
 short verificaArquivosBinarios(){
-    FILE *ascendente = fopen("data/Ascendente.dat","rb");
-    FILE *descendente = fopen("data/Descendente.dat","rb");
-    FILE *aleatorio = fopen("data/Aleatorio.dat","rb");
+    FILE *ascendente = fopen("data/arquivosBin/Ascendente.dat","rb");
+    FILE *descendente = fopen("data/arquivosBin/Descendente.dat","rb");
+    FILE *aleatorio = fopen("data/arquivosBin/Aleatorio.dat","rb");
 
     if(ascendente==NULL || descendente==NULL || aleatorio==NULL){
         fclose(ascendente); fclose(descendente); fclose(aleatorio);
@@ -30,9 +30,9 @@ void gerarArquivosBinarios(){
         return;
     }
     
-    FILE *ascendente = fopen("data/Ascendente.dat","w+b");
-    FILE *descendente = fopen("data/Descendente.dat","w+b");
-    FILE *aleatorio = fopen("data/Aleatorio.dat","w+b");
+    FILE *ascendente = fopen("data/arquivosBin/Ascendente.dat","w+b");
+    FILE *descendente = fopen("data/arquivosBin/Descendente.dat","w+b");
+    FILE *aleatorio = fopen("data/arquivosBin/Aleatorio.dat","w+b");
 
     Aluno aluno;
 
@@ -67,9 +67,9 @@ void gerarArquivosBinarios(){
     printf("Gerando arquivo ascendente...\n");
           
     //Ordenando o arquivo ascendente. 
-    FILE *ArqLi = fopen("data/Ascendente.dat","r+b");
-    FILE *ArqEi = fopen("data/Ascendente.dat","r+b");
-    FILE *ArqLEs = fopen("data/Ascendente.dat","r+b");
+    FILE *ArqLi = fopen("data/arquivosBin/Ascendente.dat","r+b");
+    FILE *ArqEi = fopen("data/arquivosBin/Ascendente.dat","r+b");
+    FILE *ArqLEs = fopen("data/arquivosBin/Ascendente.dat","r+b");
     if(ArqLi==NULL || ArqEi==NULL || ArqLEs==NULL){
         printf("Falha ao abrir arquivos!");
         return;
@@ -175,15 +175,15 @@ FILE *abrirArquivo(int situacao){
     char nomeArquivo[50] = "data/arquivosBin/";
 
     if(situacao == 1)
-        strcat(nomeArquivo, "Crescente.dat");
+        strcat(nomeArquivo, "Aleatorio.dat");
     else if(situacao == 2)
-        strcat(nomeArquivo, "Decrescente.dat");
+        strcat(nomeArquivo, "Ascendente.dat");
     else if(situacao == 3)
-        strcat(nomeArquivo, "Desordenado.dat");
+        strcat(nomeArquivo, "Descendente.dat");
 
     arquivo = fopen(nomeArquivo, "rb");
     if(arquivo == NULL){
-        printf("Erro Ao Abrir Arquivo %s\n", nomeArquivo);
+        printf("Falha ao abrir arquivos %s\n", nomeArquivo);
         return NULL;
     }
 

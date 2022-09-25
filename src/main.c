@@ -3,6 +3,10 @@
 
 int main(int argc, char const *argv[]) {
 
+    gerarArquivosBinarios();
+    return 1;
+    driverSelecSub(100, 3);
+
     printf("\n===== TP1 - Estrutura de Dados II =====\n\n");
 
     int metodo = -1;      
