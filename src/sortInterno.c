@@ -3,7 +3,7 @@
 void quick_sort_int (TipoBloco *a, int n) {
     int i, j,temp;
     double p;
-    aluno t ;
+    Aluno t ;
     if (n < 2)
         return;
     p = a->v[n / 2].nota;

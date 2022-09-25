@@ -6,9 +6,9 @@
 #include <time.h>
 #include "structs.h"
 
-void swap(aluno* a, aluno* b);
-void heapify(aluno arr[], int N, int i);
-void heapSort(aluno arr[], int N);
-void printArray(aluno arr[], int N);
+void swap(Aluno* a, Aluno* b);
+void heapify(Aluno arr[], int N, int i);
+void heapSort(Aluno arr[], int N);
+void printArray(Aluno arr[], int N);
 
 #endif 
