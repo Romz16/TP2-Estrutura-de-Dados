@@ -5,6 +5,8 @@
 #include <stdio.h>
 #include <time.h>
 #include "structs.h"
+#include "sortInterno.h"
+
 
 typedef struct TipoBloco2{	
 	Aluno campoAluno;
@@ -14,7 +16,7 @@ typedef struct TipoBloco2{
 }TipoBloco2;
 
 void ordenar_blocos(FILE*,FILE**,int);
-void Insertion(TipoBloco*,int);
+
 void intercalar_blocos(FILE**,int);
 void intercalaSelecSub(int situacao, int quantidade);
 
