@@ -1,13 +1,13 @@
 #include <stdio.h>
 #include "headers/uteis.h"
 
-void swap(aluno* a, aluno* b){
-    aluno temp = *a;
+void swap(Aluno* a, Aluno* b){
+    Aluno temp = *a;
     *a = *b;
     *b = temp;
 }
  
-void heapify(aluno arr[], int N, int i){
+void heapify(Aluno arr[], int N, int i){
     int maior = i;
     int left = 2 * i + 1;
     int right = 2 * i + 2;
@@ -26,7 +26,7 @@ void heapify(aluno arr[], int N, int i){
     }
 }
  
-void heapSort(aluno arr[], int N){
+void heapSort(Aluno arr[], int N){
  
     for (int i = N / 2 - 1; i >= 0; i--)
         heapify(arr, N, i);
@@ -37,7 +37,7 @@ void heapSort(aluno arr[], int N){
     }
 }
  
-void printArray(aluno arr[], int N){
+void printArray(Aluno arr[], int N){
     printf("HEAP\n");
     for (int i = 0; i < N; i++)
         printf("%.2lf\n", arr[i].nota);
