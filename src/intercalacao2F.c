@@ -58,12 +58,13 @@ void intercalaSelecSub(int situacao, int quantidade){
     int contadorParada=0;
     while (1){    
         contadorParada++;
-        if(contadorParada == 1000)
+        if(contadorParada == 2001)
             break;
 
         //Entrar aqui apenas quando 
         if(blocos[0].fimBloco == 1){
-
+            // printf("0--------------%i\n", contadorParada);
+            
             //Verifica se chegou no fim das fitas de leitura atual
             int intercaladoSet = 1;
             for (int i = 0; i < MAXFITAS/2; i++){
@@ -87,31 +88,77 @@ void intercalaSelecSub(int situacao, int quantidade){
             }
             //Se chegou no fim das fitas de leitura atual = intercalação dessas fitas esta completa
             if(intercaladoSet == 1){
+                // printf("1--------------%i\n", contadorParada);
                 //reseta as fitas que estavam sendo lidas 
+
                 tmp.campoAluno.nota = -1;
                 fwrite(&tmp.campoAluno, sizeof(Aluno), 1, vetorFitas[fitaEscritaAtual]);
                 
                 //Reseta arquivos fitaEscritaAtual pro comeco dos arquivos
                 int fitaComeco = -1;
                 if(fitaEscritaAtual > MAXFITAS/2 - 1){
+                    // printf("2--------------%i\n", contadorParada);
                     fitaComeco = MAXFITAS/2;
                     fitaEscritaAtual = 0;
+                    
+                    int contadorDeletar = fitaEscritaAtual; 
+                    for (int i = 0; i < MAXFITAS/2 && contadorDeletar < MAXFITAS; i++, contadorDeletar++){
+                        fclose(vetorFitas[contadorDeletar]);
+                    }
+
+                    resetFitas(1);
+
+                    char nomeArquivo[50] = "";
+                    size_t idx = fitaEscritaAtual;
+
+                    for (size_t i = 0; i < MAXFITAS/2 && idx < MAXFITAS; i++) {
+                        sprintf (nomeArquivo, "data/fitas/fita%zu.dat", i);
+                        vetorFitas[idx] = fopen (nomeArquivo, "r+b");
+                        if (!vetorFitas[idx]){ 
+                            printf("Erro ao Abrir arquivo Fita: %s\n", nomeArquivo);
+                            continue;
+                        }
+                        idx++;
+                    }
                 }
                 else{ 
+                    // printf("3--------------%i\n", contadorParada);
                     fitaComeco = 0;
                     fitaEscritaAtual = MAXFITAS/2;
+                    
+                    int contadorDeletar = fitaEscritaAtual; 
+                    for (int i = 0; i < MAXFITAS/2 && contadorDeletar < MAXFITAS; i++, contadorDeletar++){
+                        fclose(vetorFitas[contadorDeletar]);
+                    }
+
+                    resetFitas(2);
+
+                    char nomeArquivo[50] = "";
+                    size_t idx = fitaEscritaAtual;
+
+                    for (size_t i = 0; i < MAXFITAS/2 && idx < MAXFITAS; i++) {
+                        sprintf (nomeArquivo, "data/fitas/fita%zu.dat", i);
+                        vetorFitas[idx] = fopen (nomeArquivo, "r+b");
+                        if (!vetorFitas[idx]){ 
+                            printf("Erro ao Abrir arquivo Fita: %s\n", nomeArquivo);
+                            continue;
+                        }
+                        idx++;
+                    }
                 }
                 
                 for (int i = 0; i < MAXFITAS/2; i++, fitaComeco++)
                     rewind(vetorFitas[fitaComeco]);
-                                
+                
+                
+                
                 //Verificar se tem apenas um bloco nas fitas de fitaEscritaAtual = Acabou o processo
                 fitaComeco = fitaComeco - MAXFITAS/2;
                 int acabou = 0;
                 for (int i = 0; i < MAXFITAS/2; i++, fitaComeco++){
                     if(fread(&blocos[i].campoAluno, sizeof(Aluno), 1, vetorFitas[fitaComeco]) == 1){
                         blocos[i].fimFita = 0;
-                        blocos[i].fitaOrigem = i; 
+                        blocos[i].fitaOrigem = fitaComeco; 
 
                         if(blocos[i].campoAluno.nota != -1)
                             blocos[i].fimBloco = 0;
@@ -129,6 +176,15 @@ void intercalaSelecSub(int situacao, int quantidade){
                 }
                 if(acabou == 1)
                     break;
+
+                // if(contadorParada == 1001){
+                //     printf("4--------------%i\n", contadorParada);
+                //     printf("-%i-\n", fitaEscritaAtual);
+                //     for (int i = 0; i < MAXFITAS/2; i++){
+                //         printf("%lf\n", blocos[i].campoAluno.nota);
+                //     }
+                //     printf("4--------------%i\n", contadorParada);
+                // }
 
                 //Se tiver mais de um bloco nas fitas de fitaEscritaAtual
                 //fitas fitaEscritaAtual se torna as fitas opostas
@@ -161,6 +217,14 @@ void intercalaSelecSub(int situacao, int quantidade){
         //Escreve na fita de saida
         if(blocos[0].fimBloco != 1)
             fwrite(&blocos[0].campoAluno, sizeof(Aluno), 1, vetorFitas[fitaEscritaAtual]);
+
+        // if(contadorParada >= 1001){
+        //     printf("Inicio--------------%i\n", contadorParada);
+        //     for (int i = 0; i < MAXFITAS/2; i++){
+        //         printf("%.2lf\n", blocos[i].campoAluno.nota);
+        //     }
+        //     printf("Fim--------------%i\n", contadorParada);
+        // }
         
 
         int fitaOrigimTmp = blocos[0].fitaOrigem;
