@@ -2,15 +2,14 @@
 
 int main(int argc, char const *argv[]) {
 
-    //gerarArquivosBinarios();
-    //printRegistros(1, MAX_TAM);
-    //return 0;
-
-    resetFitas(0);
-    driverSelecSub(1000, 3);
-    intercalaSelecSub(3, 1000);
-
+    gerarArquivosBinarios();
+    printRegistros(1, MAX_TAM);
     return 0;
+
+    //resetFitas(0);
+    //driverSelecSub(1000, 3);
+    //intercalaSelecSub(3, 1000);
+    //return 0;
 
     printf("\n===== TP1 - Estrutura de Dados II =====\n\n");
 
