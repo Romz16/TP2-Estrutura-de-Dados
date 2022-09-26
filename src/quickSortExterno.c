@@ -265,4 +265,28 @@ void escreveMax(FILE**ArqLEs,Aluno escrita,int *Es){
     (*Es)--;
 }
 
+void selectionSortExterno(int left,int tam,FILE**leitura,FILE**escrita,Contadores *conts){
+    fseek(*leitura,(left*sizeof(Aluno)),SEEK_SET);
+    fseek(*escrita,(left*sizeof(Aluno)),SEEK_SET);
 
+    Aluno *vetor = (Aluno*) malloc(tam*sizeof(Aluno));
+    
+    fread(vetor,sizeof(Aluno),tam,*leitura);
+
+    Aluno aux;
+    for(int i=0;i<tam;i++){
+        int maior = i;
+        for(int j=i+1;j<tam;j++){
+            conts->comparacoes++;
+            if(vetor[j].nota>vetor[maior].nota)
+                maior = j;            
+        }
+        aux = vetor[i];
+        vetor[i] = vetor[maior];
+        vetor[maior] = aux;
+    }
+
+    fwrite(vetor,sizeof(Aluno),tam,*escrita);   
+
+    conts->transferencias = conts->transferencias + 2;
+}

@@ -33,6 +33,8 @@ void retiraMenorPivo(Pivo*,Aluno*);
 
 void retiraMaiorPivo(Pivo*,Aluno*);
 
-
+//Carrega um bloco da memoria externa menor que 20 ,ordena em memória interna com selection sort e escreve o bloco ordenado no subarquivo. 
+//Usado no quicksort externo quando o tamanho de uma subarquivo é inferior a quantidqade mínima disponível de memória interna.
+void selectionSortExterno(int,int,FILE**,FILE**,Contadores*);
 
 #endif 

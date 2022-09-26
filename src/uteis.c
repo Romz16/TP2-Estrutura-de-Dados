@@ -98,32 +98,6 @@ void imprimeContadores(Contadores conts){
     printf("Comparacoes: %li\nTransferencias: %li\nTempo Decorrido: %lf segundos\n",conts.comparacoes,conts.transferencias,conts.tempo);
 }
 
-void selectionSortExterno(int left,int tam,FILE**leitura,FILE**escrita,Contadores *conts){
-    fseek(*leitura,(left*sizeof(Aluno)),SEEK_SET);
-    fseek(*escrita,(left*sizeof(Aluno)),SEEK_SET);
-
-    Aluno *vetor = (Aluno*) malloc(tam*sizeof(Aluno));
-    
-    fread(vetor,sizeof(Aluno),tam,*leitura);
-
-    Aluno aux;
-    for(int i=0;i<tam;i++){
-        int maior = i;
-        for(int j=i+1;j<tam;j++){
-            conts->comparacoes++;
-            if(vetor[j].nota>vetor[maior].nota)
-                maior = j;            
-        }
-        aux = vetor[i];
-        vetor[i] = vetor[maior];
-        vetor[maior] = aux;
-    }
-
-    fwrite(vetor,sizeof(Aluno),tam,*escrita);   
-
-    conts->transferencias = conts->transferencias + 2;
-}
-
 int abrirFitas(FILE **fp){
     char nomeArquivo[50] = "";
     size_t idx = 0;
@@ -158,7 +132,10 @@ void printFitas(){
     }
 
     for (int i = 0; i < 40; i++){
-        printf("----------FITA: %i----------\n", i);
+        if(fread(&tmp, sizeof(Aluno), 1, fitas[i]) == 1){
+            printf("----------FITA: %i----------\n", i);
+            printf("%.2lf\n", tmp.nota);
+        }
         while (fread(&tmp, sizeof(Aluno), 1, fitas[i]) == 1){
             printf("%.2lf\n", tmp.nota);
         }

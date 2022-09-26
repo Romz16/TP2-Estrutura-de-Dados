@@ -13,20 +13,16 @@
 #include "intercalacao2F.h"
 #include "quickSortExterno.h"
 
+FILE *abrirArquivo(int situacao);
+void printRegistros(int situacao, int quantidade);
 
 int abrirFitas(FILE **fp);
-FILE *abrirArquivo(int situacao);
 void printFitas();
-void printRegistros(int situacao, int quantidade);
+void resetFitas();
 
 short verificaArquivosBinarios();
 void gerarArquivosBinarios();
 void imprimeContadores(Contadores);
 
-//Carrega um bloco da memoria externa menor que 20 ,ordena em memória interna com selection sort e escreve o bloco ordenado no subarquivo. 
-//Usado no quicksort externo quando o tamanho de uma subarquivo é inferior a quantidqade mínima disponível de memória interna.
-void selectionSortExterno(int,int,FILE**,FILE**,Contadores*);
-
-void resetFitas();
 
 #endif 

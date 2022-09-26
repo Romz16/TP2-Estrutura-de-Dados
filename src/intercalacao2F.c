@@ -16,9 +16,17 @@ void intercalaSelecSub(int situacao, int quantidade){
     //FILE *arquivo = abrirArquivo(4);
 
     TipoBloco2 blocos[AREA_MAX];
+    TipoBloco2 tmp;
 
-    //https://stackoverflow.com/questions/18941019/simplest-way-to-toggle-a-integer-variable-between-two-values
     int fitaEscritaAtual = 20;
+
+    // //Intercalou um set de blocos e tem mais blocos para serem intercalados nessa fita = ++ no contador de fitaEscritaAtual
+    // int fimUmaIntercalacao = 0;
+    // //Chegou no fim de todas as fitas = intercalou todos os blocos dessa fita, vai para onde estava escrevendo para intercalar esses blocos
+    // int fimIntercalacaoSetFitas = 0;
+    // //Intercalou tudo 
+    // int fimProcessoCompleto = 0;
+
 
     //Primeiro Bloco com os primerios elementros de cada fita 
     for (int i = 0; i < MAXFITAS/2; i++){
@@ -28,19 +36,91 @@ void intercalaSelecSub(int situacao, int quantidade){
 
             if(blocos[i].campoAluno.nota != -1)
                 blocos[i].fimBloco = 0;
-            else{            
+            else if(blocos[i].campoAluno.nota == -1){            
                 blocos[i].fimBloco = 1;
                 blocos[i].campoAluno.nota = INT_MAX;
             }
         }
         else{
             blocos[i].fimFita = 1;
+            blocos[i].fitaInativa = 1;
             blocos[i].campoAluno.nota = INT_MAX;
         }            
     }
 
 
-    for (int k = 0; k < quantidade; k++){
+    while (1){    
+
+        int intercaladoSet = 1;
+        if(blocos[0].fimBloco == 1){
+            for (int i = 0; i < MAXFITAS/2; i++){
+                if(fread(&blocos[i].campoAluno, sizeof(Aluno), 1, vetorFitas[i]) == 1){
+                    blocos[i].fimFita = 0;
+                    blocos[i].fitaOrigem = i; 
+
+                    if(blocos[i].campoAluno.nota != -1)
+                        blocos[i].fimBloco = 0;
+                    else if(blocos[i].campoAluno.nota == -1){            
+                        blocos[i].fimBloco = 1;
+                        blocos[i].campoAluno.nota = INT_MAX;
+                    }
+                    intercaladoSet = 0;
+                }
+                else{
+                    blocos[i].fimFita = 1;
+                    blocos[i].fitaInativa = 1;
+                    blocos[i].campoAluno.nota = INT_MAX;
+                }            
+            }
+            if(intercaladoSet == 1){
+                tmp.campoAluno.nota = -1;
+                fwrite(&tmp.campoAluno, sizeof(Aluno), 1, vetorFitas[fitaEscritaAtual]);
+                
+                //Reseta arquivos fitaEscritaAtual pro comeco dos arquivos
+                int fitaComeco = -1;
+                if(fitaEscritaAtual > MAXFITAS/2 - 1){
+                    fitaComeco = MAXFITAS/2;
+                    fitaEscritaAtual = 0;
+                }
+                else{ 
+                    fitaComeco = 0;
+                    fitaEscritaAtual = MAXFITAS/2;
+                }
+                
+                for (int i = 0; i < MAXFITAS/2; i++, fitaComeco++)
+                    rewind(vetorFitas[fitaComeco]);
+                
+                //Verificar se tem apenas um bloco nas fitas de fitaEscritaAtual = Acabou o processo
+                fitaComeco = fitaComeco - MAXFITAS/2;
+                int acabou = 0;
+                for (int i = 0; i < MAXFITAS/2; i++, fitaComeco++){
+                    if(fread(&blocos[i].campoAluno, sizeof(Aluno), 1, vetorFitas[fitaComeco]) == 1){
+                        blocos[i].fimFita = 0;
+                        blocos[i].fitaOrigem = i; 
+
+                        if(blocos[i].campoAluno.nota != -1)
+                            blocos[i].fimBloco = 0;
+                        else if(blocos[i].campoAluno.nota == -1){            
+                            blocos[i].fimBloco = 1;
+                            blocos[i].campoAluno.nota = INT_MAX;
+                        }
+                        acabou++;
+                    }
+                    else{
+                        blocos[i].fimFita = 1;
+                        blocos[i].fitaInativa = 1;
+                        blocos[i].campoAluno.nota = INT_MAX;
+                    }            
+                }
+                if(acabou == 1)
+                    break;
+
+                //Se tiver mais de um bloco nas fitas de fitaEscritaAtual
+                //fitas fitaEscritaAtual se torna as fitas opostas
+
+            }
+        }
+
         //Ordenacao do vetor 
         int i, j, min_idx;
         for (i = 0; i < MAXFITAS/2-1; i++){
@@ -55,14 +135,11 @@ void intercalaSelecSub(int situacao, int quantidade){
                 blocos[i] = temp;
             }
         }
-
+        
         //Escreve na fita de saida
-        if(blocos[0].campoAluno.nota != -1)
+        if(blocos[0].fimBloco != 1)
             fwrite(&blocos[0].campoAluno, sizeof(Aluno), 1, vetorFitas[fitaEscritaAtual]);
-        else{
-            k--;
-        }
-
+        
 
         int fitaOrigimTmp = blocos[0].fitaOrigem;
         if(fread(&blocos[0].campoAluno, sizeof(Aluno), 1, vetorFitas[fitaOrigimTmp]) == 1){
@@ -70,13 +147,14 @@ void intercalaSelecSub(int situacao, int quantidade){
 
             if(blocos[0].campoAluno.nota != -1)
                 blocos[0].fimBloco = 0;
-            else if(blocos[0].campoAluno.nota == 1){            
+            else if(blocos[0].campoAluno.nota == -1){            
                 blocos[0].fimBloco = 1;
                 blocos[0].campoAluno.nota = INT_MAX;
             }
         }
         else{
             blocos[0].fimFita = 1;
+            blocos[0].fimBloco = 1;
             blocos[0].campoAluno.nota = INT_MAX;
         }
      

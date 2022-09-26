@@ -11,6 +11,7 @@
 typedef struct TipoBloco2{	
 	Aluno campoAluno;
 	int fitaOrigem;
+	int fitaInativa;
 	int fimBloco;
 	int fimFita;
 }TipoBloco2;
