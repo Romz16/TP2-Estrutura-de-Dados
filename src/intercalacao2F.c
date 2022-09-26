@@ -55,11 +55,11 @@ void intercalaSelecSub(int situacao, int quantidade){
         }
     }
 
-    int contadorParada=0;
+    // int contadorParada=0;
     while (1){    
-        contadorParada++;
-        if(contadorParada == 2001)
-            break;
+        // contadorParada++;
+        // if(contadorParada == 2002)
+        //     break;
 
         //Entrar aqui apenas quando 
         if(blocos[0].fimBloco == 1){
@@ -177,7 +177,7 @@ void intercalaSelecSub(int situacao, int quantidade){
                 if(acabou == 1)
                     break;
 
-                // if(contadorParada == 1001){
+                // if(contadorParada == 2000){
                 //     printf("4--------------%i\n", contadorParada);
                 //     printf("-%i-\n", fitaEscritaAtual);
                 //     for (int i = 0; i < MAXFITAS/2; i++){
@@ -218,7 +218,7 @@ void intercalaSelecSub(int situacao, int quantidade){
         if(blocos[0].fimBloco != 1)
             fwrite(&blocos[0].campoAluno, sizeof(Aluno), 1, vetorFitas[fitaEscritaAtual]);
 
-        // if(contadorParada >= 1001){
+        // if(contadorParada == 2001){
         //     printf("Inicio--------------%i\n", contadorParada);
         //     for (int i = 0; i < MAXFITAS/2; i++){
         //         printf("%.2lf\n", blocos[i].campoAluno.nota);

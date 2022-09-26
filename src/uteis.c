@@ -188,6 +188,7 @@ void resetFitas(int modo){
             fclose(fitas[i]);
     }
     if(modo == 2){
+        idx = MAXFITAS/2;
         for (size_t i = MAXFITAS/2; i < MAXFITAS; i++) {
             sprintf (nomeArquivo, "data/fitas/fita%zu.dat", i);
             remove(nomeArquivo);

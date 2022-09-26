@@ -5,6 +5,9 @@ all: main.o uteis.o intercalacao2F.o selecSub.o sortInterno.o quickSortExterno.o
 debug: 
 	@g++ ./src/*.c -o ordenacaoDebug.exe -g
 
+runDebug:
+	@gdb ./ordenacaoDebug.exe
+
 main.o: ./src/main.c
 	@gcc -c ./src/main.c -o ./obj/main.o -Wall
 
