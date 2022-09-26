@@ -20,14 +20,6 @@ void intercalaSelecSub(int situacao, int quantidade){
 
     int fitaEscritaAtual = 20;
 
-    // //Intercalou um set de blocos e tem mais blocos para serem intercalados nessa fita = ++ no contador de fitaEscritaAtual
-    // int fimUmaIntercalacao = 0;
-    // //Chegou no fim de todas as fitas = intercalou todos os blocos dessa fita, vai para onde estava escrevendo para intercalar esses blocos
-    // int fimIntercalacaoSetFitas = 0;
-    // //Intercalou tudo 
-    // int fimProcessoCompleto = 0;
-
-
     //Primeiro Bloco com os primerios elementros de cada fita 
     for (int i = 0; i < MAXFITAS/2; i++){
         if(fread(&blocos[i].campoAluno, sizeof(Aluno), 1, vetorFitas[i]) == 1){
@@ -48,8 +40,26 @@ void intercalaSelecSub(int situacao, int quantidade){
         }            
     }
 
+    //Ordenacao do vetor 
+    int i, j, min_idx;
+    for (i = 0; i < MAXFITAS/2-1; i++){
+        min_idx = i;
+        for (j = i+1; j < MAXFITAS/2; j++)
+        if (blocos[j].campoAluno.nota < blocos[min_idx].campoAluno.nota)
+            min_idx = j;
 
+        if(min_idx != i){
+            TipoBloco2 temp = blocos[min_idx];
+            blocos[min_idx] = blocos[i];
+            blocos[i] = temp;
+        }
+    }
+
+    int contadorParada=0;
     while (1){    
+        contadorParada++;
+        if(contadorParada == 1000)
+            break;
 
         //Entrar aqui apenas quando 
         if(blocos[0].fimBloco == 1){
@@ -145,21 +155,6 @@ void intercalaSelecSub(int situacao, int quantidade){
                     else
                         fitaEscritaAtual++;
                 }
-            }
-        }
-
-        //Ordenacao do vetor 
-        int i, j, min_idx;
-        for (i = 0; i < MAXFITAS/2-1; i++){
-            min_idx = i;
-            for (j = i+1; j < MAXFITAS/2; j++)
-            if (blocos[j].campoAluno.nota < blocos[min_idx].campoAluno.nota)
-                min_idx = j;
-
-            if(min_idx != i){
-                TipoBloco2 temp = blocos[min_idx];
-                blocos[min_idx] = blocos[i];
-                blocos[i] = temp;
             }
         }
 

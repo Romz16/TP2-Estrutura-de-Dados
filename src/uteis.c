@@ -59,17 +59,17 @@ void gerarArquivosBinarios(){
         strcpy(aluno.curso,curso);
 
         fwrite(&aluno,sizeof(Aluno),1,aleatorio);
-        fwrite(&aluno,sizeof(Aluno),1,ascendente);  
+        fwrite(&aluno,sizeof(Aluno),1,descendente);  
     }
 
     fclose(aleatorio);
     
-    printf("Gerando arquivo ascendente...\n");
+    printf("Gerando arquivo Descendente...\n");
           
-    //Ordenando o arquivo ascendente. 
-    FILE *ArqLi = fopen("data/arquivosBin/Ascendente.dat","r+b");
-    FILE *ArqEi = fopen("data/arquivosBin/Ascendente.dat","r+b");
-    FILE *ArqLEs = fopen("data/arquivosBin/Ascendente.dat","r+b");
+    //Ordenando o arquivo Descendente. 
+    FILE *ArqLi = fopen("data/arquivosBin/Descendente.dat","r+b");
+    FILE *ArqEi = fopen("data/arquivosBin/Descendente.dat","r+b");
+    FILE *ArqLEs = fopen("data/arquivosBin/Descendente.dat","r+b");
     if(ArqLi==NULL || ArqEi==NULL || ArqLEs==NULL){
         printf("Falha ao abrir arquivos!");
         return;
@@ -77,14 +77,14 @@ void gerarArquivosBinarios(){
     QuickSortExterno(&ArqLi,&ArqEi,&ArqLEs,1,MAX_TAM,&contCriacao);
     fclose(ArqLi); fclose(ArqEi);fclose(ArqLEs);
 
-    printf("Gerando arquivo descendente...\n");
+    printf("Gerando arquivo Ascendente...\n");
    
-    fseek(ascendente,0,SEEK_SET);
+    fseek(descendente,0,SEEK_SET);
   
     for(int i=0;i<MAX_TAM;i++){
-       fread(&aluno,sizeof(Aluno),1,ascendente);
-       fseek(descendente,(MAX_TAM-i)*sizeof(Aluno),SEEK_SET); 
-       fwrite(&aluno,sizeof(Aluno),1,descendente);
+       fread(&aluno,sizeof(Aluno),1,descendente);
+       fseek(ascendente,(MAX_TAM-i)*sizeof(Aluno),SEEK_SET); 
+       fwrite(&aluno,sizeof(Aluno),1,ascendente);
     }
 
     

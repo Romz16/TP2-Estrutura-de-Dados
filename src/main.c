@@ -7,10 +7,13 @@ gdb ./ordenacaoDebug.exe
 
 int main(int argc, char const *argv[]) {
 
-    resetFitas(0);
-    
-    driverSelecSub(100, 3);
-    intercalaSelecSub(3, 100);
+    //gerarArquivosBinarios();
+    printRegistros(2, 471705);
+    return 0;
+
+    //resetFitas(0);
+    //driverSelecSub(1000, 3);
+    //intercalaSelecSub(3, 1000);
 
     return 0;
 

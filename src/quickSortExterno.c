@@ -139,10 +139,13 @@ void QuickSortExterno(FILE **ArqLi, FILE **ArqEi,FILE **ArqLEs,int esq,int dir,C
     Pivo pivo;
 
     //Caso base da recursão, quando o subarquivo possui tamanho menor que o mínimo de momória de inertna disponível. A odenação neste caso se dá em memória interna.
-    if(dir - esq <= 20){
-        selectionSortExterno(esq,(dir-esq),ArqLi,ArqEi,conts);
-        return ;
-    } 
+   // if(dir - esq <= 20){
+       // selectionSortExterno(esq,(dir-esq),ArqLi,ArqEi,conts);
+       // return ;
+   // } 
+   if(dir - esq < 1){
+        return;
+   }
     //Inicializa um pivo vazio;
     inicializaPivo(&pivo);
     //realiza a partição.
