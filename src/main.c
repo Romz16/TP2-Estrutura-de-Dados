@@ -7,8 +7,8 @@ gdb ./ordenacaoDebug.exe
 
 int main(int argc, char const *argv[]) {
 
-    //gerarArquivosBinarios();
-    printRegistros(2, 471705);
+    gerarArquivosBinarios();
+    printRegistros(1, MAX_TAM);
     return 0;
 
     //resetFitas(0);

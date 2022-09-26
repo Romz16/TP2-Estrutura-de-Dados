@@ -45,7 +45,6 @@ void gerarArquivosBinarios(){
 
     printf("Gerando arquivo aleatorio...\n");
    
-    
     while(!feof(provao)){
 
         fscanf(provao,"%s %s %s",nInscricao,nota,estado);
@@ -59,7 +58,7 @@ void gerarArquivosBinarios(){
         strcpy(aluno.curso,curso);
 
         fwrite(&aluno,sizeof(Aluno),1,aleatorio);
-        fwrite(&aluno,sizeof(Aluno),1,descendente);  
+        fwrite(&aluno,sizeof(Aluno),1,descendente); 
     }
 
     fclose(aleatorio);
@@ -74,7 +73,7 @@ void gerarArquivosBinarios(){
         printf("Falha ao abrir arquivos!");
         return;
     }
-    QuickSortExterno(&ArqLi,&ArqEi,&ArqLEs,1,MAX_TAM,&contCriacao);
+    QuickSortExterno(&ArqLi,&ArqEi,&ArqLEs,1,MAX_TAM-1,&contCriacao);
     fclose(ArqLi); fclose(ArqEi);fclose(ArqLEs);
 
     printf("Gerando arquivo Ascendente...\n");
