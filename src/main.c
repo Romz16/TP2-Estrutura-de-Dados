@@ -7,7 +7,7 @@ gdb ./ordenacaoDebug.exe
 
 int main(int argc, char const *argv[]) {
 
-    resetFitas();
+    resetFitas(0);
     
     driverSelecSub(100, 3);
     intercalaSelecSub(3, 100);

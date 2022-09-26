@@ -18,7 +18,7 @@ void printRegistros(int situacao, int quantidade);
 
 int abrirFitas(FILE **fp);
 void printFitas();
-void resetFitas();
+void resetFitas(int modo);
 
 short verificaArquivosBinarios();
 void gerarArquivosBinarios();

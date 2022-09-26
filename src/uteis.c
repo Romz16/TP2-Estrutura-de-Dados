@@ -145,7 +145,7 @@ void printFitas(){
     }
 }
 
-void resetFitas(){
+void resetFitas(int modo){
     FILE *fitas[MAXFITAS];
     char nomeArquivo[50] = "";
     size_t idx = 0;
