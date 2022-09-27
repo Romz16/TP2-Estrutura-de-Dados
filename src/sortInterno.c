@@ -55,14 +55,15 @@ void ordenar_blocos(FILE *arq, FILE **saida, int cont)
 	}
 	//printf("ante\n");
 	quick_sort_int(&bloco,cont2);
-    printf("Contador: Count2: ----------%i\n", cont2);
+    // printf("Contador: Count2: ----------%i\n", cont2);
 
 	//printf("Dep\n");
 	for(i=0; i<cont2; i++)
 	{
 		reg = bloco.v[i];
 		fwrite(bloco.v,sizeof(Aluno)*AREA_MAX/2,1,saida[cont]);
-		//printf("Bloco: %.2lf \n",bloco.v[i].nota);
+		// fwrite(&reg,sizeof(Aluno),1,saida[cont]);
+		// printf("Bloco: %.2lf \n",bloco.v[i].nota);
 	}
     Aluno alunoTmp;
     alunoTmp.nota = -1;
@@ -104,7 +105,7 @@ int criaBlocosInterno(int  quantidade,int situacao){
 	if(resto!=0)
 		resto=1;
 	resto += (quantidade/(MAXFITAS/2));
-			
+
 	for(i=0; i<resto; i++)
 		{
 		ordenar_blocos(arq,fitas,cont);
