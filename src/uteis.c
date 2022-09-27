@@ -218,7 +218,6 @@ void resetFitas(int modo){
     }
 }
 
-//Funcao para abrir o arquivo 
 FILE *abrirArquivo(int situacao){
     FILE *arquivo;
 

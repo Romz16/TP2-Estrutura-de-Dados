@@ -15,8 +15,8 @@ void intercalaSelecSub(int situacao, int quantidade){
 
     //FILE *arquivo = abrirArquivo(4);
 
-    TipoBloco2 blocos[AREA_MAX];
-    TipoBloco2 tmp;
+    TipoBloco blocos[AREA_MAX];
+    TipoBloco tmp;
 
     int fitaEscritaAtual = 20;
 
@@ -49,7 +49,7 @@ void intercalaSelecSub(int situacao, int quantidade){
             min_idx = j;
 
         if(min_idx != i){
-            TipoBloco2 temp = blocos[min_idx];
+            TipoBloco temp = blocos[min_idx];
             blocos[min_idx] = blocos[i];
             blocos[i] = temp;
         }
@@ -252,7 +252,7 @@ void intercalaSelecSub(int situacao, int quantidade){
                 min_idx = j;
 
             if(min_idx != i){
-                TipoBloco2 temp = blocos[min_idx];
+                TipoBloco temp = blocos[min_idx];
                 blocos[min_idx] = blocos[i];
                 blocos[i] = temp;
             }

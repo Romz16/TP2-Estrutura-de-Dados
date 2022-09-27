@@ -2,17 +2,17 @@
 
 int main(int argc, char const *argv[]) {
 
-    // resetFitas(-1);
-    // resetFitas(0);
-    // gerarArquivosBinarios();
-    // printRegistros(1, MAX_TAM);
-    // return 0;
-    
+    resetFitas(-1);
     resetFitas(0);
-    criaBlocos(1000, 3);
-    intercalaSelecSub(3, 1000);
-    printFitas();
+    gerarArquivosBinarios();
+    printRegistros(1, MAX_TAM);
     return 0;
+    
+    // resetFitas(0);
+    // criaBlocos(1000, 3);
+    // intercalaSelecSub(3, 1000);
+    // printFitas();
+    // return 0;
 
     //resetFitas(0);
     //driverSelecSub(1000, 3);
