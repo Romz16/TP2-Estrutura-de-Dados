@@ -18,7 +18,10 @@ void criaBlocos(int quantidade, int situacao){
 
     for (int i = 0; i < quantidade; i++){
         retorno = fread(&alunoTmp, sizeof(Aluno), 1, arquivo);
+        rewind(arquivo);
+
         if(i % (MAXFITAS/2) == 0 && retorno == 1){
+            fread(&alunoTmp, sizeof(Aluno), 1, arquivo);
             alunos[i] = alunoTmp;
 
             int k, j, min_idx;
