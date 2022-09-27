@@ -103,7 +103,7 @@ int abrirFitas(FILE **fp){
     size_t idx = 0;
 
     for (size_t i = 0; i < MAXFITAS; i++) {
-        sprintf (nomeArquivo, "data/fitas/fita%zu.dat", i);
+        sprintf (nomeArquivo, "data/fitas/fita%li.dat", i);
         fp[idx] = fopen (nomeArquivo, "r+b");
         if (!fp[idx]){ 
             printf("Erro ao Abrir arquivo Fita: %s\n", nomeArquivo);
@@ -122,7 +122,7 @@ void printFitas(){
     Aluno tmp;
 
     for (size_t i = 0; i < MAXFITAS; i++) {
-        sprintf (nomeArquivo, "data/fitas/fita%zu.dat", i);
+        sprintf (nomeArquivo, "data/fitas/fita%li.dat", i);
         fitas[idx] = fopen (nomeArquivo, "r+b");
         if (!fitas[idx]){ 
             printf("Erro ao Abrir arquivo Fita: %s\n", nomeArquivo);
@@ -148,7 +148,7 @@ void printFitas(){
 void resetFitas(int modo){
     FILE *fitas[MAXFITAS];
     char nomeArquivo[50] = "";
-    size_t idx = 0;
+    int idx = 0;
    
     if(modo == -1){
         remove("Aleatorio.dat");
@@ -159,13 +159,13 @@ void resetFitas(int modo){
 
     if(modo == 0){
         
-        for (size_t i = 0; i < MAXFITAS; i++) {
-            sprintf (nomeArquivo, "data/fitas/fita%zu.dat", i);
+        for (int i = 0; i < MAXFITAS; i++) {
+            sprintf (nomeArquivo, "data/fitas/fita%i.dat", i);
             remove(nomeArquivo);
         }
 
-        for (size_t i = 0; i < MAXFITAS; i++) {
-            sprintf (nomeArquivo, "data/fitas/fita%zu.dat", i);
+        for (int i = 0; i < MAXFITAS; i++) {
+            sprintf (nomeArquivo, "data/fitas/fita%i.dat", i);
             fitas[idx] = fopen (nomeArquivo, "a");
             if (!fitas[idx]){ 
                 printf("Erro ao Abrir arquivo Fita: %s\n", nomeArquivo);
@@ -174,17 +174,17 @@ void resetFitas(int modo){
             idx++;
         }
         
-        for (size_t i = 0; i < MAXFITAS; i++)
+        for (int i = 0; i < MAXFITAS; i++)
             fclose(fitas[i]);
     }
     if(modo == 1){
-        for (size_t i = 0; i < MAXFITAS/2; i++) {
-            sprintf (nomeArquivo, "data/fitas/fita%zu.dat", i);
+        for (int i = 0; i < MAXFITAS/2; i++) {
+            sprintf (nomeArquivo, "data/fitas/fita%i.dat", i);
             remove(nomeArquivo);
         }
 
-        for (size_t i = 0; i < MAXFITAS/2; i++) {
-            sprintf (nomeArquivo, "data/fitas/fita%zu.dat", i);
+        for (int i = 0; i < MAXFITAS/2; i++) {
+            sprintf (nomeArquivo, "data/fitas/fita%i.dat", i);
             fitas[idx] = fopen (nomeArquivo, "a");
             if (!fitas[idx]){ 
                 printf("Erro ao Abrir arquivo Fita: %s\n", nomeArquivo);
@@ -193,18 +193,18 @@ void resetFitas(int modo){
             idx++;
         }
         
-        for (size_t i = 0; i < MAXFITAS/2; i++)
+        for (int i = 0; i < MAXFITAS/2; i++)
             fclose(fitas[i]);
     }
     if(modo == 2){
         idx = MAXFITAS/2;
-        for (size_t i = MAXFITAS/2; i < MAXFITAS; i++) {
-            sprintf (nomeArquivo, "data/fitas/fita%zu.dat", i);
+        for (int i = MAXFITAS/2; i < MAXFITAS; i++) {
+            sprintf (nomeArquivo, "data/fitas/fita%i.dat", i);
             remove(nomeArquivo);
         }
 
-        for (size_t i = MAXFITAS/2; i < MAXFITAS; i++) {
-            sprintf (nomeArquivo, "data/fitas/fita%zu.dat", i);
+        for (int i = MAXFITAS/2; i < MAXFITAS; i++) {
+            sprintf (nomeArquivo, "data/fitas/fita%i.dat", i);
             fitas[idx] = fopen (nomeArquivo, "a");
             if (!fitas[idx]){ 
                 printf("Erro ao Abrir arquivo Fita: %s\n", nomeArquivo);
@@ -213,7 +213,7 @@ void resetFitas(int modo){
             idx++;
         }
         
-        for (size_t i = MAXFITAS/2; i < MAXFITAS; i++)
+        for (int i = MAXFITAS/2; i < MAXFITAS; i++)
             fclose(fitas[i]);
     }
 }

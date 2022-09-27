@@ -116,10 +116,10 @@ void verificaSaida(){
   FILE *arquivo = abrirArquivo(3);
 
   char nomeArquivo[50] = "";
-  size_t idx = 0;
+  int idx = 0;
   Aluno tmp;
-  for (size_t i = 0; i < MAXFITAS; i++) {
-    sprintf (nomeArquivo, "data/fitas/fita%zu.dat", i);
+  for (int i = 0; i < MAXFITAS; i++) {
+    sprintf (nomeArquivo, "data/fitas/fita%i.dat", i);
     fitas[idx] = fopen (nomeArquivo, "rb");
     if (!fitas[idx]){ 
       printf("Erro ao Abrir arquivo Fita: %s\n", nomeArquivo);

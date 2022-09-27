@@ -112,7 +112,7 @@ void intercalaSelecSub(int situacao, int quantidade){
                     size_t idx = fitaEscritaAtual;
 
                     for (size_t i = 0; i < MAXFITAS/2 && idx < MAXFITAS; i++) {
-                        sprintf (nomeArquivo, "data/fitas/fita%zu.dat", i);
+                        sprintf (nomeArquivo, "data/fitas/fita%li.dat", i);
                         vetorFitas[idx] = fopen (nomeArquivo, "r+b");
                         if (!vetorFitas[idx]){ 
                             printf("Erro ao Abrir arquivo Fita: %s\n", nomeArquivo);
@@ -137,7 +137,7 @@ void intercalaSelecSub(int situacao, int quantidade){
                     size_t idx = fitaEscritaAtual;
 
                     for (size_t i = 0; i < MAXFITAS/2 && idx < MAXFITAS; i++) {
-                        sprintf (nomeArquivo, "data/fitas/fita%zu.dat", i);
+                        sprintf (nomeArquivo, "data/fitas/fita%li.dat", i);
                         vetorFitas[idx] = fopen (nomeArquivo, "r+b");
                         if (!vetorFitas[idx]){ 
                             printf("Erro ao Abrir arquivo Fita: %s\n", nomeArquivo);
