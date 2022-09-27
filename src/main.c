@@ -2,9 +2,14 @@
 
 int main(int argc, char const *argv[]) {
 
+    // resetFitas(0);
+    // gerarArquivosBinarios();
+    // printRegistros(1, MAX_TAM);
+    // return 0;
+    
     resetFitas(0);
-    gerarArquivosBinarios();
-    printRegistros(2, MAX_TAM);
+    criaBlocosInterno(1000, 3);
+    printFitas();
     return 0;
 
     //resetFitas(0);

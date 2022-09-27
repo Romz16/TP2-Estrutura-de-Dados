@@ -16,9 +16,6 @@ typedef struct TipoBloco2{
 	int fimFita;
 }TipoBloco2;
 
-void ordenar_blocos(FILE*,FILE**,int);
-
-void intercalar_blocos(FILE**,int);
 void intercalaSelecSub(int situacao, int quantidade);
 
 #endif 

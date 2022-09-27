@@ -5,7 +5,7 @@
 #define FALSE 0
 
 #define AREA_MAX 20
-#define MAX_TAM 5
+#define MAX_TAM 20000
 #define MAXFITAS 40
 
 typedef struct Aluno{
