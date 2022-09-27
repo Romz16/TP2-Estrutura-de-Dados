@@ -43,12 +43,12 @@ void ordenar_blocos(FILE *arq, FILE **saida, int cont)
     
 	while(fread(&reg, sizeof(Aluno), 1, arq) == 1)  
 	{
-		//printf("Reg: %lf \n",reg.nota);
+		// printf("Reg: %.2lf \n",reg.nota);
 		bloco.v[cont2] = reg;
 		bloco.n = cont2+1;
 		//printf("Bloco: %lf \n",bloco.v[cont2].nota);
 		cont2++;
-		if(cont2==10)
+		if(cont2==AREA_MAX/2)
 		{
 			break;
 		}
@@ -60,9 +60,13 @@ void ordenar_blocos(FILE *arq, FILE **saida, int cont)
 	for(i=0; i<cont2; i++)
 	{
 		reg = bloco.v[i];
-		fwrite(&bloco,sizeof(TipoBloco),1,saida[cont]);
-		//printf("Bloco: %ld \n",bloco.v[i].mat);
+		fwrite(bloco.v,sizeof(Aluno)*AREA_MAX/2,1,saida[cont]);
+		//printf("Bloco: %.2lf \n",bloco.v[i].nota);
 	}
+    Aluno alunoTmp;
+    alunoTmp.nota = -1;
+    fwrite(&alunoTmp, sizeof(Aluno), 1, saida[cont]);
+
 }
 
 int criaBlocosInterno(int  quantidade,int situacao){
@@ -82,39 +86,42 @@ int criaBlocosInterno(int  quantidade,int situacao){
 //    fclose(arq);
 //     return 0;
 	int i,cont=0,resto;
-	char temp2[2];
+	//char temp2[2];
 			
-	for(i=0; i<20; i++){
-	    // char temp[20] = "data/fitas/fita";
-	    // sprintf(temp2,"%d",i+1);
-	    // strcat(temp,temp2);		
-		// strcat(temp,".dat");
+	// for(i=0; i<20; i++){
+	//     char temp[20] = "data/fitas/fita";
+	//     sprintf(temp2,"%d",i+1);
+	//     strcat(temp,temp2);		
+	// 	strcat(temp,".dat");
 				
-		// fitas[i] = fopen(temp,"w+b");
-		// if(fitas[i] == NULL) {
-		// 	printf("Arquivo nao pode ser aberto\n");
-		// 	return 0;    }
-		// }
-	resto = quantidade %10;
+	// 	fitas[i] = fopen(temp,"w+b");
+	// 	if(fitas[i] == NULL) {
+	// 		printf("Arquivo nao pode ser aberto\n");
+	// 		return 0;    }
+	// 	}
+	resto = quantidade %(MAXFITAS/2);
 	if(resto!=0)
 		resto=1;
-	resto += (quantidade/10);
+	resto += (quantidade/(MAXFITAS/2));
 			
 	for(i=0; i<resto; i++)
 		{
 		ordenar_blocos(arq,fitas,cont);
 		cont++;
-		if(cont==10)
+		if(cont==(MAXFITAS/2))
 			cont=0; 
 		}
 			
-	for(i=0; i<10; i++)
+	for(i=0; i<(MAXFITAS/2); i++)
 		rewind(fitas[i]);
 			
 	//intercalar_blocos(fitas,resto);
 			
 	fclose(arq);
- 	fclose(*fitas);
+
+    for (int i = 0; i < MAXFITAS/2; i++){
+        fclose(fitas[i]);
+    }
 
     return 1;
 }

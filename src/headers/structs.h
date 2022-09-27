@@ -5,7 +5,7 @@
 #define FALSE 0
 
 #define AREA_MAX 20
-#define MAX_TAM 20000
+#define MAX_TAM 471705
 #define MAXFITAS 40
 
 typedef struct Aluno{
@@ -17,9 +17,9 @@ typedef struct Aluno{
 }Aluno;
 
 typedef struct TipoBloco{	
-	Aluno v[10];
+	Aluno v[AREA_MAX/2];
 	int n;
-	int pertence[10];
+	int pertence[AREA_MAX/2];
 }TipoBloco;
 
 typedef struct Pivo{

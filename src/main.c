@@ -7,7 +7,6 @@ int main(int argc, char const *argv[]) {
     // printRegistros(1, MAX_TAM);
     // return 0;
     
-    resetFitas(0);
     criaBlocosInterno(1000, 3);
     printFitas();
     return 0;
