@@ -42,10 +42,10 @@ void gerarArquivosBinarios(){
     char cidade[50];
     char curso[30];
     
-
     printf("Gerando arquivo aleatorio...\n");
    
-    while(!feof(provao)){
+    int i = 0;
+    while(i < MAX_TAM /* !feof(provao) */){
 
         fscanf(provao,"%s %s %s",nInscricao,nota,estado);
         fgets(cidade,50,provao);
@@ -59,6 +59,8 @@ void gerarArquivosBinarios(){
 
         fwrite(&aluno,sizeof(Aluno),1,aleatorio);
         fwrite(&aluno,sizeof(Aluno),1,descendente); 
+
+        i++;
     }
 
     fclose(aleatorio);
@@ -81,16 +83,15 @@ void gerarArquivosBinarios(){
     fseek(descendente,0,SEEK_SET);
   
     for(int i=0;i<MAX_TAM;i++){
-       fread(&aluno,sizeof(Aluno),1,descendente);
-       fseek(ascendente,(MAX_TAM-i)*sizeof(Aluno),SEEK_SET); 
-       fwrite(&aluno,sizeof(Aluno),1,ascendente);
-    }
+        fread(&aluno,sizeof(Aluno),1,descendente);
 
+        fseek(ascendente,(MAX_TAM-i-1)*sizeof(Aluno),SEEK_SET); 
+        fwrite(&aluno,sizeof(Aluno),1,ascendente);
+    }
     
     printf("Arquivos gerados com sucesso!\n");
     
-    fclose(ascendente); fclose(descendente);
-    
+    fclose(ascendente); fclose(descendente); fclose(provao);
 }
 
 void imprimeContadores(Contadores conts){
@@ -148,8 +149,11 @@ void resetFitas(int modo){
     FILE *fitas[MAXFITAS];
     char nomeArquivo[50] = "";
     size_t idx = 0;
-
+   
     if(modo == 0){
+        remove("Aleatorio.dat");
+        remove("Ascendente.dat");
+        remove("Descendente.dat");
         for (size_t i = 0; i < MAXFITAS; i++) {
             sprintf (nomeArquivo, "data/fitas/fita%zu.dat", i);
             remove(nomeArquivo);
