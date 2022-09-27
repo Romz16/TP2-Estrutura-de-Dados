@@ -55,6 +55,7 @@ void ordenar_blocos(FILE *arq, FILE **saida, int cont)
 	}
 	//printf("ante\n");
 	quick_sort_int(&bloco,cont2);
+    printf("Contador: Count2: ----------%i\n", cont2);
 
 	//printf("Dep\n");
 	for(i=0; i<cont2; i++)
