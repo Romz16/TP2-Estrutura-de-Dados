@@ -150,10 +150,15 @@ void resetFitas(int modo){
     char nomeArquivo[50] = "";
     size_t idx = 0;
    
-    if(modo == 0){
+    if(modo == -1){
         remove("Aleatorio.dat");
         remove("Ascendente.dat");
         remove("Descendente.dat");
+        return;
+    }
+
+    if(modo == 0){
+        
         for (size_t i = 0; i < MAXFITAS; i++) {
             sprintf (nomeArquivo, "data/fitas/fita%zu.dat", i);
             remove(nomeArquivo);

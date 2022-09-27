@@ -7,81 +7,66 @@ void criaBlocos(int quantidade, int situacao){
 
     FILE *arquivo = abrirArquivo(situacao);
 
-    Aluno alunoTmp;
-    Aluno alunoTmp2;
-    Aluno alunos[MAX_TAM];
-
-    int tamanho = 0;
-    int retorno = 0;
+    int quantidaBlocos;
+    int blocoFinal;
     int countFitas = 0;
 
+    Aluno alunoTmp[AREA_MAX];
+    Aluno alunoTmp2;
 
-    for (int i = 0; i < quantidade; i++){
-        retorno = fread(&alunoTmp, sizeof(Aluno), 1, arquivo);
-        rewind(arquivo);
+    quantidaBlocos = quantidade / (AREA_MAX);
+    blocoFinal = quantidade - (quantidaBlocos * (AREA_MAX));
 
-        if(i % (MAXFITAS/2) == 0 && retorno == 1){
-            fread(&alunoTmp, sizeof(Aluno), 1, arquivo);
-            alunos[i] = alunoTmp;
 
-            int k, j, min_idx;
-            for (k = 0; k < tamanho-1; k++){
-                min_idx = k;
-                for (j = k+1; j < tamanho; j++)
-                if (alunos[j].nota < alunos[min_idx].nota)
-                    min_idx = j;
+    for (int i = 0; i < quantidaBlocos; i++){
+        fread(alunoTmp, sizeof(Aluno)*(AREA_MAX), 1, arquivo);
+        
+        int i, j, min_idx;
+        for (i = 0; i < AREA_MAX-1; i++){
+            min_idx = i;
+            for (j = i+1; j < AREA_MAX; j++)
+            if (alunoTmp[j].nota < alunoTmp[min_idx].nota)
+                min_idx = j;
 
-                if(min_idx != k){
-                   Aluno temp = alunos[min_idx];
-                    alunos[min_idx] = alunos[k];
-                    alunos[k] = temp;
-                }
+            if(min_idx != i){
+                Aluno temp = alunoTmp[min_idx];
+                alunoTmp[min_idx] = alunoTmp[i];
+                alunoTmp[i] = temp;
             }
-
-            alunoTmp2.nota = -1;
-            fwrite(alunos, sizeof(Aluno)*tamanho, 1, vetorFitas[countFitas]);
-            fwrite(&alunoTmp2, sizeof(Aluno), 1, vetorFitas[countFitas]);
-
-            tamanho = 0;
-
-            countFitas++;
-
-            if(countFitas == MAXFITAS/2)
-                countFitas = 0;    
-
-        }
-        else if(/* i % 20 != 0 ||  */retorno != 1){
-            alunos[i] = alunoTmp;
-
-            int k, j, min_idx;
-            for (k = 0; k < tamanho-1; k++){
-                min_idx = k;
-                for (j = k+1; j < tamanho; j++)
-                if (alunos[j].nota < alunos[min_idx].nota)
-                    min_idx = j;
-
-                if(min_idx != k){
-                   Aluno temp = alunos[min_idx];
-                    alunos[min_idx] = alunos[k];
-                    alunos[k] = temp;
-                }
-            }
-
-            alunoTmp2.nota = -1;
-            fwrite(alunos, sizeof(Aluno)*tamanho, 1, vetorFitas[countFitas]);
-            fwrite(&alunoTmp2, sizeof(Aluno), 1, vetorFitas[countFitas]);
-
         }
 
-        alunos[i] = alunoTmp;
-        tamanho++;
+        alunoTmp2.nota = -1;
+        fwrite(alunoTmp, sizeof(Aluno)*(AREA_MAX), 1, vetorFitas[countFitas]);
+        fwrite(&alunoTmp2, sizeof(Aluno), 1, vetorFitas[countFitas]);
+    
+        countFitas++;
+        if(countFitas == AREA_MAX)
+            countFitas = 0;
     }
 
-    for (int i = 0; i < MAXFITAS/2; i++){
+    fread(alunoTmp, sizeof(Aluno)*blocoFinal, 1, arquivo);
+    
+    int i, j, min_idx;
+    for (i = 0; i < blocoFinal-1; i++){
+        min_idx = i;
+        for (j = i+1; j < blocoFinal; j++)
+        if (alunoTmp[j].nota < alunoTmp[min_idx].nota)
+            min_idx = j;
+
+        if(min_idx != i){
+            Aluno temp = alunoTmp[min_idx];
+            alunoTmp[min_idx] = alunoTmp[i];
+            alunoTmp[i] = temp;
+        }
+    }
+
+    alunoTmp2.nota = -1;
+    fwrite(alunoTmp, sizeof(Aluno)*(blocoFinal), 1, vetorFitas[countFitas]);
+    fwrite(&alunoTmp2, sizeof(Aluno), 1, vetorFitas[countFitas]);
+
+    for (int i = 0; i < AREA_MAX; i++){
         fclose(vetorFitas[i]);
-    }
-    
-    
+    }    
 
 
 }

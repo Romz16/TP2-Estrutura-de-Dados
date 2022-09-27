@@ -265,6 +265,4 @@ void intercalaSelecSub(int situacao, int quantidade){
         fclose(vetorFitas[i]);
     }
 
-    printFitas();
-
 }
