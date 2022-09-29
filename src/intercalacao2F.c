@@ -44,9 +44,11 @@ void intercalacao(int situacao, int quantidade){
     for (i = 0; i < MAXFITAS/2-1; i++){
         min_idx = i;
         for (j = i+1; j < MAXFITAS/2; j++)
+        {
+            ContadoresIndividuais.comparacoes++;
             if (blocos[j].campoAluno.nota < blocos[min_idx].campoAluno.nota)
                 min_idx = j;
-
+        }
         if(min_idx != i){
             TipoBloco temp = blocos[min_idx];
             blocos[min_idx] = blocos[i];
@@ -218,9 +220,12 @@ void intercalacao(int situacao, int quantidade){
         for (i = 0; i < MAXFITAS/2-1; i++){
             min_idx = i;
             for (j = i+1; j < MAXFITAS/2; j++)
+            {
+                ContadoresIndividuais.comparacoes++;
                 if (blocos[j].campoAluno.nota < blocos[min_idx].campoAluno.nota)
                     min_idx = j;
-
+            }
+            
             if(min_idx != i){
                 TipoBloco temp = blocos[min_idx];
                 blocos[min_idx] = blocos[i];
@@ -230,16 +235,15 @@ void intercalacao(int situacao, int quantidade){
         
     }
         
-    if(fitaEscritaAtual == MAXFITAS)
+    if(fitaEscritaAtual == MAXFITAS/2)
         fitaEscritaAtual = 0;
     else if(fitaEscritaAtual == 0)
-        fitaEscritaAtual = MAXFITAS;
+        fitaEscritaAtual = MAXFITAS/2;
 
     Aluno alunoTmp;
     char nome[] = "data/by_intercalacao.dat";
     FILE* arquivoSaida = fopen(nome, "wb");
 
-    rewind(vetorFitas[fitaEscritaAtual]);
     while(fread(&alunoTmp, sizeof(Aluno), 1, vetorFitas[fitaEscritaAtual]) == 1){
         printf("%.2lf\n", alunoTmp.nota);
         fwrite(&alunoTmp, sizeof(Aluno), 1, arquivoSaida);
@@ -253,7 +257,5 @@ void intercalacao(int situacao, int quantidade){
 
     geraArquivoTexto(nome);
     imprimeContadores(conts);
-
-
 
 }
