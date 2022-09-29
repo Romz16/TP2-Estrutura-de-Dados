@@ -25,5 +25,7 @@ void gerarArquivosBinarios();
 void imprimeContadores(Contadores);
 
 void geraArquivoTexto(char nomeArquivo[50]);
+void funcaoTestesAltomatizados();
+void gerenciaContadores(int op);
 
 #endif 

@@ -35,4 +35,7 @@ typedef struct TipoBloco{
 	int fimFita;
 }TipoBloco;
 
+Contadores ContadoresIndividuais;
+Contadores ContadoresAcumulados;
+
 #endif

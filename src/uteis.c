@@ -269,3 +269,82 @@ void printRegistros(int situacao, int quantidade){
     fclose(arquivo);
 }
 
+void gerenciaContadores(int op){
+    if(op == 1){
+        ContadoresIndividuais.comparacoes = 0;
+        ContadoresIndividuais.tempo = 0;
+        ContadoresIndividuais.transferencias = 0;
+
+        ContadoresAcumulados.comparacoes = 0;
+        ContadoresAcumulados.tempo = 0;
+        ContadoresAcumulados.transferencias = 0;
+        return;
+    }
+
+    else if(op == 2){
+        ContadoresAcumulados.comparacoes += ContadoresIndividuais.comparacoes;
+        ContadoresAcumulados.tempo += ContadoresIndividuais.tempo;
+        ContadoresAcumulados.transferencias += ContadoresIndividuais.transferencias;
+
+        ContadoresIndividuais.comparacoes = 0;
+        ContadoresIndividuais.tempo = 0;
+        ContadoresIndividuais.transferencias = 0;
+        
+        return;
+    }
+
+}
+
+void funcaoTestesAltomatizados(){
+    int metodo = 1, quantidadeRegistros, situacao, quantidadeTestes;
+
+    gerenciaContadores(1);
+
+    while (metodo != -1){
+        
+        scanf("%i", &metodo);
+        if(metodo == -1) break;
+
+        scanf("%i", &quantidadeRegistros);
+        scanf("%i", &situacao); 
+        scanf("%i", &quantidadeTestes);     
+
+        if(metodo == 1){
+            printf("METODO: %i \nQUANTIADE: %i \nSITUACAO: %i\n", metodo, quantidadeRegistros, situacao);
+            for (int i = 0; i < quantidadeTestes; i++){
+                printf("\n-----------------TESTE: %i/%i-----------------\n\n", i+1, quantidadeTestes);
+                gerenciaContadores(2);
+                sortInterno(situacao, quantidadeRegistros);
+            }
+            gerenciaContadores(2);
+        }
+        else if (metodo == 2){
+            printf("METODO: %i \nQUANTIADE: %i \nSITUACAO: %i\n", metodo, quantidadeRegistros, situacao);
+            for (int i = 0; i < quantidadeTestes; i++){
+                printf("\n-----------------TESTE: %i/%i-----------------\n\n", i+1, quantidadeTestes);
+                gerenciaContadores(2);
+                selecSub(situacao, quantidadeRegistros);
+            }
+            gerenciaContadores(2);
+        }
+        else if (metodo == 3){
+            printf("METODO: %i \nQUANTIADE: %i \nSITUACAO: %i\n", metodo, quantidadeRegistros, situacao);
+            for (int i = 0; i < quantidadeTestes; i++){
+                printf("\n-----------------TESTE: %i/%i-----------------\n\n", i+1, quantidadeTestes);
+                gerenciaContadores(2);
+                quicksort(quantidadeRegistros, situacao);
+            }
+            gerenciaContadores(2);
+        }
+        
+        printf("\n-------------------MEDIA DOS RESULTADOS-------------------\n\n");
+
+        printf("Numero Tranferencia Media Indexacao: %lf\n", (double)ContadoresAcumulados.transferencias/(double)quantidadeTestes);
+        printf("Numero Comparacoes Media Indexacao: %lf\n", (double)ContadoresAcumulados.comparacoes/(double)quantidadeTestes);
+        printf("Tempo decorrido Media Indexacao: %lf\n\n", (double)ContadoresAcumulados.tempo/(double)quantidadeTestes);
+
+        gerenciaContadores(1);
+
+        printf("\n\n----------------------------------------------------------------------------------------------------------------------------\n\n");
+    }
+}

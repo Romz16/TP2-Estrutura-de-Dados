@@ -35,6 +35,9 @@ run:
 out:
 	@./ordenacao.exe > data/testes/output.out
 
+in:
+	@./ordenacao.exe < data/testes/input.in
+
 go:
 	@make all
 	@make run

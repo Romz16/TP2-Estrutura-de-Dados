@@ -7,23 +7,22 @@
 
 int main(int argc, char const *argv[]) {
 
-    sortInterno(3, 1000);
-    return 1;
-    selecSub(3, 1000);
-    quicksort(1000, 3);
-
-    resetFitas(0);
-    driverSelecSub(1000, 3);
-    intercalacao(3, 1000);
-    return 0;
+    // sortInterno(3, 1000);
+    // selecSub(3, 1000);
+    // quicksort(1000, 3);
+    // return 1;
 
     printf("\n===== TP1 - Estrutura de Dados II =====\n\n");
-    resetFitas(0);
 
     int metodo = -1;      
     int quantidade = -1;  
     int situacao = 1;     
     char opcional[10]; 
+
+    if(argc == 2 && strcmp(argv[1], "testesAutomatizados") == 0){
+        funcaoTestesAltomatizados();
+        exit(1);
+    }
 
     //Validação dos dados.
     if(argc < 3 || argc > 4){
