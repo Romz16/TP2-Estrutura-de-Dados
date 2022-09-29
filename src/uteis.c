@@ -310,7 +310,7 @@ void funcaoTestesAltomatizados(){
         scanf("%i", &quantidadeTestes);     
 
         if(metodo == 1){
-            printf("METODO: %i \nQUANTIADE: %i \nSITUACAO: %i\n", metodo, quantidadeRegistros, situacao);
+            printf("METODO: %i \nQUANTIDADE: %i \nSITUACAO: %i\n", metodo, quantidadeRegistros, situacao);
             for (int i = 0; i < quantidadeTestes; i++){
                 printf("\n-----------------TESTE: %i/%i-----------------\n\n", i+1, quantidadeTestes);
                 gerenciaContadores(2);
