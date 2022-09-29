@@ -95,6 +95,7 @@ void quicksort(int quantidade, int situacao){
     conts.tempo = (double)(fim - inicio)/CLOCKS_PER_SEC;
 
     imprimeContadores(conts);
+    geraArquivoTexto(situacao);
     
 }
 

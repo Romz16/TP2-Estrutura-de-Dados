@@ -24,5 +24,6 @@ short verificaArquivosBinarios();
 void gerarArquivosBinarios();
 void imprimeContadores(Contadores);
 
+void geraArquivoTexto(char nomeArquivo[50]);
 
 #endif 

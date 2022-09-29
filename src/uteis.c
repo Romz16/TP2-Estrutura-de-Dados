@@ -218,6 +218,20 @@ void resetFitas(int modo){
     }
 }
 
+void geraArquivoTexto(char nomeArquivo[50]){
+    FILE *arquivo = fopen(nomeArquivo, "rb");
+    FILE *arquivoTxt = fopen("data/resultado.txt", "w");
+    Aluno AlunoTmp;
+
+    while (fread(&AlunoTmp, sizeof(Aluno), 1, arquivo) == 1){
+        if(AlunoTmp.nInscricao < 1000)
+            fprintf(arquivoTxt, "%li\t\t.2%lf\t%s\t%s\t%s\n", AlunoTmp.nInscricao, AlunoTmp.nota, AlunoTmp.estado, AlunoTmp.cidade, AlunoTmp.curso);
+        else 
+            fprintf(arquivoTxt, "%li\t%.2lf\t%s\t%s\t%s\n", AlunoTmp.nInscricao, AlunoTmp.nota, AlunoTmp.estado, AlunoTmp.cidade, AlunoTmp.curso);
+    }
+    fclose(arquivo);
+}
+
 FILE *abrirArquivo(int situacao){
     FILE *arquivo;
 

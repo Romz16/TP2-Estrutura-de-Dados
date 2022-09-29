@@ -1,5 +1,10 @@
 #include "headers/uteis.h"
 
+//Colocoar contadores
+//Melhor código da intercalação e selecSub
+//Fim da leitura do arquivo na selecSub -> Marcados vao para o proximo bloco -> Não marcados ficão no mesmo
+//Gerar arquivo texto depois de cada método -> byQuickSort ou byIntercalacao binarios -> em TXT 
+
 int main(int argc, char const *argv[]) {
 
     resetFitas(-1);
@@ -20,6 +25,7 @@ int main(int argc, char const *argv[]) {
     //return 0;
 
     printf("\n===== TP1 - Estrutura de Dados II =====\n\n");
+    resetFitas(0);
 
     int metodo = -1;      
     int quantidade = -1;  

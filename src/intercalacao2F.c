@@ -17,6 +17,7 @@ void intercalaSelecSub(int situacao, int quantidade){
 
     TipoBloco blocos[AREA_MAX];
     TipoBloco tmp;
+    Contadores conts;
 
     int fitaEscritaAtual = 20;
 
@@ -45,8 +46,8 @@ void intercalaSelecSub(int situacao, int quantidade){
     for (i = 0; i < MAXFITAS/2-1; i++){
         min_idx = i;
         for (j = i+1; j < MAXFITAS/2; j++)
-        if (blocos[j].campoAluno.nota < blocos[min_idx].campoAluno.nota)
-            min_idx = j;
+            if (blocos[j].campoAluno.nota < blocos[min_idx].campoAluno.nota)
+                min_idx = j;
 
         if(min_idx != i){
             TipoBloco temp = blocos[min_idx];
@@ -55,15 +56,10 @@ void intercalaSelecSub(int situacao, int quantidade){
         }
     }
 
-    // int contadorParada=0;
     while (1){    
-        // contadorParada++;
-        // if(contadorParada == 2002)
-        //     break;
 
         //Entrar aqui apenas quando 
         if(blocos[0].fimBloco == 1){
-            // printf("0--------------%i\n", contadorParada);
             
             //Verifica se chegou no fim das fitas de leitura atual
             int intercaladoSet = 1;
@@ -88,7 +84,6 @@ void intercalaSelecSub(int situacao, int quantidade){
             }
             //Se chegou no fim das fitas de leitura atual = intercalação dessas fitas esta completa
             if(intercaladoSet == 1){
-                // printf("1--------------%i\n", contadorParada);
                 //reseta as fitas que estavam sendo lidas 
 
                 tmp.campoAluno.nota = -1;
@@ -97,7 +92,6 @@ void intercalaSelecSub(int situacao, int quantidade){
                 //Reseta arquivos fitaEscritaAtual pro comeco dos arquivos
                 int fitaComeco = -1;
                 if(fitaEscritaAtual > MAXFITAS/2 - 1){
-                    // printf("2--------------%i\n", contadorParada);
                     fitaComeco = MAXFITAS/2;
                     fitaEscritaAtual = 0;
                     
@@ -122,7 +116,6 @@ void intercalaSelecSub(int situacao, int quantidade){
                     }
                 }
                 else{ 
-                    // printf("3--------------%i\n", contadorParada);
                     fitaComeco = 0;
                     fitaEscritaAtual = MAXFITAS/2;
                     
@@ -177,19 +170,6 @@ void intercalaSelecSub(int situacao, int quantidade){
                 if(acabou == 1)
                     break;
 
-                // if(contadorParada == 2000){
-                //     printf("4--------------%i\n", contadorParada);
-                //     printf("-%i-\n", fitaEscritaAtual);
-                //     for (int i = 0; i < MAXFITAS/2; i++){
-                //         printf("%lf\n", blocos[i].campoAluno.nota);
-                //     }
-                //     printf("4--------------%i\n", contadorParada);
-                // }
-
-                //Se tiver mais de um bloco nas fitas de fitaEscritaAtual
-                //fitas fitaEscritaAtual se torna as fitas opostas
-                //Continua com o processo 
-
             }
             //Se não chegou ao fim das fitas de leitura atual = falta bloco para intercalar 
             else{
@@ -217,14 +197,6 @@ void intercalaSelecSub(int situacao, int quantidade){
         //Escreve na fita de saida
         if(blocos[0].fimBloco != 1)
             fwrite(&blocos[0].campoAluno, sizeof(Aluno), 1, vetorFitas[fitaEscritaAtual]);
-
-        // if(contadorParada == 2001){
-        //     printf("Inicio--------------%i\n", contadorParada);
-        //     for (int i = 0; i < MAXFITAS/2; i++){
-        //         printf("%.2lf\n", blocos[i].campoAluno.nota);
-        //     }
-        //     printf("Fim--------------%i\n", contadorParada);
-        // }
         
 
         int fitaOrigimTmp = blocos[0].fitaOrigem;
@@ -248,8 +220,8 @@ void intercalaSelecSub(int situacao, int quantidade){
         for (i = 0; i < MAXFITAS/2-1; i++){
             min_idx = i;
             for (j = i+1; j < MAXFITAS/2; j++)
-            if (blocos[j].campoAluno.nota < blocos[min_idx].campoAluno.nota)
-                min_idx = j;
+                if (blocos[j].campoAluno.nota < blocos[min_idx].campoAluno.nota)
+                    min_idx = j;
 
             if(min_idx != i){
                 TipoBloco temp = blocos[min_idx];
@@ -260,9 +232,24 @@ void intercalaSelecSub(int situacao, int quantidade){
         
     }
         
-
-    for (int i = 0; /* i < quantiadeFitas && */ i < MAXFITAS; i++){
-        fclose(vetorFitas[i]);
+    Aluno alunoTmp;
+    FILE* arquivoSaida = fopen("data/by_intercalacao.dat", "wb");
+    for (int i = 0; i < MAXFITAS; i++){
+        if(fread(&blocos[0].campoAluno, sizeof(Aluno), 1, vetorFitas[i]) == 1){
+            fwrite(&alunoTmp, sizeof(Aluno), 1, arquivoSaida);
+            while(fread(&alunoTmp, sizeof(Aluno), 1, vetorFitas[i]) == 1)
+                fwrite(&alunoTmp, sizeof(Aluno), 1, arquivoSaida);
+        }
     }
+
+
+    for (int i = 0; i < MAXFITAS; i++){
+        fclose(vetorFitas[i]);
+    }    
+
+    geraArquivoTexto("data/by_intercalacao.dat");
+    imprimeContadores(conts);
+
+
 
 }
