@@ -8,9 +8,9 @@
 int main(int argc, char const *argv[]) {
 
     // sortInterno(3, 1000);
-    // selecSub(3, 1000);
+    // selecSub(3, 150);
     // quicksort(1000, 3);
-    // return 1;
+    return 0;
 
     printf("\n===== TP1 - Estrutura de Dados II =====\n\n");
 
@@ -21,13 +21,13 @@ int main(int argc, char const *argv[]) {
 
     if(argc == 2 && strcmp(argv[1], "testesAutomatizados") == 0){
         funcaoTestesAltomatizados();
-        exit(1);
+        return 0;
     }
 
     //Validação dos dados.
     if(argc < 3 || argc > 4){
         printf("Quantidade de parametros invalida\n");
-        exit(1);
+        return 0;
     }  
 
     metodo = atoi(argv[1]);
@@ -39,7 +39,7 @@ int main(int argc, char const *argv[]) {
 
     if(metodo != 1 && metodo !=2 && metodo!=3){
         printf("Metodo invalido!\n");
-        exit(1);
+        return 0;
     }
 
     if (argv[4] != NULL) {
@@ -48,12 +48,12 @@ int main(int argc, char const *argv[]) {
         
     if(quantidade<0 || quantidade>471705){
         printf("Faixa de falores invalidos!\n");
-        exit(1);
+        return 0;
     }
 
     if(situacao != 1 && situacao !=2 && situacao!=3){
         printf("Situacao invalida!\n");
-        exit(1);
+        return 0;
     }
 
     //Criando os 3 arquivos binários de teste, caso não existam.
