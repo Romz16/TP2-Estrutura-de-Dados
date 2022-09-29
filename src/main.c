@@ -7,22 +7,15 @@
 
 int main(int argc, char const *argv[]) {
 
-    resetFitas(-1);
-    resetFitas(0);
-    gerarArquivosBinarios();
-    printRegistros(1, MAX_TAM);
-    return 0;
-    
-    // resetFitas(0);
-    // criaBlocos(1000, 3);
-    // intercalaSelecSub(3, 1000);
-    // printFitas();
-    // return 0;
+    sortInterno(3, 1000);
+    return 1;
+    selecSub(3, 1000);
+    quicksort(1000, 3);
 
-    //resetFitas(0);
-    //driverSelecSub(1000, 3);
-    //intercalaSelecSub(3, 1000);
-    //return 0;
+    resetFitas(0);
+    driverSelecSub(1000, 3);
+    intercalacao(3, 1000);
+    return 0;
 
     printf("\n===== TP1 - Estrutura de Dados II =====\n\n");
     resetFitas(0);
@@ -72,10 +65,11 @@ int main(int argc, char const *argv[]) {
     // Menu de acesso às pesquisas
     switch (metodo) {
         case 1:
+            sortInterno(situacao, quantidade);
             break;
             
         case 2:
-           
+            selecSub(situacao, quantidade);
             break;
 
         case 3:

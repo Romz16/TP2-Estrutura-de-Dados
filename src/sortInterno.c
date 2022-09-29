@@ -18,7 +18,7 @@ void criaBlocos(int quantidade, int situacao){
     blocoFinal = quantidade - (quantidaBlocos * (AREA_MAX));
 
 
-    for (int i = 0; i < quantidaBlocos; i++){
+    for (int k = 0; k < quantidaBlocos; k++){
         fread(alunoTmp, sizeof(Aluno)*(AREA_MAX), 1, arquivo);
         
         int i, j, min_idx;
@@ -67,6 +67,10 @@ void criaBlocos(int quantidade, int situacao){
     for (int i = 0; i < AREA_MAX; i++){
         fclose(vetorFitas[i]);
     }    
+}
 
-
+void sortInterno(int situacao, int quantidade){
+    resetFitas(0);
+    criaBlocos(quantidade, situacao);
+    intercalacao(situacao, quantidade);
 }

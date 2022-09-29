@@ -229,6 +229,8 @@ void geraArquivoTexto(char nomeArquivo[50]){
         else 
             fprintf(arquivoTxt, "%li\t%.2lf\t%s\t%s\t%s\n", AlunoTmp.nInscricao, AlunoTmp.nota, AlunoTmp.estado, AlunoTmp.cidade, AlunoTmp.curso);
     }
+    printf("Resultado Gerado arquivo: \"resultado.txt\" \n");
+    
     fclose(arquivo);
 }
 
@@ -243,14 +245,6 @@ FILE *abrirArquivo(int situacao){
         strcat(nomeArquivo, "Descendente.dat");
     else if(situacao == 3)
         strcat(nomeArquivo, "Aleatorio.dat");
-    else if(situacao == 4){
-        arquivo = fopen("data/resultado.txt", "w");
-        if(arquivo == NULL){
-           printf("Falha ao abrir arquivos %s\n", nomeArquivo);
-            return NULL;
-        }
-        return arquivo;
-    }
 
     arquivo = fopen(nomeArquivo, "rb");
     if(arquivo == NULL){

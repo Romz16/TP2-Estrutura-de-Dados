@@ -18,14 +18,15 @@ void quicksort(int quantidade, int situacao){
 
     clock_t inicio,fim;
 
+    char name[50];
     //Dada uma situação, cria-se uma cópia do arquivo a ser ordenado in situ, afim de não alterar o arquivo original. 
     //Abre o arquivo cópia referenciado por ponteiros de leitura e escrita usados pelo quicksort
     switch(situacao){
         case 1:{
-            char name[] = "data/Ascendente_by_quicksort.dat";
+            strcpy(name, "data/Ascendente_by_quicksort.dat");
 
             copia = fopen(name,"wb");
-            arquivo = fopen("data/Ascendente.dat","rb");
+            arquivo = fopen("data/arquivosBin/Ascendente.dat","rb");
 
             while(fread(bloco,sizeof(Aluno),15,arquivo)!=0){
                 fwrite(bloco,sizeof(Aluno),15,copia);
@@ -39,10 +40,10 @@ void quicksort(int quantidade, int situacao){
 
 
         case 2:{
-            char name[] = "data/Descendente_by_quicksort.dat";
+            strcpy(name, "data/Descendente_by_quicksort.dat");
 
             copia = fopen(name,"wb");
-            arquivo = fopen("data/Descendente.dat","rb");
+            arquivo = fopen("data/arquivosBin/Descendente.dat","rb");
 
             while(fread(bloco,sizeof(Aluno),15,arquivo)!=0){
                 fwrite(bloco,sizeof(Aluno),15,copia);
@@ -56,10 +57,10 @@ void quicksort(int quantidade, int situacao){
 
 
         case 3:{
-            char name[] = "data/Aleatorio_by_quicksort.dat";
+            strcpy(name, "data/Aleatorio_by_quicksort.dat");
 
             copia = fopen(name,"wb");
-            arquivo = fopen("data/Aleatorio.dat","rb");
+            arquivo = fopen("data/arquivosBin/Aleatorio.dat","rb");
 
             while(fread(bloco,sizeof(Aluno),15,arquivo)!=0){
                 fwrite(bloco,sizeof(Aluno),15,copia);
@@ -95,7 +96,7 @@ void quicksort(int quantidade, int situacao){
     conts.tempo = (double)(fim - inicio)/CLOCKS_PER_SEC;
 
     imprimeContadores(conts);
-    geraArquivoTexto(situacao);
+    geraArquivoTexto(name);
     
 }
 

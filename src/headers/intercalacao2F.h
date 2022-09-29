@@ -7,6 +7,6 @@
 #include "structs.h"
 #include "sortInterno.h"
 
-void intercalaSelecSub(int situacao, int quantidade);
+void intercalacao(int situacao, int quantidade);
 
 #endif 

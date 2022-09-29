@@ -9,5 +9,5 @@
 #include "uteis.h"
 
 void criaBlocos(int quantidade, int situacao);
-
+void sortInterno(int situacao, int quantidade);
 #endif

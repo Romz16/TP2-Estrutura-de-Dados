@@ -8,5 +8,5 @@
 
 int driverSelecSub(int quantidade, int situacao);
 void verificaSaida();
-
+void selecSub(int situacao, int quantidade);
 #endif 

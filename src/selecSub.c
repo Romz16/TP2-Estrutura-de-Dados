@@ -100,86 +100,12 @@ int driverSelecSub(int quantidade, int situacao){
   }
 
   fclose(arquivo);
-  //verificaSaida();
-  //printFitas();
   
   return 1;
 }
 
-#define QUANTIDADE 1000
-void verificaSaida(){
-
-  Aluno vetorAlunosFitas[QUANTIDADE];
-  Aluno vetorAlunosArquivo[QUANTIDADE];
-
-  FILE *fitas[MAXFITAS];
-  FILE *arquivo = abrirArquivo(3);
-
-  char nomeArquivo[50] = "";
-  int idx = 0;
-  Aluno tmp;
-  for (int i = 0; i < MAXFITAS; i++) {
-    sprintf (nomeArquivo, "data/fitas/fita%i.dat", i);
-    fitas[idx] = fopen (nomeArquivo, "rb");
-    if (!fitas[idx]){ 
-      printf("Erro ao Abrir arquivo Fita: %s\n", nomeArquivo);
-      continue;
-    }
-    idx++;
-  }
-
-  int k = 0;
-  for (int i = 0; i < 40; i++){
-    while (fread(&tmp, sizeof(Aluno), 1, fitas[i]) == 1){
-      if(tmp.nota != -1){
-        vetorAlunosFitas[k] = tmp;
-        k++;
-      }
-    }
-  }
-
-
-  for (int i = 0; i < QUANTIDADE; i++){
-    fread(&tmp, sizeof(Aluno), 1, arquivo);
-    vetorAlunosArquivo[i] = tmp;
-  }
-
-  int i, j, min_idx;
-  for (i = 0; i < QUANTIDADE-1; i++){
-    min_idx = i;
-    for (j = i+1; j < QUANTIDADE; j++)
-      if (vetorAlunosArquivo[j].nota < vetorAlunosArquivo[min_idx].nota)
-        min_idx = j;
-
-    if(min_idx != i){
-      Aluno temp = vetorAlunosArquivo[min_idx];
-      vetorAlunosArquivo[min_idx] = vetorAlunosArquivo[i];
-      vetorAlunosArquivo[i] = temp;
-    }
-  }
-  for (i = 0; i < QUANTIDADE-1; i++){
-    min_idx = i;
-    for (j = i+1; j < QUANTIDADE; j++)
-      if (vetorAlunosFitas[j].nota < vetorAlunosFitas[min_idx].nota)
-        min_idx = j;
-
-    if(min_idx != i){
-      Aluno temp = vetorAlunosFitas[min_idx];
-      vetorAlunosFitas[min_idx] = vetorAlunosFitas[i];
-      vetorAlunosFitas[i] = temp;
-    }
-  }
-
-  for (int i = 0; i < QUANTIDADE; i++){
-    if(vetorAlunosArquivo[i].nota != vetorAlunosFitas[i].nota)
-      printf("ERRO = ");
-    printf("%.2lf / %.2lf\n", vetorAlunosArquivo[i].nota, vetorAlunosFitas[i].nota);
-  }
-  
-
-  fclose(arquivo);
-  for (int i = 0; i < MAXFITAS; i++){
-      fclose(fitas[i]);
-  }
-
+void selecSub(int situacao, int quantidade){
+    resetFitas(0);
+    driverSelecSub(quantidade, situacao);
+    intercalacao(situacao, quantidade);
 }

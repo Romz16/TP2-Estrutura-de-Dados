@@ -7,13 +7,11 @@
 #include <string.h>
 #include <time.h>
 
-void intercalaSelecSub(int situacao, int quantidade){
+void intercalacao(int situacao, int quantidade){
 
     FILE *vetorFitas[MAXFITAS] = {NULL};
     if(abrirFitas(vetorFitas) != MAXFITAS)  
         return;
-
-    //FILE *arquivo = abrirArquivo(4);
 
     TipoBloco blocos[AREA_MAX];
     TipoBloco tmp;
@@ -232,22 +230,28 @@ void intercalaSelecSub(int situacao, int quantidade){
         
     }
         
+    if(fitaEscritaAtual == MAXFITAS)
+        fitaEscritaAtual = 0;
+    else if(fitaEscritaAtual == 0)
+        fitaEscritaAtual = MAXFITAS;
+
     Aluno alunoTmp;
-    FILE* arquivoSaida = fopen("data/by_intercalacao.dat", "wb");
-    for (int i = 0; i < MAXFITAS; i++){
-        if(fread(&blocos[0].campoAluno, sizeof(Aluno), 1, vetorFitas[i]) == 1){
-            fwrite(&alunoTmp, sizeof(Aluno), 1, arquivoSaida);
-            while(fread(&alunoTmp, sizeof(Aluno), 1, vetorFitas[i]) == 1)
-                fwrite(&alunoTmp, sizeof(Aluno), 1, arquivoSaida);
-        }
+    char nome[] = "data/by_intercalacao.dat";
+    FILE* arquivoSaida = fopen(nome, "wb");
+
+    rewind(vetorFitas[fitaEscritaAtual]);
+    while(fread(&alunoTmp, sizeof(Aluno), 1, vetorFitas[fitaEscritaAtual]) == 1){
+        printf("%.2lf\n", alunoTmp.nota);
+        fwrite(&alunoTmp, sizeof(Aluno), 1, arquivoSaida);
     }
 
+    fclose(arquivoSaida);
 
     for (int i = 0; i < MAXFITAS; i++){
         fclose(vetorFitas[i]);
     }    
 
-    geraArquivoTexto("data/by_intercalacao.dat");
+    geraArquivoTexto(nome);
     imprimeContadores(conts);
 
 
