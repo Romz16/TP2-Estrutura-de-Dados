@@ -230,16 +230,15 @@ void intercalacao(int situacao, int quantidade){
         
     }
         
-    if(fitaEscritaAtual == MAXFITAS)
+    if(fitaEscritaAtual == MAXFITAS/2)
         fitaEscritaAtual = 0;
     else if(fitaEscritaAtual == 0)
-        fitaEscritaAtual = MAXFITAS;
+        fitaEscritaAtual = MAXFITAS/2;
 
     Aluno alunoTmp;
     char nome[] = "data/by_intercalacao.dat";
     FILE* arquivoSaida = fopen(nome, "wb");
 
-    rewind(vetorFitas[fitaEscritaAtual]);
     while(fread(&alunoTmp, sizeof(Aluno), 1, vetorFitas[fitaEscritaAtual]) == 1){
         printf("%.2lf\n", alunoTmp.nota);
         fwrite(&alunoTmp, sizeof(Aluno), 1, arquivoSaida);
@@ -253,7 +252,5 @@ void intercalacao(int situacao, int quantidade){
 
     geraArquivoTexto(nome);
     imprimeContadores(conts);
-
-
 
 }

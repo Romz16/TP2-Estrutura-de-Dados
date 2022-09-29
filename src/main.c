@@ -8,7 +8,7 @@
 int main(int argc, char const *argv[]) {
 
     // sortInterno(3, 1000);
-    // selecSub(3, 150);
+    selecSub(3, 1000);
     // quicksort(1000, 3);
     return 0;
 
