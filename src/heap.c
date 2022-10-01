@@ -11,15 +11,15 @@ void heapify(Aluno arr[], int N, int i){
     int maior = i;
     int left = 2 * i + 1;
     int right = 2 * i + 2;
-    ContadoresIndividuais.comparacoes++;
+ 
     if (left < N && (arr[left].nota > arr[maior].nota)){
         maior = left;
 	}
-    ContadoresIndividuais.comparacoes++;
+
     if (right < N && (arr[right].nota > arr[maior].nota)){
         maior = right;
 	}
-    
+
     if (maior != i) {
         swap(&arr[i], &arr[maior]);
         heapify(arr, N, maior);
@@ -27,7 +27,7 @@ void heapify(Aluno arr[], int N, int i){
 }
  
 void heapSort(Aluno arr[], int N){
-    
+ 
     for (int i = N / 2 - 1; i >= 0; i--)
         heapify(arr, N, i);
  

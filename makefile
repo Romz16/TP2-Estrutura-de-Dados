@@ -36,7 +36,7 @@ out:
 	@./ordenacao.exe > data/testes/output.out
 
 in:
-	@./ordenacao.exe < data/testes/input.in
+	@./ordenacao.exe testesAutomatizados < data/testes/input.in > data/testes/output.out
 
 go:
 	@make all

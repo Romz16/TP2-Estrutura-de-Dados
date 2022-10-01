@@ -17,19 +17,18 @@ void criaBlocos(int quantidade, int situacao){
     quantidaBlocos = quantidade / (AREA_MAX);
     blocoFinal = quantidade - (quantidaBlocos * (AREA_MAX));
 
-    clock_t beginI = clock(); //inicio do calculo de clock de inserção
+
     for (int k = 0; k < quantidaBlocos; k++){
         fread(alunoTmp, sizeof(Aluno)*(AREA_MAX), 1, arquivo);
         
+        //Colocar em uma função separada
         int i, j, min_idx;
         for (i = 0; i < AREA_MAX-1; i++){
             min_idx = i;
             for (j = i+1; j < AREA_MAX; j++)
-            {
-                ContadoresIndividuais.comparacoes++;
                 if (alunoTmp[j].nota < alunoTmp[min_idx].nota)
                     min_idx = j;
-            }
+
             if(min_idx != i){
                 Aluno temp = alunoTmp[min_idx];
                 alunoTmp[min_idx] = alunoTmp[i];
@@ -48,15 +47,13 @@ void criaBlocos(int quantidade, int situacao){
 
     fread(alunoTmp, sizeof(Aluno)*blocoFinal, 1, arquivo);
     
+    //Colocar em uma função separada
     int i, j, min_idx;
     for (i = 0; i < blocoFinal-1; i++){
         min_idx = i;
         for (j = i+1; j < blocoFinal; j++)
-        {
-            ContadoresIndividuais.comparacoes++;
-            if (alunoTmp[j].nota < alunoTmp[min_idx].nota)
-                min_idx = j;
-        }
+        if (alunoTmp[j].nota < alunoTmp[min_idx].nota)
+            min_idx = j;
 
         if(min_idx != i){
             Aluno temp = alunoTmp[min_idx];
@@ -71,9 +68,7 @@ void criaBlocos(int quantidade, int situacao){
 
     for (int i = 0; i < AREA_MAX; i++){
         fclose(vetorFitas[i]);
-    }  
-    clock_t endI = clock(); //termino do calculo do clock de inserção
-    ContadoresIndividuais.tempo = (double)(endI - beginI) / CLOCKS_PER_SEC;  
+    }    
 }
 
 void sortInterno(int situacao, int quantidade){

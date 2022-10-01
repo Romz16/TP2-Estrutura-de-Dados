@@ -1,16 +1,6 @@
 #include "headers/uteis.h"
 
-//Colocoar contadores
-//Melhor código da intercalação e selecSub
-//Fim da leitura do arquivo na selecSub -> Marcados vao para o proximo bloco -> Não marcados ficão no mesmo
-//Gerar arquivo texto depois de cada método -> byQuickSort ou byIntercalacao binarios -> em TXT 
-
 int main(int argc, char const *argv[]) {
-
-    //sortInterno(3, 1000);
-    selecSub(3, 150);
-    // quicksort(1000, 3);
-    return 0;
 
     printf("\n===== TP1 - Estrutura de Dados II =====\n\n");
 
@@ -20,7 +10,7 @@ int main(int argc, char const *argv[]) {
     char opcional[10]; 
 
     if(argc == 2 && strcmp(argv[1], "testesAutomatizados") == 0){
-        funcaoTestesAltomatizados();
+        funcaoTestesAutomatizados();
         return 0;
     }
 
@@ -60,6 +50,7 @@ int main(int argc, char const *argv[]) {
     if(!verificaArquivosBinarios()){
         gerarArquivosBinarios();
     }
+    gerenciaContadores(1);
 
     // Menu de acesso às pesquisas
     switch (metodo) {

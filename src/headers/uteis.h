@@ -4,7 +4,6 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
-#include <time.h>
 
 #include "structs.h"
 #include "heap.h"
@@ -26,7 +25,7 @@ void gerarArquivosBinarios();
 void imprimeContadores(Contadores);
 
 void geraArquivoTexto(char nomeArquivo[50]);
-void funcaoTestesAltomatizados();
+void funcaoTestesAutomatizados();
 void gerenciaContadores(int op);
 
 #endif 

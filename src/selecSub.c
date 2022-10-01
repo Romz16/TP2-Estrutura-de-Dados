@@ -19,7 +19,6 @@ int driverSelecSub(int quantidade, int situacao){
   int countFitas = 0;
   int countFitasUsadas = 0;
   int countMarcados = 0;
-  
 
   for (int i = 0; i < AREA_MAX && i < quantidade; i++){
     fread(&alunoTmp, sizeof(Aluno), 1, arquivo);
@@ -34,7 +33,7 @@ int driverSelecSub(int quantidade, int situacao){
     if(i < quantidade-AREA_MAX){
 
       fread(&alunoTmp, sizeof(Aluno), 1, arquivo);
-      ContadoresIndividuais.comparacoes++;
+
       if(alunoTmp.nota < alunos[0].nota){
         alunos[0] = alunoTmp;
         countMarcados++;
@@ -66,61 +65,11 @@ int driverSelecSub(int quantidade, int situacao){
       heapSort(alunos, AREA_MAX-countMarcados);
           
     }
-    // else{
-      
-      // if(countMarcados != 0){
-      //   //Se tiver marcados escreve os não marcados para a fita atual e os marcados para a proxima
-
-      //   //Escreve os itens não marcados na fita atual  
-      //   heapSort(alunos, AREA_MAX-1);
-      //   for (int j = 0; j < (AREA_MAX-1)-countMarcados; j++){
-      //     fwrite(&alunos[j], sizeof(Aluno), 1, vetorFitas[countFitas]);
-      //     heapSort(alunos, AREA_MAX-1);
-      //   }
-
-      //   //Atualizacaoes 
-      //   tmpTroca = alunos[0];
-      //   alunos[0] = alunos[AREA_MAX-1];
-      //   alunos[AREA_MAX-1] = tmpTroca;
-
-      //   heapSort(alunos, AREA_MAX-1);
-
-      //   alunoTmp.nota = -1;
-      //   fwrite(&alunoTmp, sizeof(Aluno), 1, vetorFitas[countFitas]);
-
-      //   if(countFitas != MAXFITAS/2-1){
-      //     countFitas++;
-      //     countFitasUsadas++;
-      //   }
-      //   else if (countFitas == MAXFITAS/2-1){
-      //     countFitas++;
-      //   }
-        
-      //   //Escreve os marcados para a proxima fita
-      //   for (int j = 0; j < AREA_MAX-1; j++){
-      //     fwrite(&alunos[j], sizeof(Aluno), 1, vetorFitas[countFitas]);
-      //   }    
-
-      //   alunoTmp.nota = -1;
-      //   fwrite(&alunoTmp, sizeof(Aluno), 1, vetorFitas[countFitas]);
-
-      //   break;
-
-      // }
-      
-      // else if(countMarcados == 0){
-      //   //Se não tiver nenhum marcado so escreve os itens na fita atual  
-      //   for (int j = 0; j < AREA_MAX-1; j++){
-      //     fwrite(&alunos[j], sizeof(Aluno), 1, vetorFitas[countFitas]);
-      //   }    
-
-      //   alunoTmp.nota = -1;
-      //   fwrite(&alunoTmp, sizeof(Aluno), 1, vetorFitas[countFitas]);
-
-      //   break;
-      // }
-    // }
     else{
+      //Verifica qual o primeiro item da fita atual
+      //Item no vetor alunos menores que esse item fica na fita atual 
+      //Item no vetor alunos menor que esse item fica na proxima fita 
+
       tmpTroca = alunos[0];
       alunos[0] = alunos[AREA_MAX-1];
       alunos[AREA_MAX-1] = tmpTroca;
@@ -159,10 +108,7 @@ int driverSelecSub(int quantidade, int situacao){
 }
 
 void selecSub(int situacao, int quantidade){
-    clock_t beginI = clock(); //inicio do calculo de clock de inserção
     resetFitas(0);
     driverSelecSub(quantidade, situacao);
     intercalacao(situacao, quantidade);
-    clock_t endI = clock(); //termino do calculo do clock de inserção
-    ContadoresIndividuais.tempo = (double)(endI - beginI) / CLOCKS_PER_SEC;  
 }

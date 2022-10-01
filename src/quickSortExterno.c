@@ -94,10 +94,13 @@ void quicksort(int quantidade, int situacao){
     fclose(ArqLEs);   
     fim = clock();
     conts.tempo = (double)(fim - inicio)/CLOCKS_PER_SEC;
-
+  
     imprimeContadores(conts);
     geraArquivoTexto(name);
-    
+
+    ContadoresIndividuais.comparacoes = conts.comparacoes;
+    ContadoresIndividuais.transferencias = conts.transferencias;
+    ContadoresIndividuais.tempo = conts.tempo;
 }
 
 //Inicializa um pivo vazio
