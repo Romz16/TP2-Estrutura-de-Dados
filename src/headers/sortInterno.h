@@ -10,4 +10,6 @@
 
 void criaBlocos(int quantidade, int situacao);
 void sortInterno(int situacao, int quantidade);
+void ordenaAlunos(Aluno blocos[]);
+
 #endif
