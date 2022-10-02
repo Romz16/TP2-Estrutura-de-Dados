@@ -1,16 +1,16 @@
 
 ===== TP1 - Estrutura de Dados II =====
 
-METODO: 1 
+METODO: 2 
 QUANTIDADE: 1000 
 SITUACAO: 3
 
 -----------------TESTE: 1/1-----------------
 
 Resultado Gerado arquivo: "resultado.txt" 
-Numero Tranferencia Media Indexacao: 0
-Numero Comparacoes Media Indexacao: 0
-Tempo decorrido Media Indexacao: -nan
+Numero Tranferencia Media Indexacao: -80
+Numero Comparacoes Media Indexacao: 4096
+Tempo decorrido Media Indexacao: 0.000000
 
 
 -------------------MEDIA DOS RESULTADOS-------------------

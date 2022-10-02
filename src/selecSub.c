@@ -27,7 +27,7 @@ int driverSelecSub(int quantidade, int situacao){
 
   heapSort(alunos, AREA_MAX-countMarcados);
 
-  for (int i = 0; i < quantidade; i++){
+  for (int i = 0; i <= quantidade; i++){
     fwrite(&alunos[0], sizeof(Aluno), 1, vetorFitas[countFitas]);
     
     if(i < quantidade-AREA_MAX){
@@ -98,9 +98,8 @@ int driverSelecSub(int quantidade, int situacao){
     }
   }   
   
-  for (int i = 0; i <= countFitasUsadas && i < MAXFITAS/2; i++){
+  for (int i = 0; i <= countFitasUsadas && i < MAXFITAS/2; i++)
     fclose(vetorFitas[i]);
-  }
 
   fclose(arquivo);
   
@@ -109,6 +108,6 @@ int driverSelecSub(int quantidade, int situacao){
 
 void selecSub(int situacao, int quantidade){
     resetFitas(0);
-    driverSelecSub(quantidade, situacao);
+    driverSelecSub(quantidade+1, situacao);
     intercalacao(situacao, quantidade);
 }

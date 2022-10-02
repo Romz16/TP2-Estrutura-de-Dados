@@ -230,9 +230,9 @@ void geraArquivoTexto(char nomeArquivo[50]){
     Aluno AlunoTmp;
 
     while (fread(&AlunoTmp, sizeof(Aluno), 1, arquivo) == 1){
-        if(AlunoTmp.nInscricao < 1000)
+        if(AlunoTmp.nInscricao < 1000 && AlunoTmp.nota != -1)
             fprintf(arquivoTxt, "%li\t\t.2%lf\t%s\t%s\t%s\n", AlunoTmp.nInscricao, AlunoTmp.nota, AlunoTmp.estado, AlunoTmp.cidade, AlunoTmp.curso);
-        else 
+        else if(AlunoTmp.nInscricao > 1000 && AlunoTmp.nota != -1)
             fprintf(arquivoTxt, "%li\t%.2lf\t%s\t%s\t%s\n", AlunoTmp.nInscricao, AlunoTmp.nota, AlunoTmp.estado, AlunoTmp.cidade, AlunoTmp.curso);
     }
     printf("Resultado Gerado arquivo: \"resultado.txt\" \n");
