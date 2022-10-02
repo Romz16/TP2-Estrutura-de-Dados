@@ -37,5 +37,5 @@ typedef struct TipoBloco{
 
 Contadores ContadoresIndividuais;
 Contadores ContadoresAcumulados;
-
+int intercaladoSet;
 #endif

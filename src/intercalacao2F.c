@@ -7,6 +7,28 @@
 #include <string.h>
 #include <time.h>
 
+void lePrimeiroElemento(TipoBloco **blocos,FILE **vetorFitas){
+    for (int i = 0; i < MAXFITAS/2; i++){
+        if(fread(&blocos[i]->campoAluno, sizeof(Aluno), 1, vetorFitas[i]) == 1){
+            blocos[i]->fimFita = 0;
+            blocos[i]->fitaOrigem = i; 
+
+            if(blocos[i]->campoAluno.nota != -1)
+                blocos[i]->fimBloco = 0;
+            else if(blocos[i]->campoAluno.nota == -1){            
+                blocos[i]->fimBloco = 1;
+                blocos[i]->campoAluno.nota = INT_MAX;
+            }
+            intercaladoSet =0;
+        }
+        else{
+            blocos[i]->fimFita = 1;
+            blocos[i]->fitaInativa = 1;
+            blocos[i]->campoAluno.nota = INT_MAX;
+        }            
+    }
+}
+
 void intercalacao(int situacao, int quantidade){
 
     FILE *vetorFitas[MAXFITAS] = {NULL};
@@ -21,40 +43,11 @@ void intercalacao(int situacao, int quantidade){
 
     //Primeiro Bloco com os primerios elementros de cada fita 
     //Funcao Ler primeiros elementos de cada fita
-    for (int i = 0; i < MAXFITAS/2; i++){
-        if(fread(&blocos[i].campoAluno, sizeof(Aluno), 1, vetorFitas[i]) == 1){
-            blocos[i].fimFita = 0;
-            blocos[i].fitaOrigem = i; 
-
-            if(blocos[i].campoAluno.nota != -1)
-                blocos[i].fimBloco = 0;
-            else if(blocos[i].campoAluno.nota == -1){            
-                blocos[i].fimBloco = 1;
-                blocos[i].campoAluno.nota = INT_MAX;
-            }
-        }
-        else{
-            blocos[i].fimFita = 1;
-            blocos[i].fitaInativa = 1;
-            blocos[i].campoAluno.nota = INT_MAX;
-        }            
-    }
+   lePrimeiroElemento(&blocos,*vetorFitas);
 
     //Ordenacao do vetor
     //Funcao ordena vetor do tipo bloco 
-    int i, j, min_idx;
-    for (i = 0; i < MAXFITAS/2-1; i++){
-        min_idx = i;
-        for (j = i+1; j < MAXFITAS/2; j++)
-            if (blocos[j].campoAluno.nota < blocos[min_idx].campoAluno.nota)
-                min_idx = j;
-
-        if(min_idx != i){
-            TipoBloco temp = blocos[min_idx];
-            blocos[min_idx] = blocos[i];
-            blocos[i] = temp;
-        }
-    }
+    insertDeBlocos(&blocos);
 
     while (1){    
 
@@ -63,26 +56,8 @@ void intercalacao(int situacao, int quantidade){
             
             //Verifica se chegou no fim das fitas de leitura atual
             //Funcao Ler primeiros elementos de cada fita
-            int intercaladoSet = 1;
-            for (int i = 0; i < MAXFITAS/2; i++){
-                if(fread(&blocos[i].campoAluno, sizeof(Aluno), 1, vetorFitas[i]) == 1){
-                    blocos[i].fimFita = 0;
-                    blocos[i].fitaOrigem = i; 
-
-                    if(blocos[i].campoAluno.nota != -1)
-                        blocos[i].fimBloco = 0;
-                    else if(blocos[i].campoAluno.nota == -1){            
-                        blocos[i].fimBloco = 1;
-                        blocos[i].campoAluno.nota = INT_MAX;
-                    }
-                    intercaladoSet = 0;
-                }
-                else{
-                    blocos[i].fimFita = 1;
-                    blocos[i].fitaInativa = 1;
-                    blocos[i].campoAluno.nota = INT_MAX;
-                }            
-            }
+            intercaladoSet = 1;
+            lePrimeiroElemento(&blocos,*vetorFitas);
             //Se chegou no fim das fitas de leitura atual = intercalação dessas fitas esta completa
             if(intercaladoSet == 1){
                 //reseta as fitas que estavam sendo lidas 
@@ -219,20 +194,7 @@ void intercalacao(int situacao, int quantidade){
      
         //Ordenacao do vetor 
         //Funcao ordena vetor do tipo bloco 
-        for (i = 0; i < MAXFITAS/2-1; i++){
-            min_idx = i;
-            for (j = i+1; j < MAXFITAS/2; j++)
-                if (blocos[j].campoAluno.nota < blocos[min_idx].campoAluno.nota)
-                    min_idx = j;
-
-            if(min_idx != i){
-                TipoBloco temp = blocos[min_idx];
-                blocos[min_idx] = blocos[i];
-                blocos[i] = temp;
-            }
-        }
-        
-    }
+        insertDeBlocos(&blocos);
         
     if(fitaEscritaAtual == MAXFITAS/2)
         fitaEscritaAtual = 0;

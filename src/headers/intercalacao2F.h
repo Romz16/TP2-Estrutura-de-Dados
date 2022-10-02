@@ -8,5 +8,6 @@
 #include "sortInterno.h"
 
 void intercalacao(int situacao, int quantidade);
+void lePrimeiroElemento(TipoBloco *blocos,FILE **vetorFitas);
 
 #endif 

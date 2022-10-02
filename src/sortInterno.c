@@ -1,5 +1,40 @@
 #include "headers/uteis.h"
 
+
+void insertDeBlocos(TipoBloco **blocos){
+    int i, j, min_idx;
+    for (i = 0; i < MAXFITAS/2-1; i++){
+        min_idx = i;
+        for (j = i+1; j < MAXFITAS/2; j++)
+            if (blocos[j]->campoAluno.nota < blocos[min_idx]->campoAluno.nota)
+                min_idx = j;
+
+        if(min_idx != i){
+            TipoBloco temp = *blocos[min_idx];
+            *blocos[min_idx] = *blocos[i];
+            *blocos[i] = temp;
+        }
+    }
+}
+
+
+
+void InsertionReg(Aluno **alunoTmp,int Tam){
+     int i, j, min_idx;
+        for (i = 0; i < Tam-1; i++){
+            min_idx = i;
+            for (j = i+1; j < Tam; j++)
+                if (alunoTmp[j]->nota < alunoTmp[min_idx]->nota)
+                    min_idx = j;
+
+            if(min_idx != i){
+                Aluno temp = *alunoTmp[min_idx];
+                *alunoTmp[min_idx] = *alunoTmp[i];
+                *alunoTmp[i] = temp;
+            }
+        }
+}
+
 void criaBlocos(int quantidade, int situacao){
     FILE *vetorFitas[MAXFITAS/2] = {NULL};
     if(abrirFitas(vetorFitas) != MAXFITAS)  
@@ -22,19 +57,7 @@ void criaBlocos(int quantidade, int situacao){
         fread(alunoTmp, sizeof(Aluno)*(AREA_MAX), 1, arquivo);
         
         //Colocar em uma função separada
-        int i, j, min_idx;
-        for (i = 0; i < AREA_MAX-1; i++){
-            min_idx = i;
-            for (j = i+1; j < AREA_MAX; j++)
-                if (alunoTmp[j].nota < alunoTmp[min_idx].nota)
-                    min_idx = j;
-
-            if(min_idx != i){
-                Aluno temp = alunoTmp[min_idx];
-                alunoTmp[min_idx] = alunoTmp[i];
-                alunoTmp[i] = temp;
-            }
-        }
+        InsertionReg(&alunoTmp,AREA_MAX);
 
         alunoTmp2.nota = -1;
         fwrite(alunoTmp, sizeof(Aluno)*(AREA_MAX), 1, vetorFitas[countFitas]);
@@ -48,19 +71,8 @@ void criaBlocos(int quantidade, int situacao){
     fread(alunoTmp, sizeof(Aluno)*blocoFinal, 1, arquivo);
     
     //Colocar em uma função separada
-    int i, j, min_idx;
-    for (i = 0; i < blocoFinal-1; i++){
-        min_idx = i;
-        for (j = i+1; j < blocoFinal; j++)
-        if (alunoTmp[j].nota < alunoTmp[min_idx].nota)
-            min_idx = j;
+     InsertionReg(&alunoTmp,blocoFinal);
 
-        if(min_idx != i){
-            Aluno temp = alunoTmp[min_idx];
-            alunoTmp[min_idx] = alunoTmp[i];
-            alunoTmp[i] = temp;
-        }
-    }
 
     alunoTmp2.nota = -1;
     fwrite(alunoTmp, sizeof(Aluno)*(blocoFinal), 1, vetorFitas[countFitas]);
@@ -70,6 +82,7 @@ void criaBlocos(int quantidade, int situacao){
         fclose(vetorFitas[i]);
     }    
 }
+
 
 void sortInterno(int situacao, int quantidade){
     resetFitas(0);

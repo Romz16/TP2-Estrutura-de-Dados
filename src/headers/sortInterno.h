@@ -9,5 +9,7 @@
 #include "uteis.h"
 
 void criaBlocos(int quantidade, int situacao);
+void insertDeBlocos(TipoBloco **blocos);
 void sortInterno(int situacao, int quantidade);
+void InsertionReg(Aluno **alunoTmp,int Tam);
 #endif
