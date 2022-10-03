@@ -25,7 +25,26 @@ void heapify(Aluno arr[], int N, int i){
         heapify(arr, N, maior);
     }
 }
+
+void heapifyMax(Aluno arr[], int N, int i){
+    int maior = i;
+    int left = 2 * i + 1;
+    int right = 2 * i + 2;
  
+    if (left < N && (arr[left].nota > arr[maior].nota)){
+        maior = left;
+	}
+
+    if (right < N && (arr[right].nota > arr[maior].nota)){
+        maior = right;
+	}
+
+    if (maior != i) {
+        swap(&arr[i], &arr[maior]);
+        heapifyMax(arr, N, maior);
+    }
+}
+
 void mimHeap(Aluno arr[], int N){
  
     for (int i = N / 2 - 1; i >= 0; i--)
@@ -35,11 +54,11 @@ void mimHeap(Aluno arr[], int N){
 void heapSort(Aluno arr[], int N){
  
     for (int i = N / 2 - 1; i >= 0; i--)
-        heapify(arr, N, i);
+        heapifyMax(arr, N, i);
  
     for (int i = N - 1; i >= 0; i--) {
         swap(&arr[0], &arr[i]);
-        heapify(arr, i, 0);
+        heapifyMax(arr, i, 0);
     }
 }
  

@@ -78,15 +78,26 @@ int driverSelecSub(int quantidade, int situacao){
     }
     //Chegou nos últimos 20
     else{
-      //Verifica qual o primeiro item da fita atual
-      //Item no vetor alunos menores que esse item fica na fita atual 
-      //Item no vetor alunos menor que esse item fica na proxima fita 
+
+      //Verifica qual o primeiro item do bloco atual
+      alunoTmp = alunos[0];
 
       tmpTroca = alunos[0];
       alunos[0] = alunos[AREA_MAX-1];
       alunos[AREA_MAX-1] = tmpTroca;
 
       heapSort(alunos, AREA_MAX-1);
+
+      //Item no vetor alunos maiores que esse item fica na fita atual       
+      int index = AREA_MAX-1;
+      for (int i = 0; i < AREA_MAX-1; i++){
+        if(alunos[i].nota >= alunoTmp.nota)
+          fwrite(&alunos[i], sizeof(Aluno), 1, vetorFitas[countFitas]);
+        else{
+          index = i;
+          break;
+        }  
+      }
 
       alunoTmp.nota = -1;
       fwrite(&alunoTmp, sizeof(Aluno), 1, vetorFitas[countFitas]);
@@ -99,12 +110,15 @@ int driverSelecSub(int quantidade, int situacao){
         countFitas++;
       }
 
-      for (int j = 0; j < AREA_MAX-1; j++){
+      //Item no vetor alunos menores que esse item fica na proxima fita 
+      for (int j = index /* int j = 0 */; j < AREA_MAX-1; j++){
         fwrite(&alunos[j], sizeof(Aluno), 1, vetorFitas[countFitas]);
       }    
 
-      alunoTmp.nota = -1;
-      fwrite(&alunoTmp, sizeof(Aluno), 1, vetorFitas[countFitas]);
+      if(index != AREA_MAX-1){
+        alunoTmp.nota = -1;
+        fwrite(&alunoTmp, sizeof(Aluno), 1, vetorFitas[countFitas]);
+      }
 
       break;
     }
