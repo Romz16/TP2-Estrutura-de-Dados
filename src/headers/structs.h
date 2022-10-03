@@ -5,7 +5,7 @@
 #define FALSE 0
 
 #define AREA_MAX 20
-#define MAX_TAM 471705
+#define MAX_TAM 471705 // 471705 - 34 = 471671
 #define MAXFITAS 40
 
 typedef struct Aluno{
@@ -30,7 +30,6 @@ typedef struct Contadores{
 typedef struct TipoBloco{	
 	Aluno campoAluno;
 	int fitaOrigem;
-	int fitaInativa;
 	int fimBloco;
 	int fimFita;
 }TipoBloco;

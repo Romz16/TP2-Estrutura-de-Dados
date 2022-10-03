@@ -12,11 +12,11 @@ void heapify(Aluno arr[], int N, int i){
     int left = 2 * i + 1;
     int right = 2 * i + 2;
  
-    if (left < N && (arr[left].nota > arr[maior].nota)){
+    if (left < N && (arr[left].nota < arr[maior].nota)){
         maior = left;
 	}
 
-    if (right < N && (arr[right].nota > arr[maior].nota)){
+    if (right < N && (arr[right].nota < arr[maior].nota)){
         maior = right;
 	}
 
@@ -31,10 +31,10 @@ void heapSort(Aluno arr[], int N){
     for (int i = N / 2 - 1; i >= 0; i--)
         heapify(arr, N, i);
  
-    for (int i = N - 1; i >= 0; i--) {
-        swap(&arr[0], &arr[i]);
-        heapify(arr, i, 0);
-    }
+    // for (int i = N - 1; i >= 0; i--) {
+    //     swap(&arr[0], &arr[i]);
+    //     heapify(arr, i, 0);
+    // }
 }
  
 void printArray(Aluno arr[], int N){

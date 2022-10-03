@@ -24,7 +24,6 @@ int leItemFita(int i, int j, TipoBloco *blocos, FILE *vetorFitas){
         }
         else{
             blocos->fimFita = 1;
-            blocos->fitaInativa = 1;
             blocos->campoAluno.nota = INT_MAX;
         } 
 
@@ -79,7 +78,6 @@ void intercalacao(int situacao, int quantidade){
 
     TipoBloco blocos[AREA_MAX];
     TipoBloco tmp;
-    Contadores conts;
 
     int fitaEscritaAtual = 20;
 
@@ -193,6 +191,6 @@ void intercalacao(int situacao, int quantidade){
     }    
 
     geraArquivoTexto(nome);
-    imprimeContadores(conts);
+    imprimeContadores(ContadoresIndividuais);
 
 }

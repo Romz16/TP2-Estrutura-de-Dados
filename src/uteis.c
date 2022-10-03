@@ -235,7 +235,7 @@ void geraArquivoTexto(char nomeArquivo[50]){
         else if(AlunoTmp.nInscricao > 1000 && AlunoTmp.nota != -1)
             fprintf(arquivoTxt, "%li\t%.2lf\t%s\t%s\t%s\n", AlunoTmp.nInscricao, AlunoTmp.nota, AlunoTmp.estado, AlunoTmp.cidade, AlunoTmp.curso);
     }
-    printf("Resultado Gerado arquivo: \"resultado.txt\" \n");
+    printf("Arquivo de Resultado Gerado: \"resultado.txt\" \n");
     
     fclose(arquivo);
 }
@@ -306,14 +306,15 @@ void funcaoTestesAutomatizados(){
 
     gerenciaContadores(1);
 
-    while (metodo != -1){
-        
+    while (metodo != -1){       
         scanf("%i", &metodo);
         if(metodo == -1) break;
 
         scanf("%i", &quantidadeRegistros);
         scanf("%i", &situacao); 
         scanf("%i", &quantidadeTestes);     
+
+        //printRegistros(situacao, quantidadeRegistros);
 
         if(metodo == 1){
             printf("METODO: %i \nQUANTIDADE: %i \nSITUACAO: %i\n", metodo, quantidadeRegistros, situacao);
