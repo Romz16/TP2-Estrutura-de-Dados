@@ -86,7 +86,7 @@ int driverSelecSub(int quantidade, int situacao){
       alunos[0] = alunos[AREA_MAX-1];
       alunos[AREA_MAX-1] = tmpTroca;
 
-      mimHeap(alunos, AREA_MAX-1);
+      heapSort(alunos, AREA_MAX-1);
 
       alunoTmp.nota = -1;
       fwrite(&alunoTmp, sizeof(Aluno), 1, vetorFitas[countFitas]);
@@ -121,5 +121,5 @@ int driverSelecSub(int quantidade, int situacao){
 void selecSub(int situacao, int quantidade){
     resetFitas(0);
     driverSelecSub(quantidade+1, situacao);
-    intercalacao(situacao, quantidade);
+    intercalacao(situacao, quantidade+1);
 }

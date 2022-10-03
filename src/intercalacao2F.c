@@ -66,6 +66,7 @@ void deletaFitasEntradaAtual(int fitaEscritaAtual, int fita, FILE *vetorFitas[MA
             printf("Erro ao Abrir arquivo Fita: %s\n", nomeArquivo);
             continue;
         }
+
         idx++;
     }
 }
@@ -77,7 +78,7 @@ void intercalacao(int situacao, int quantidade){
         return;
 
     TipoBloco blocos[AREA_MAX];
-    TipoBloco tmp;
+    //TipoBloco tmp;
 
     int fitaEscritaAtual = 20;
 
@@ -91,6 +92,11 @@ void intercalacao(int situacao, int quantidade){
         //Entrar aqui apenas quando 
         if(blocos[0].fimBloco == 1){
             
+            //Escreve -1 para determinar o fim de um bloco
+            blocos[0].campoAluno.nota = -1;
+            fwrite(&blocos[0], sizeof(Aluno), 1, vetorFitas[fitaEscritaAtual]);
+            blocos[0].campoAluno.nota = INT_MAX;
+            
             //Verifica se chegou no fim das fitas de leitura atual
             //Funcao Ler primeiros elementos de cada fita
             int intercaladoSet = 1;
@@ -100,10 +106,9 @@ void intercalacao(int situacao, int quantidade){
 
             //Se chegou no fim das fitas de leitura atual = intercalação dessas fitas esta completa
             if(intercaladoSet == 1){
-                //reseta as fitas que estavam sendo lidas 
 
-                tmp.campoAluno.nota = -1;
-                fwrite(&tmp.campoAluno, sizeof(Aluno), 1, vetorFitas[fitaEscritaAtual]);
+                //tmp.campoAluno.nota = -1;
+                //fwrite(&tmp.campoAluno, sizeof(Aluno), 1, vetorFitas[fitaEscritaAtual]);
                 
                 //Reseta arquivos fitaEscritaAtual pro comeco dos arquivos
                 int fitaComeco = -1;
@@ -140,8 +145,9 @@ void intercalacao(int situacao, int quantidade){
             else{
                 //Escreve -1 no fim da fitaEscritaAtual
                 //Marca fim do bloco na fita de escrita
-                tmp.campoAluno.nota = -1;
-                fwrite(&tmp.campoAluno, sizeof(Aluno), 1, vetorFitas[fitaEscritaAtual]);
+
+                //tmp.campoAluno.nota = -1;
+                //fwrite(&tmp.campoAluno, sizeof(Aluno), 1, vetorFitas[fitaEscritaAtual]);
 
                 //Fitas de entrada
                 if(fitaEscritaAtual > MAXFITAS/2 - 1){

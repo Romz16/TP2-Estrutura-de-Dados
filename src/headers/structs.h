@@ -5,6 +5,8 @@
 #define FALSE 0
 
 #define AREA_MAX 20
+#define AREA_MAX_SEL 20-2
+
 #define MAX_TAM 471705 // 471705 - 34 = 471671
 #define MAXFITAS 40
 

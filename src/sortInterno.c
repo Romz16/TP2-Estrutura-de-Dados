@@ -28,7 +28,6 @@ void criaBlocos(int quantidade, int situacao){
     int countFitas = 0;
 
     Aluno alunos[AREA_MAX];
-    Aluno alunoTmp;
 
     quantidaBlocos = quantidade / (AREA_MAX);
     blocoFinal = quantidade - (quantidaBlocos * (AREA_MAX));
@@ -39,9 +38,9 @@ void criaBlocos(int quantidade, int situacao){
         
         ordenaAlunos(alunos);
 
-        alunoTmp.nota = -1;
         fwrite(alunos, sizeof(Aluno)*(AREA_MAX), 1, vetorFitas[countFitas]);
-        fwrite(&alunoTmp, sizeof(Aluno), 1, vetorFitas[countFitas]);
+        alunos[0].nota = -1;
+        fwrite(&alunos[0], sizeof(Aluno), 1, vetorFitas[countFitas]);
     
         countFitas++;
         if(countFitas == AREA_MAX)
@@ -52,9 +51,9 @@ void criaBlocos(int quantidade, int situacao){
     
     ordenaAlunos(alunos);
 
-    alunoTmp.nota = -1;
     fwrite(alunos, sizeof(Aluno)*(blocoFinal), 1, vetorFitas[countFitas]);
-    fwrite(&alunoTmp, sizeof(Aluno), 1, vetorFitas[countFitas]);
+    alunos[0].nota = -1;
+    fwrite(&alunos[0], sizeof(Aluno), 1, vetorFitas[countFitas]);
 
     for (int i = 0; i < AREA_MAX; i++){
         fclose(vetorFitas[i]);
@@ -63,6 +62,6 @@ void criaBlocos(int quantidade, int situacao){
 
 void sortInterno(int situacao, int quantidade){
     resetFitas(0);
-    criaBlocos(quantidade, situacao);
-    intercalacao(situacao, quantidade);
+    criaBlocos(quantidade+1, situacao);
+    intercalacao(situacao, quantidade+1);
 }
