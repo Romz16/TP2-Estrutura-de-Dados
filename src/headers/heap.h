@@ -8,7 +8,7 @@
 
 void swap(Aluno* a, Aluno* b);
 void heapify(Aluno arr[], int N, int i);
-void heapSort(Aluno arr[], int N);
+void mimHeap(Aluno arr[], int N);
 void printArray(Aluno arr[], int N);
 
 #endif 

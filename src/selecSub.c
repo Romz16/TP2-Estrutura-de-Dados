@@ -27,7 +27,7 @@ int driverSelecSub(int quantidade, int situacao){
   }    
 
   //Constroi o heap
-  heapSort(alunos, AREA_MAX-countMarcados);
+  mimHeap(alunos, AREA_MAX-countMarcados);
 
   for (int i = 0; i <= quantidade; i++){
     //Escreve o item 0 do vetor de alunos (menor) para o fita escrita atual (countFitas)
@@ -73,7 +73,7 @@ int driverSelecSub(int quantidade, int situacao){
         countMarcados = 0;
       }
 
-      heapSort(alunos, AREA_MAX-countMarcados);
+      mimHeap(alunos, AREA_MAX-countMarcados);
           
     }
     //Chegou nos últimos 20
@@ -86,7 +86,7 @@ int driverSelecSub(int quantidade, int situacao){
       alunos[0] = alunos[AREA_MAX-1];
       alunos[AREA_MAX-1] = tmpTroca;
 
-      heapSort(alunos, AREA_MAX-1);
+      mimHeap(alunos, AREA_MAX-1);
 
       alunoTmp.nota = -1;
       fwrite(&alunoTmp, sizeof(Aluno), 1, vetorFitas[countFitas]);
