@@ -12,29 +12,28 @@ int driverSelecSub(int quantidade, int situacao){
 
   FILE *arquivo = abrirArquivo(situacao);
 
-  Aluno alunos[AREA_MAX];
+  Aluno alunos[AREA_MAX_SEL];
   Aluno alunoTmp;
-  Aluno tmpTroca;
 
   int countFitas = 0;
   int countFitasUsadas = 0;
   int countMarcados = 0;
 
-  //Leitura dos 20 (AREA_MAX) primeiros itens do arquivo para a memoria principal
-  for (int i = 0; i < AREA_MAX && i < quantidade; i++){
+  //Leitura dos 20 (AREA_MAX_SEL) primeiros itens do arquivo para a memoria principal
+  for (int i = 0; i < AREA_MAX_SEL && i < quantidade; i++){
     fread(&alunoTmp, sizeof(Aluno), 1, arquivo);
     alunos[i] = alunoTmp;
   }    
 
   //Constroi o heap
-  mimHeap(alunos, AREA_MAX-countMarcados);
+  mimHeap(alunos, AREA_MAX_SEL-countMarcados);
 
   for (int i = 0; i <= quantidade; i++){
     //Escreve o item 0 do vetor de alunos (menor) para o fita escrita atual (countFitas)
     fwrite(&alunos[0], sizeof(Aluno), 1, vetorFitas[countFitas]);
     
     //Se não chegou nos 20 ultimos
-    if(i < quantidade-AREA_MAX){
+    if(i < quantidade-AREA_MAX_SEL){
 
       //Leitura de mais um item do arquivo
       fread(&alunoTmp, sizeof(Aluno), 1, arquivo);
@@ -46,9 +45,9 @@ int driverSelecSub(int quantidade, int situacao){
         countMarcados++;
 
         //Movido para o fim do heap
-        tmpTroca = alunos[0];
-        alunos[0] = alunos[AREA_MAX-countMarcados];
-        alunos[AREA_MAX-countMarcados] = tmpTroca;
+        alunoTmp = alunos[0];
+        alunos[0] = alunos[AREA_MAX_SEL-countMarcados];
+        alunos[AREA_MAX_SEL-countMarcados] = alunoTmp;
       }
       else{
         alunos[0] = alunoTmp;
@@ -56,7 +55,7 @@ int driverSelecSub(int quantidade, int situacao){
 
       //Verifica se todos os itens do vetor estão marcados 
       //E se não chegou na ultima fita de entrada (19)       
-      if(countMarcados == AREA_MAX && countFitas != MAXFITAS/2-1){
+      if(countMarcados == AREA_MAX_SEL && countFitas != MAXFITAS/2-1){
         //Escreve um aluno com nota -1 para diferenciar os blocos
         alunoTmp.nota = -1;
         fwrite(&alunoTmp, sizeof(Aluno), 1, vetorFitas[countFitas]);
@@ -65,7 +64,7 @@ int driverSelecSub(int quantidade, int situacao){
         countFitasUsadas++;
         countMarcados = 0;
       }
-      else if(countMarcados == AREA_MAX && countFitas == MAXFITAS/2-1){
+      else if(countMarcados == AREA_MAX_SEL && countFitas == MAXFITAS/2-1){
         alunoTmp.nota = -1;
         fwrite(&alunoTmp, sizeof(Aluno), 1, vetorFitas[countFitas]);
         
@@ -73,7 +72,7 @@ int driverSelecSub(int quantidade, int situacao){
         countMarcados = 0;
       }
 
-      mimHeap(alunos, AREA_MAX-countMarcados);
+      mimHeap(alunos, AREA_MAX_SEL-countMarcados);
           
     }
     //Chegou nos últimos 20
@@ -82,15 +81,15 @@ int driverSelecSub(int quantidade, int situacao){
       //Verifica qual o primeiro item do bloco atual
       alunoTmp = alunos[0];
 
-      tmpTroca = alunos[0];
-      alunos[0] = alunos[AREA_MAX-1];
-      alunos[AREA_MAX-1] = tmpTroca;
+      alunoTmp = alunos[0];
+      alunos[0] = alunos[AREA_MAX_SEL-1];
+      alunos[AREA_MAX_SEL-1] = alunoTmp;
 
-      heapSort(alunos, AREA_MAX-1);
+      heapSort(alunos, AREA_MAX_SEL-1);
 
       //Item no vetor alunos maiores que esse item fica na fita atual       
-      int index = AREA_MAX-1;
-      for (int i = 0; i < AREA_MAX-1; i++){
+      int index = AREA_MAX_SEL-1;
+      for (int i = 0; i < AREA_MAX_SEL-1; i++){
         if(alunos[i].nota >= alunoTmp.nota)
           fwrite(&alunos[i], sizeof(Aluno), 1, vetorFitas[countFitas]);
         else{
@@ -111,11 +110,11 @@ int driverSelecSub(int quantidade, int situacao){
       }
 
       //Item no vetor alunos menores que esse item fica na proxima fita 
-      for (int j = index /* int j = 0 */; j < AREA_MAX-1; j++){
+      for (int j = index /* int j = 0 */; j < AREA_MAX_SEL-1; j++){
         fwrite(&alunos[j], sizeof(Aluno), 1, vetorFitas[countFitas]);
       }    
 
-      if(index != AREA_MAX-1){
+      if(index != AREA_MAX_SEL-1){
         alunoTmp.nota = -1;
         fwrite(&alunoTmp, sizeof(Aluno), 1, vetorFitas[countFitas]);
       }
@@ -134,6 +133,6 @@ int driverSelecSub(int quantidade, int situacao){
 
 void selecSub(int situacao, int quantidade){
     resetFitas(0);
-    driverSelecSub(quantidade+1, situacao);
-    intercalacao(situacao, quantidade+1);
+    driverSelecSub(quantidade+3, situacao);
+    intercalacao(situacao, quantidade+3);
 }

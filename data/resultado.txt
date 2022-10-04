@@ -1,119 +1,119 @@
+370724	0.00	MT CUIABA                                          	 CUIABA                                          	   ADMINISTRACAO             
+151750	0.00	MT PRIMAVERA DO LESTE                              	 PRIMAVERA DO LESTE                              	   ADMINISTRACAO             
 423855	0.00	MT CUIABA                                          	 CUIABA                                          	   ADMINISTRACAO             
 59573	0.00	MT CUIABA                                          	 CUIABA                                          	   ADMINISTRACAO             
-370724	0.00	MT CUIABA                                          	 CUIABA                                          	   ADMINISTRACAO             
 207334	0.00	MT CUIABA                                          	 CUIABA                                          	   ADMINISTRACAO             
-151750	0.00	MT PRIMAVERA DO LESTE                              	 PRIMAVERA DO LESTE                              	   ADMINISTRACAO             
 239419	0.00	MT CUIABA                                          	 CUIABA                                          	   ADMINISTRACAO             
 57202	0.00	MT AGUA BOA                                        	 AGUA BOA                                        	   ADMINISTRACAO             
 47497	0.00	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
+72808	0.00	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
 144473	0.00	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
 454736	0.00	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
-72808	0.00	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
 221890	0.00	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
 161889	0.00	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
-369658	0.00	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
-259213	0.00	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
-339589	0.00	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
 84421	0.00	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
+259213	0.00	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
 119390	0.00	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
-283054	0.00	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
-453078	0.00	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
+369658	0.00	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
+339589	0.00	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
 34050	0.00	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
+453078	0.00	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
+283054	0.00	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
 22952	0.00	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
+32997	0.00	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
 435753	0.00	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
 370976	0.00	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
 461082	0.00	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
-32997	0.00	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
 417534	0.00	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
 230537	0.00	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
 367644	0.00	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
-159186	0.00	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
 78506	0.00	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
+159186	0.00	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
 136049	0.00	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
 30293	0.00	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
 21239	0.00	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
-259826	0.00	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
 18874	0.00	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
 352323	0.00	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
-273019	0.00	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
-195746	0.00	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
-273076	0.00	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
+259826	0.00	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
 1486	0.00	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
 295848	0.00	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
-351682	0.00	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
-415030	0.00	PI TERESINA                                        	 TERESINA                                        	   ADMINISTRACAO             
-384614	0.00	PI TERESINA                                        	 TERESINA                                        	   ADMINISTRACAO             
-219752	0.00	PI PARNAIBA                                        	 PARNAIBA                                        	   ADMINISTRACAO             
-386574	0.00	PI PARNAIBA                                        	 PARNAIBA                                        	   ADMINISTRACAO             
+273019	0.00	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
+195746	0.00	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
 115970	0.00	PI PARNAIBA                                        	 PARNAIBA                                        	   ADMINISTRACAO             
 99183	0.00	PI PARNAIBA                                        	 PARNAIBA                                        	   ADMINISTRACAO             
+351682	0.00	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
+273076	0.00	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
+219752	0.00	PI PARNAIBA                                        	 PARNAIBA                                        	   ADMINISTRACAO             
+386574	0.00	PI PARNAIBA                                        	 PARNAIBA                                        	   ADMINISTRACAO             
+415030	0.00	PI TERESINA                                        	 TERESINA                                        	   ADMINISTRACAO             
+384614	0.00	PI TERESINA                                        	 TERESINA                                        	   ADMINISTRACAO             
 90529	0.00	PI TERESINA                                        	 TERESINA                                        	   ADMINISTRACAO             
 255664	0.00	PI TERESINA                                        	 TERESINA                                        	   ADMINISTRACAO             
-187111	0.00	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
 112194	0.00	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
 110621	0.00	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
+187111	0.00	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
+350210	0.00	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
+321961	0.00	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
 45496	0.00	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
 12427	0.00	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
-321961	0.00	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
-350210	0.00	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
-305837	0.00	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 94945	0.00	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
-273968	0.00	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
-470311	0.00	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
-98672	0.00	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 202929	0.00	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
-206581	0.00	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
-374893	0.00	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
-204803	0.00	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
+273968	0.00	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
+305837	0.00	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
+470311	0.00	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 91130	0.00	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 337849	0.00	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
+98672	0.00	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
+204803	0.00	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
+374893	0.00	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
+206581	0.00	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 109012	0.00	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
-11327	0.00	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 470990	0.00	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
-430397	0.00	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
-265302	0.00	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 283649	0.00	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 9709	0.00	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
-127326	0.00	PR SAO JOSE DOS PINHAIS                            	 SAO JOSE DOS PINHAIS                            	   ADMINISTRACAO             
+430397	0.00	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
+11327	0.00	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
+265302	0.00	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 468267	0.00	PR CURITIBA                                        	 CURITIBA                                        	   ADMINISTRACAO             
-141989	0.00	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
-340438	0.00	PR SAO JOSE DOS PINHAIS                            	 SAO JOSE DOS PINHAIS                            	   ADMINISTRACAO             
 184508	0.00	PR SAO JOSE DOS PINHAIS                            	 SAO JOSE DOS PINHAIS                            	   ADMINISTRACAO             
+359793	0.00	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
+127326	0.00	PR SAO JOSE DOS PINHAIS                            	 SAO JOSE DOS PINHAIS                            	   ADMINISTRACAO             
 144718	0.00	PR SAO JOSE DOS PINHAIS                            	 SAO JOSE DOS PINHAIS                            	   ADMINISTRACAO             
 29001	0.00	PR SAO JOSE DOS PINHAIS                            	 SAO JOSE DOS PINHAIS                            	   ADMINISTRACAO             
-283295	0.00	PR SAO JOSE DOS PINHAIS                            	 SAO JOSE DOS PINHAIS                            	   ADMINISTRACAO             
-466064	0.00	PR SAO JOSE DOS PINHAIS                            	 SAO JOSE DOS PINHAIS                            	   ADMINISTRACAO             
-359793	0.00	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
+141989	0.00	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 103160	0.00	PR SAO JOSE DOS PINHAIS                            	 SAO JOSE DOS PINHAIS                            	   ADMINISTRACAO             
+466064	0.00	PR SAO JOSE DOS PINHAIS                            	 SAO JOSE DOS PINHAIS                            	   ADMINISTRACAO             
+283295	0.00	PR SAO JOSE DOS PINHAIS                            	 SAO JOSE DOS PINHAIS                            	   ADMINISTRACAO             
+57324	0.00	PR SAO JOSE DOS PINHAIS                            	 SAO JOSE DOS PINHAIS                            	   ADMINISTRACAO             
+340438	0.00	PR SAO JOSE DOS PINHAIS                            	 SAO JOSE DOS PINHAIS                            	   ADMINISTRACAO             
+385026	0.00	PR SAO JOSE DOS PINHAIS                            	 SAO JOSE DOS PINHAIS                            	   ADMINISTRACAO             
+226231	0.00	PR SAO JOSE DOS PINHAIS                            	 SAO JOSE DOS PINHAIS                            	   ADMINISTRACAO             
+231764	0.00	PR SAO JOSE DOS PINHAIS                            	 SAO JOSE DOS PINHAIS                            	   ADMINISTRACAO             
+61544	0.00	PR SAO JOSE DOS PINHAIS                            	 SAO JOSE DOS PINHAIS                            	   ADMINISTRACAO             
+200707	0.00	PR SAO JOSE DOS PINHAIS                            	 SAO JOSE DOS PINHAIS                            	   ADMINISTRACAO             
+93169	0.00	PR SAO JOSE DOS PINHAIS                            	 SAO JOSE DOS PINHAIS                            	   ADMINISTRACAO             
+286995	0.00	PR SAO JOSE DOS PINHAIS                            	 SAO JOSE DOS PINHAIS                            	   ADMINISTRACAO             
+314555	0.00	PR CURITIBA                                        	 CURITIBA                                        	   ADMINISTRACAO             
+48163	0.00	PR SAO JOSE DOS PINHAIS                            	 SAO JOSE DOS PINHAIS                            	   ADMINISTRACAO             
 24106	0.00	PR SAO JOSE DOS PINHAIS                            	 SAO JOSE DOS PINHAIS                            	   ADMINISTRACAO             
 140708	0.00	PR SAO JOSE DOS PINHAIS                            	 SAO JOSE DOS PINHAIS                            	   ADMINISTRACAO             
-314555	0.00	PR CURITIBA                                        	 CURITIBA                                        	   ADMINISTRACAO             
-93169	0.00	PR SAO JOSE DOS PINHAIS                            	 SAO JOSE DOS PINHAIS                            	   ADMINISTRACAO             
-57324	0.00	PR SAO JOSE DOS PINHAIS                            	 SAO JOSE DOS PINHAIS                            	   ADMINISTRACAO             
-231764	0.00	PR SAO JOSE DOS PINHAIS                            	 SAO JOSE DOS PINHAIS                            	   ADMINISTRACAO             
-130911	0.00	PR CURITIBA                                        	 CURITIBA                                        	   ADMINISTRACAO             
-276929	0.00	PR SAO JOSE DOS PINHAIS                            	 SAO JOSE DOS PINHAIS                            	   ADMINISTRACAO             
-61544	0.00	PR SAO JOSE DOS PINHAIS                            	 SAO JOSE DOS PINHAIS                            	   ADMINISTRACAO             
-226231	0.00	PR SAO JOSE DOS PINHAIS                            	 SAO JOSE DOS PINHAIS                            	   ADMINISTRACAO             
-48163	0.00	PR SAO JOSE DOS PINHAIS                            	 SAO JOSE DOS PINHAIS                            	   ADMINISTRACAO             
-385026	0.00	PR SAO JOSE DOS PINHAIS                            	 SAO JOSE DOS PINHAIS                            	   ADMINISTRACAO             
-425888	0.00	PR SAO JOSE DOS PINHAIS                            	 SAO JOSE DOS PINHAIS                            	   ADMINISTRACAO             
-286995	0.00	PR SAO JOSE DOS PINHAIS                            	 SAO JOSE DOS PINHAIS                            	   ADMINISTRACAO             
-376771	0.00	PR SAO JOSE DOS PINHAIS                            	 SAO JOSE DOS PINHAIS                            	   ADMINISTRACAO             
-330044	0.00	PR CURITIBA                                        	 CURITIBA                                        	   ADMINISTRACAO             
-200707	0.00	PR SAO JOSE DOS PINHAIS                            	 SAO JOSE DOS PINHAIS                            	   ADMINISTRACAO             
 312111	0.00	PR SAO JOSE DOS PINHAIS                            	 SAO JOSE DOS PINHAIS                            	   ADMINISTRACAO             
-289304	0.00	PR SAO JOSE DOS PINHAIS                            	 SAO JOSE DOS PINHAIS                            	   ADMINISTRACAO             
+376771	0.00	PR SAO JOSE DOS PINHAIS                            	 SAO JOSE DOS PINHAIS                            	   ADMINISTRACAO             
 181742	0.00	PR SAO JOSE DOS PINHAIS                            	 SAO JOSE DOS PINHAIS                            	   ADMINISTRACAO             
-17482	0.00	PR SAO JOSE DOS PINHAIS                            	 SAO JOSE DOS PINHAIS                            	   ADMINISTRACAO             
 179919	0.00	PR SAO JOSE DOS PINHAIS                            	 SAO JOSE DOS PINHAIS                            	   ADMINISTRACAO             
-400505	0.00	PR SAO JOSE DOS PINHAIS                            	 SAO JOSE DOS PINHAIS                            	   ADMINISTRACAO             
-375826	0.00	PR SAO JOSE DOS PINHAIS                            	 SAO JOSE DOS PINHAIS                            	   ADMINISTRACAO             
+276929	0.00	PR SAO JOSE DOS PINHAIS                            	 SAO JOSE DOS PINHAIS                            	   ADMINISTRACAO             
+130911	0.00	PR CURITIBA                                        	 CURITIBA                                        	   ADMINISTRACAO             
+425888	0.00	PR SAO JOSE DOS PINHAIS                            	 SAO JOSE DOS PINHAIS                            	   ADMINISTRACAO             
+330044	0.00	PR CURITIBA                                        	 CURITIBA                                        	   ADMINISTRACAO             
 103825	0.00	PR SAO JOSE DOS PINHAIS                            	 SAO JOSE DOS PINHAIS                            	   ADMINISTRACAO             
-446102	0.00	PR SAO JOSE DOS PINHAIS                            	 SAO JOSE DOS PINHAIS                            	   ADMINISTRACAO             
+375826	0.00	PR SAO JOSE DOS PINHAIS                            	 SAO JOSE DOS PINHAIS                            	   ADMINISTRACAO             
+289304	0.00	PR SAO JOSE DOS PINHAIS                            	 SAO JOSE DOS PINHAIS                            	   ADMINISTRACAO             
+17482	0.00	PR SAO JOSE DOS PINHAIS                            	 SAO JOSE DOS PINHAIS                            	   ADMINISTRACAO             
+400505	0.00	PR SAO JOSE DOS PINHAIS                            	 SAO JOSE DOS PINHAIS                            	   ADMINISTRACAO             
 168156	0.00	PR SAO JOSE DOS PINHAIS                            	 SAO JOSE DOS PINHAIS                            	   ADMINISTRACAO             
-46771	0.00	PR SAO JOSE DOS PINHAIS                            	 SAO JOSE DOS PINHAIS                            	   ADMINISTRACAO             
 446905	0.00	PR SAO JOSE DOS PINHAIS                            	 SAO JOSE DOS PINHAIS                            	   ADMINISTRACAO             
+446102	0.00	PR SAO JOSE DOS PINHAIS                            	 SAO JOSE DOS PINHAIS                            	   ADMINISTRACAO             
+46771	0.00	PR SAO JOSE DOS PINHAIS                            	 SAO JOSE DOS PINHAIS                            	   ADMINISTRACAO             
 213978	10.00	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
 254349	12.50	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
 346592	14.00	MT PRIMAVERA DO LESTE                              	 PRIMAVERA DO LESTE                              	   ADMINISTRACAO             
@@ -125,9 +125,9 @@
 421729	16.80	PR SAO JOSE DOS PINHAIS                            	 SAO JOSE DOS PINHAIS                            	   ADMINISTRACAO             
 421422	17.50	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 269932	17.50	MT CUIABA                                          	 CUIABA                                          	   ADMINISTRACAO             
+54048	17.50	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
 209168	17.50	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 288612	17.50	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
-54048	17.50	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
 37379	17.80	MT PRIMAVERA DO LESTE                              	 PRIMAVERA DO LESTE                              	   ADMINISTRACAO             
 27801	18.30	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
 80301	18.30	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
@@ -138,29 +138,29 @@
 402740	18.80	MT PRIMAVERA DO LESTE                              	 PRIMAVERA DO LESTE                              	   ADMINISTRACAO             
 40975	20.00	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
 301802	20.00	MT PRIMAVERA DO LESTE                              	 PRIMAVERA DO LESTE                              	   ADMINISTRACAO             
-147344	20.00	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
 418828	20.00	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
-116536	20.00	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
+147344	20.00	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
 312544	20.00	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
+116536	20.00	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
 112781	20.30	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
 412481	20.50	MT PRIMAVERA DO LESTE                              	 PRIMAVERA DO LESTE                              	   ADMINISTRACAO             
 161694	21.00	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
-63830	21.30	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
 306030	21.30	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
 84990	21.30	PI PARNAIBA                                        	 PARNAIBA                                        	   ADMINISTRACAO             
+63830	21.30	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
 338433	21.30	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
 108171	21.50	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
 463955	21.50	PI TERESINA                                        	 TERESINA                                        	   ADMINISTRACAO             
 352409	21.80	PI TERESINA                                        	 TERESINA                                        	   ADMINISTRACAO             
 233101	21.80	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
-300056	22.00	MT PRIMAVERA DO LESTE                              	 PRIMAVERA DO LESTE                              	   ADMINISTRACAO             
 456679	22.00	MT PRIMAVERA DO LESTE                              	 PRIMAVERA DO LESTE                              	   ADMINISTRACAO             
+300056	22.00	MT PRIMAVERA DO LESTE                              	 PRIMAVERA DO LESTE                              	   ADMINISTRACAO             
 360367	22.00	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 340592	22.50	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
-274212	22.50	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
+125100	22.50	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
 107733	22.50	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
 367656	22.50	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
-125100	22.50	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
+274212	22.50	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
 286286	22.50	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
 101432	22.50	PR SAO JOSE DOS PINHAIS                            	 SAO JOSE DOS PINHAIS                            	   ADMINISTRACAO             
 134399	23.00	PI PARNAIBA                                        	 PARNAIBA                                        	   ADMINISTRACAO             
@@ -187,19 +187,19 @@
 229115	25.80	PR SAO JOSE DOS PINHAIS                            	 SAO JOSE DOS PINHAIS                            	   ADMINISTRACAO             
 471379	26.00	PI PARNAIBA                                        	 PARNAIBA                                        	   ADMINISTRACAO             
 318273	26.30	PI TERESINA                                        	 TERESINA                                        	   ADMINISTRACAO             
-119835	26.30	PR SAO JOSE DOS PINHAIS                            	 SAO JOSE DOS PINHAIS                            	   ADMINISTRACAO             
 143639	26.30	PR CURITIBA                                        	 CURITIBA                                        	   ADMINISTRACAO             
+119835	26.30	PR SAO JOSE DOS PINHAIS                            	 SAO JOSE DOS PINHAIS                            	   ADMINISTRACAO             
 322422	26.80	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
 324897	27.00	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
-413253	27.30	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
 323220	27.30	PI PARNAIBA                                        	 PARNAIBA                                        	   ADMINISTRACAO             
-343392	27.50	PI TERESINA                                        	 TERESINA                                        	   ADMINISTRACAO             
+413253	27.30	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
 73822	27.50	PI PARNAIBA                                        	 PARNAIBA                                        	   ADMINISTRACAO             
+343392	27.50	PI TERESINA                                        	 TERESINA                                        	   ADMINISTRACAO             
 362081	27.50	MT PRIMAVERA DO LESTE                              	 PRIMAVERA DO LESTE                              	   ADMINISTRACAO             
 111954	27.50	MT CUIABA                                          	 CUIABA                                          	   ADMINISTRACAO             
 317024	27.80	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
-296012	27.80	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 300538	27.80	PR CURITIBA                                        	 CURITIBA                                        	   ADMINISTRACAO             
+296012	27.80	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 23133	28.00	MT PRIMAVERA DO LESTE                              	 PRIMAVERA DO LESTE                              	   ADMINISTRACAO             
 293078	28.00	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
 316162	28.30	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
@@ -208,8 +208,8 @@
 258966	28.80	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 214523	29.00	PR CURITIBA                                        	 CURITIBA                                        	   ADMINISTRACAO             
 293831	29.30	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
-25999	29.50	PI PARNAIBA                                        	 PARNAIBA                                        	   ADMINISTRACAO             
 47472	29.50	PI PARNAIBA                                        	 PARNAIBA                                        	   ADMINISTRACAO             
+25999	29.50	PI PARNAIBA                                        	 PARNAIBA                                        	   ADMINISTRACAO             
 171020	29.80	PI PARNAIBA                                        	 PARNAIBA                                        	   ADMINISTRACAO             
 291665	29.80	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
 444180	30.00	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
@@ -224,61 +224,61 @@
 333364	31.00	PI TERESINA                                        	 TERESINA                                        	   ADMINISTRACAO             
 221570	31.00	PR SAO JOSE DOS PINHAIS                            	 SAO JOSE DOS PINHAIS                            	   ADMINISTRACAO             
 387585	31.00	PR SAO JOSE DOS PINHAIS                            	 SAO JOSE DOS PINHAIS                            	   ADMINISTRACAO             
-113382	31.30	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
 422511	31.30	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
 88312	31.30	MT PRIMAVERA DO LESTE                              	 PRIMAVERA DO LESTE                              	   ADMINISTRACAO             
-183699	31.50	MT PRIMAVERA DO LESTE                              	 PRIMAVERA DO LESTE                              	   ADMINISTRACAO             
+113382	31.30	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
 123938	31.50	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
+183699	31.50	MT PRIMAVERA DO LESTE                              	 PRIMAVERA DO LESTE                              	   ADMINISTRACAO             
 126136	31.50	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
 29891	31.50	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
 372167	31.50	PR CURITIBA                                        	 CURITIBA                                        	   ADMINISTRACAO             
 21110	31.80	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
-85344	31.80	MT PRIMAVERA DO LESTE                              	 PRIMAVERA DO LESTE                              	   ADMINISTRACAO             
 232317	31.80	PI PARNAIBA                                        	 PARNAIBA                                        	   ADMINISTRACAO             
+85344	31.80	MT PRIMAVERA DO LESTE                              	 PRIMAVERA DO LESTE                              	   ADMINISTRACAO             
 329608	31.80	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
-435142	32.00	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
 304166	32.00	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
 58525	32.00	PI PARNAIBA                                        	 PARNAIBA                                        	   ADMINISTRACAO             
-455789	32.00	PI PARNAIBA                                        	 PARNAIBA                                        	   ADMINISTRACAO             
 432322	32.00	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
+455789	32.00	PI PARNAIBA                                        	 PARNAIBA                                        	   ADMINISTRACAO             
 10942	32.00	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
+435142	32.00	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
 360424	32.00	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 167379	32.30	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
+361724	32.30	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 213434	32.30	MT PRIMAVERA DO LESTE                              	 PRIMAVERA DO LESTE                              	   ADMINISTRACAO             
 219113	32.30	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
-361724	32.30	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
-462658	32.50	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
 400218	32.50	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
+462658	32.50	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
 275596	32.50	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 455270	32.80	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
 349603	32.80	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
-445958	32.80	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
 399531	32.80	PI TERESINA                                        	 TERESINA                                        	   ADMINISTRACAO             
 221150	32.80	PI PARNAIBA                                        	 PARNAIBA                                        	   ADMINISTRACAO             
+445958	32.80	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
 441323	33.00	PI TERESINA                                        	 TERESINA                                        	   ADMINISTRACAO             
-12236	33.00	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
 8834	33.00	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
-249107	33.30	PI PARNAIBA                                        	 PARNAIBA                                        	   ADMINISTRACAO             
+12236	33.00	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
 182746	33.30	MT PRIMAVERA DO LESTE                              	 PRIMAVERA DO LESTE                              	   ADMINISTRACAO             
-85670	33.30	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
+249107	33.30	PI PARNAIBA                                        	 PARNAIBA                                        	   ADMINISTRACAO             
 366962	33.30	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
+85670	33.30	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
 458650	33.50	PI PARNAIBA                                        	 PARNAIBA                                        	   ADMINISTRACAO             
-332160	33.50	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
-26256	33.50	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
-101991	33.50	MT PRIMAVERA DO LESTE                              	 PRIMAVERA DO LESTE                              	   ADMINISTRACAO             
 205746	33.50	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
+332160	33.50	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
+101991	33.50	MT PRIMAVERA DO LESTE                              	 PRIMAVERA DO LESTE                              	   ADMINISTRACAO             
+26256	33.50	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 137887	33.80	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
 451115	33.80	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
 57637	33.80	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
+233795	34.00	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
+224341	34.00	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
 195137	34.00	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 102238	34.00	PI PARNAIBA                                        	 PARNAIBA                                        	   ADMINISTRACAO             
-233795	34.00	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
-297053	34.00	PI PARNAIBA                                        	 PARNAIBA                                        	   ADMINISTRACAO             
-224341	34.00	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
 82340	34.00	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
-224240	34.30	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
-74556	34.30	PI PARNAIBA                                        	 PARNAIBA                                        	   ADMINISTRACAO             
+297053	34.00	PI PARNAIBA                                        	 PARNAIBA                                        	   ADMINISTRACAO             
 368312	34.30	PI PARNAIBA                                        	 PARNAIBA                                        	   ADMINISTRACAO             
+74556	34.30	PI PARNAIBA                                        	 PARNAIBA                                        	   ADMINISTRACAO             
+224240	34.30	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
 130373	34.30	PI TERESINA                                        	 TERESINA                                        	   ADMINISTRACAO             
 325545	34.30	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
 173550	34.30	MT PRIMAVERA DO LESTE                              	 PRIMAVERA DO LESTE                              	   ADMINISTRACAO             
@@ -291,11 +291,11 @@
 112564	35.00	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
 311591	35.00	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
 192376	35.00	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
+407932	35.30	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 170558	35.30	MT PRIMAVERA DO LESTE                              	 PRIMAVERA DO LESTE                              	   ADMINISTRACAO             
 177525	35.30	PI TERESINA                                        	 TERESINA                                        	   ADMINISTRACAO             
 392820	35.30	PI PARNAIBA                                        	 PARNAIBA                                        	   ADMINISTRACAO             
 4921	35.30	PI TERESINA                                        	 TERESINA                                        	   ADMINISTRACAO             
-407932	35.30	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 365545	35.50	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
 61892	35.50	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
 159825	35.50	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
@@ -303,8 +303,8 @@
 363557	35.80	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 2934	35.80	PI PARNAIBA                                        	 PARNAIBA                                        	   ADMINISTRACAO             
 396530	35.80	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
-94374	36.00	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
 197975	36.00	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
+94374	36.00	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
 408321	36.00	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
 257538	36.00	PR CURITIBA                                        	 CURITIBA                                        	   ADMINISTRACAO             
 219879	36.00	PR CURITIBA                                        	 CURITIBA                                        	   ADMINISTRACAO             
@@ -313,20 +313,20 @@
 162633	36.50	MT PRIMAVERA DO LESTE                              	 PRIMAVERA DO LESTE                              	   ADMINISTRACAO             
 37778	36.50	MT CUIABA                                          	 CUIABA                                          	   ADMINISTRACAO             
 59131	36.80	MT PRIMAVERA DO LESTE                              	 PRIMAVERA DO LESTE                              	   ADMINISTRACAO             
-266061	36.80	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
-24213	36.80	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
 337091	36.80	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
+24213	36.80	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
+266061	36.80	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
 114422	37.00	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
 409928	37.00	MT PRIMAVERA DO LESTE                              	 PRIMAVERA DO LESTE                              	   ADMINISTRACAO             
-255680	37.00	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
 5627	37.00	PI PARNAIBA                                        	 PARNAIBA                                        	   ADMINISTRACAO             
 251426	37.00	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
+255680	37.00	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
 317654	37.00	PR SAO JOSE DOS PINHAIS                            	 SAO JOSE DOS PINHAIS                            	   ADMINISTRACAO             
 66354	37.30	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
-118861	37.30	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
-228618	37.30	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
-368900	37.30	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
 113285	37.30	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
+368900	37.30	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
+228618	37.30	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
+118861	37.30	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
 191878	37.50	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
 149603	37.50	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
 3393	37.50	MT PRIMAVERA DO LESTE                              	 PRIMAVERA DO LESTE                              	   ADMINISTRACAO             
@@ -334,37 +334,37 @@
 248417	37.80	PI PARNAIBA                                        	 PARNAIBA                                        	   ADMINISTRACAO             
 381429	37.80	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
 238292	38.00	MT PRIMAVERA DO LESTE                              	 PRIMAVERA DO LESTE                              	   ADMINISTRACAO             
-124494	38.00	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
 268678	38.00	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
+124494	38.00	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
 95662	38.30	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
-314025	38.50	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
-276824	38.50	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
 36078	38.50	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
+276824	38.50	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
 51080	38.50	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
-356030	38.80	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
+314025	38.50	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
 314937	38.80	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
-202266	38.80	MT PRIMAVERA DO LESTE                              	 PRIMAVERA DO LESTE                              	   ADMINISTRACAO             
 85432	38.80	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
+202266	38.80	MT PRIMAVERA DO LESTE                              	 PRIMAVERA DO LESTE                              	   ADMINISTRACAO             
+356030	38.80	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
 113716	38.80	PR SAO JOSE DOS PINHAIS                            	 SAO JOSE DOS PINHAIS                            	   ADMINISTRACAO             
 25188	39.00	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
 353811	39.00	PI TERESINA                                        	 TERESINA                                        	   ADMINISTRACAO             
 135750	39.00	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 249816	39.30	PI PARNAIBA                                        	 PARNAIBA                                        	   ADMINISTRACAO             
 53475	39.30	PR SAO JOSE DOS PINHAIS                            	 SAO JOSE DOS PINHAIS                            	   ADMINISTRACAO             
-298201	39.50	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 429917	39.50	PR SAO JOSE DOS PINHAIS                            	 SAO JOSE DOS PINHAIS                            	   ADMINISTRACAO             
-11450	39.50	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
+298201	39.50	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 203084	39.50	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
+11450	39.50	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
 301300	39.50	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
 140962	39.50	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
-419670	39.80	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
 291453	39.80	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
+419670	39.80	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
 278763	39.80	MT PRIMAVERA DO LESTE                              	 PRIMAVERA DO LESTE                              	   ADMINISTRACAO             
 134103	39.80	PR SAO JOSE DOS PINHAIS                            	 SAO JOSE DOS PINHAIS                            	   ADMINISTRACAO             
 283081	40.00	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
 413185	40.00	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
-383153	40.00	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
 19346	40.00	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
+383153	40.00	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
 85358	40.30	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
 251484	40.30	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
 69926	40.30	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
@@ -372,17 +372,17 @@
 207373	40.30	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
 447123	40.30	PR CURITIBA                                        	 CURITIBA                                        	   ADMINISTRACAO             
 463351	40.30	PR CURITIBA                                        	 CURITIBA                                        	   ADMINISTRACAO             
+112505	40.50	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 224450	40.50	MT CUIABA                                          	 CUIABA                                          	   ADMINISTRACAO             
 186893	40.50	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
-102393	40.50	MT CUIABA                                          	 CUIABA                                          	   ADMINISTRACAO             
 214331	40.50	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
+102393	40.50	MT CUIABA                                          	 CUIABA                                          	   ADMINISTRACAO             
 224687	40.50	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
-112505	40.50	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
-97378	40.80	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
+76367	40.80	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 381088	40.80	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
+97378	40.80	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 36075	40.80	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
 419751	40.80	PI PARNAIBA                                        	 PARNAIBA                                        	   ADMINISTRACAO             
-76367	40.80	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 348940	41.00	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 149115	41.00	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
 305445	41.00	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
@@ -391,27 +391,27 @@
 395218	41.30	PI TERESINA                                        	 TERESINA                                        	   ADMINISTRACAO             
 65840	41.30	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
 170034	41.30	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
-116493	41.50	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
 285318	41.50	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
+116493	41.50	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
 440868	41.50	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 92849	41.50	PR SAO JOSE DOS PINHAIS                            	 SAO JOSE DOS PINHAIS                            	   ADMINISTRACAO             
-374342	41.80	PR SAO JOSE DOS PINHAIS                            	 SAO JOSE DOS PINHAIS                            	   ADMINISTRACAO             
-405280	41.80	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 421168	41.80	PR SAO JOSE DOS PINHAIS                            	 SAO JOSE DOS PINHAIS                            	   ADMINISTRACAO             
+405280	41.80	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
+374342	41.80	PR SAO JOSE DOS PINHAIS                            	 SAO JOSE DOS PINHAIS                            	   ADMINISTRACAO             
 208266	41.80	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
 340424	41.80	MT PRIMAVERA DO LESTE                              	 PRIMAVERA DO LESTE                              	   ADMINISTRACAO             
 386583	42.00	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
 368345	42.00	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 400008	42.00	MT CUIABA                                          	 CUIABA                                          	   ADMINISTRACAO             
 3517	42.00	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
-262744	42.00	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
 337846	42.00	PI PARNAIBA                                        	 PARNAIBA                                        	   ADMINISTRACAO             
-205242	42.30	PI TERESINA                                        	 TERESINA                                        	   ADMINISTRACAO             
+262744	42.00	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
 301704	42.30	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
-168228	42.30	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
+205242	42.30	PI TERESINA                                        	 TERESINA                                        	   ADMINISTRACAO             
+128972	42.30	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
 364281	42.30	MT PRIMAVERA DO LESTE                              	 PRIMAVERA DO LESTE                              	   ADMINISTRACAO             
 381184	42.30	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
-128972	42.30	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
+168228	42.30	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
 468659	42.50	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
 221291	42.50	MT PRIMAVERA DO LESTE                              	 PRIMAVERA DO LESTE                              	   ADMINISTRACAO             
 337759	42.50	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
@@ -420,14 +420,14 @@
 218999	42.80	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
 194344	42.80	PR SAO JOSE DOS PINHAIS                            	 SAO JOSE DOS PINHAIS                            	   ADMINISTRACAO             
 42668	42.80	PR CURITIBA                                        	 CURITIBA                                        	   ADMINISTRACAO             
-168351	43.00	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
 65453	43.00	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 234756	43.00	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
 2717	43.00	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
+168351	43.00	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
 47218	43.00	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
 354067	43.30	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
-97761	43.30	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
 169912	43.30	PI TERESINA                                        	 TERESINA                                        	   ADMINISTRACAO             
+97761	43.30	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
 152355	43.30	PR SAO JOSE DOS PINHAIS                            	 SAO JOSE DOS PINHAIS                            	   ADMINISTRACAO             
 17999	43.50	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
 184524	43.50	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
@@ -437,16 +437,16 @@
 9997	43.50	MT PRIMAVERA DO LESTE                              	 PRIMAVERA DO LESTE                              	   ADMINISTRACAO             
 346924	43.80	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
 354405	43.80	MT CUIABA                                          	 CUIABA                                          	   ADMINISTRACAO             
-355310	44.00	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
 110356	44.00	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
+355310	44.00	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
 92172	44.00	PI PARNAIBA                                        	 PARNAIBA                                        	   ADMINISTRACAO             
-16047	44.00	PR SAO JOSE DOS PINHAIS                            	 SAO JOSE DOS PINHAIS                            	   ADMINISTRACAO             
 69224	44.00	PR CURITIBA                                        	 CURITIBA                                        	   ADMINISTRACAO             
+16047	44.00	PR SAO JOSE DOS PINHAIS                            	 SAO JOSE DOS PINHAIS                            	   ADMINISTRACAO             
 231014	44.30	PR SAO JOSE DOS PINHAIS                            	 SAO JOSE DOS PINHAIS                            	   ADMINISTRACAO             
-373477	44.30	MT PRIMAVERA DO LESTE                              	 PRIMAVERA DO LESTE                              	   ADMINISTRACAO             
-216194	44.30	MT PRIMAVERA DO LESTE                              	 PRIMAVERA DO LESTE                              	   ADMINISTRACAO             
-273426	44.30	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
 325485	44.30	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
+216194	44.30	MT PRIMAVERA DO LESTE                              	 PRIMAVERA DO LESTE                              	   ADMINISTRACAO             
+373477	44.30	MT PRIMAVERA DO LESTE                              	 PRIMAVERA DO LESTE                              	   ADMINISTRACAO             
+273426	44.30	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
 306648	44.30	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
 412715	44.50	MT PRIMAVERA DO LESTE                              	 PRIMAVERA DO LESTE                              	   ADMINISTRACAO             
 378258	44.50	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
@@ -457,334 +457,334 @@
 352413	44.80	PI PARNAIBA                                        	 PARNAIBA                                        	   ADMINISTRACAO             
 457319	44.80	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 212231	44.80	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
-170937	45.00	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 130458	45.00	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 304832	45.00	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
 35798	45.00	MT PRIMAVERA DO LESTE                              	 PRIMAVERA DO LESTE                              	   ADMINISTRACAO             
-307860	45.00	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
+170937	45.00	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 119830	45.00	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
+307860	45.00	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
 49198	45.00	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 266463	45.00	PR CURITIBA                                        	 CURITIBA                                        	   ADMINISTRACAO             
 226720	45.30	PR CURITIBA                                        	 CURITIBA                                        	   ADMINISTRACAO             
 195989	45.30	PR SAO JOSE DOS PINHAIS                            	 SAO JOSE DOS PINHAIS                            	   ADMINISTRACAO             
 210080	45.30	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
-295744	45.30	PI PARNAIBA                                        	 PARNAIBA                                        	   ADMINISTRACAO             
 22147	45.30	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
+295744	45.30	PI PARNAIBA                                        	 PARNAIBA                                        	   ADMINISTRACAO             
+366462	45.50	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
 327045	45.50	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
 437129	45.50	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
-366462	45.50	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
 129347	45.50	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
 153829	45.50	PR SAO JOSE DOS PINHAIS                            	 SAO JOSE DOS PINHAIS                            	   ADMINISTRACAO             
 304505	45.80	PR CURITIBA                                        	 CURITIBA                                        	   ADMINISTRACAO             
-146301	45.80	PR CURITIBA                                        	 CURITIBA                                        	   ADMINISTRACAO             
 200147	45.80	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
+146301	45.80	PR CURITIBA                                        	 CURITIBA                                        	   ADMINISTRACAO             
 209858	45.80	PR SAO JOSE DOS PINHAIS                            	 SAO JOSE DOS PINHAIS                            	   ADMINISTRACAO             
-3196	45.80	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
 459925	45.80	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
-459126	46.00	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
-84823	46.00	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
+3196	45.80	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
 29920	46.00	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
+84823	46.00	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
+422625	46.00	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
 336015	46.00	MT PRIMAVERA DO LESTE                              	 PRIMAVERA DO LESTE                              	   ADMINISTRACAO             
 34535	46.00	MT PRIMAVERA DO LESTE                              	 PRIMAVERA DO LESTE                              	   ADMINISTRACAO             
-24438	46.00	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
+13553	46.00	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
 289862	46.00	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
 254576	46.00	MT PRIMAVERA DO LESTE                              	 PRIMAVERA DO LESTE                              	   ADMINISTRACAO             
-13553	46.00	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
-422625	46.00	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
+459126	46.00	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
 444554	46.00	PR CURITIBA                                        	 CURITIBA                                        	   ADMINISTRACAO             
-156344	46.30	PR CURITIBA                                        	 CURITIBA                                        	   ADMINISTRACAO             
+24438	46.00	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 326182	46.30	PR SAO JOSE DOS PINHAIS                            	 SAO JOSE DOS PINHAIS                            	   ADMINISTRACAO             
+156344	46.30	PR CURITIBA                                        	 CURITIBA                                        	   ADMINISTRACAO             
 326232	46.30	PI PARNAIBA                                        	 PARNAIBA                                        	   ADMINISTRACAO             
 220216	46.30	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
 96765	46.30	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
-329668	46.50	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
 193803	46.50	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
+329668	46.50	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
 369241	46.50	MT PRIMAVERA DO LESTE                              	 PRIMAVERA DO LESTE                              	   ADMINISTRACAO             
 71366	46.50	PR CURITIBA                                        	 CURITIBA                                        	   ADMINISTRACAO             
 319117	46.50	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 221936	46.80	PR SAO JOSE DOS PINHAIS                            	 SAO JOSE DOS PINHAIS                            	   ADMINISTRACAO             
 280259	46.80	PR SAO JOSE DOS PINHAIS                            	 SAO JOSE DOS PINHAIS                            	   ADMINISTRACAO             
 109386	46.80	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
-33559	46.80	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
 416795	46.80	PI TERESINA                                        	 TERESINA                                        	   ADMINISTRACAO             
 307220	46.80	PI TERESINA                                        	 TERESINA                                        	   ADMINISTRACAO             
 132834	46.80	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
+33559	46.80	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
 239866	46.80	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
 58361	46.80	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
 142837	46.80	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
 463262	47.00	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
-89359	47.00	PI TERESINA                                        	 TERESINA                                        	   ADMINISTRACAO             
 186581	47.00	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
+89359	47.00	PI TERESINA                                        	 TERESINA                                        	   ADMINISTRACAO             
 41603	47.00	MT PRIMAVERA DO LESTE                              	 PRIMAVERA DO LESTE                              	   ADMINISTRACAO             
-50848	47.00	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
 380532	47.00	PI TERESINA                                        	 TERESINA                                        	   ADMINISTRACAO             
+50848	47.00	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
 303348	47.00	PR CURITIBA                                        	 CURITIBA                                        	   ADMINISTRACAO             
+12279	47.30	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 233406	47.30	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
-8586	47.30	PI PARNAIBA                                        	 PARNAIBA                                        	   ADMINISTRACAO             
+28009	47.30	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
 317055	47.30	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
 225632	47.30	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
-12279	47.30	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
-28009	47.30	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
-163641	47.50	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
+8586	47.30	PI PARNAIBA                                        	 PARNAIBA                                        	   ADMINISTRACAO             
 452420	47.50	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
+356952	47.50	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
 5553	47.50	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
 109676	47.50	PI PARNAIBA                                        	 PARNAIBA                                        	   ADMINISTRACAO             
-360165	47.50	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
-368815	47.50	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
-356952	47.50	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
 66569	47.50	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
 406263	47.50	MT PRIMAVERA DO LESTE                              	 PRIMAVERA DO LESTE                              	   ADMINISTRACAO             
 304747	47.50	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
-469270	47.50	PR CURITIBA                                        	 CURITIBA                                        	   ADMINISTRACAO             
+360165	47.50	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
+368815	47.50	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
+163641	47.50	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 100680	47.50	PR CURITIBA                                        	 CURITIBA                                        	   ADMINISTRACAO             
+469270	47.50	PR CURITIBA                                        	 CURITIBA                                        	   ADMINISTRACAO             
 15820	47.50	PR SAO JOSE DOS PINHAIS                            	 SAO JOSE DOS PINHAIS                            	   ADMINISTRACAO             
 219212	47.80	PR CURITIBA                                        	 CURITIBA                                        	   ADMINISTRACAO             
 289433	47.80	PR SAO JOSE DOS PINHAIS                            	 SAO JOSE DOS PINHAIS                            	   ADMINISTRACAO             
-26451	47.80	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
-34800	47.80	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
 467354	47.80	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
-86323	47.80	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
 187784	47.80	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
+34800	47.80	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
+26451	47.80	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
+86323	47.80	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
 384572	47.80	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
+253139	48.00	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
 241228	48.00	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
 234043	48.00	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
-253139	48.00	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
 52105	48.00	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
 213784	48.00	MT PRIMAVERA DO LESTE                              	 PRIMAVERA DO LESTE                              	   ADMINISTRACAO             
 106233	48.00	MT PRIMAVERA DO LESTE                              	 PRIMAVERA DO LESTE                              	   ADMINISTRACAO             
 368431	48.00	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
 175131	48.00	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
+347661	48.30	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 227159	48.30	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
 96183	48.30	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
-347661	48.30	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 198918	48.30	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
-317807	48.50	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
 327968	48.50	PI PARNAIBA                                        	 PARNAIBA                                        	   ADMINISTRACAO             
-144242	48.50	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
+317807	48.50	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
 354373	48.50	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
+144242	48.50	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
 2744	48.50	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
 73691	48.50	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 229079	48.50	PR CURITIBA                                        	 CURITIBA                                        	   ADMINISTRACAO             
 107535	48.50	PR CURITIBA                                        	 CURITIBA                                        	   ADMINISTRACAO             
-10357	48.80	MT CUIABA                                          	 CUIABA                                          	   ADMINISTRACAO             
 222027	48.80	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
+10357	48.80	MT CUIABA                                          	 CUIABA                                          	   ADMINISTRACAO             
 313201	48.80	MT PRIMAVERA DO LESTE                              	 PRIMAVERA DO LESTE                              	   ADMINISTRACAO             
 331437	49.00	MT PRIMAVERA DO LESTE                              	 PRIMAVERA DO LESTE                              	   ADMINISTRACAO             
+300790	49.00	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
+178216	49.00	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
 118668	49.00	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 290808	49.00	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
-178216	49.00	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
-300790	49.00	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
+339404	49.30	PR CURITIBA                                        	 CURITIBA                                        	   ADMINISTRACAO             
+240348	49.30	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 295222	49.30	MT CUIABA                                          	 CUIABA                                          	   ADMINISTRACAO             
 99378	49.30	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
-209461	49.30	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
-337653	49.30	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
-240348	49.30	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 227988	49.30	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
-339404	49.30	PR CURITIBA                                        	 CURITIBA                                        	   ADMINISTRACAO             
+337653	49.30	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
+209461	49.30	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
 37021	49.50	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 324740	49.50	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
 16318	49.50	PI TERESINA                                        	 TERESINA                                        	   ADMINISTRACAO             
 65744	49.50	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
 355968	49.50	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
 158000	49.80	PI PARNAIBA                                        	 PARNAIBA                                        	   ADMINISTRACAO             
-446373	49.80	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
 223395	49.80	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
+446373	49.80	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
 458248	49.80	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
-278537	50.00	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
-454483	50.00	MT CUIABA                                          	 CUIABA                                          	   ADMINISTRACAO             
-354122	50.00	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
-26638	50.00	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
 369324	50.00	PR CURITIBA                                        	 CURITIBA                                        	   ADMINISTRACAO             
-257474	50.00	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 392432	50.00	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
-142408	50.30	PR CURITIBA                                        	 CURITIBA                                        	   ADMINISTRACAO             
-210867	50.30	PR SAO JOSE DOS PINHAIS                            	 SAO JOSE DOS PINHAIS                            	   ADMINISTRACAO             
+257474	50.00	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
+278537	50.00	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
+26638	50.00	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
+354122	50.00	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
+454483	50.00	MT CUIABA                                          	 CUIABA                                          	   ADMINISTRACAO             
 401505	50.30	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
-210559	50.30	PI TERESINA                                        	 TERESINA                                        	   ADMINISTRACAO             
 55231	50.30	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
 354669	50.30	PI TERESINA                                        	 TERESINA                                        	   ADMINISTRACAO             
-130170	50.50	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
+210559	50.30	PI TERESINA                                        	 TERESINA                                        	   ADMINISTRACAO             
+210867	50.30	PR SAO JOSE DOS PINHAIS                            	 SAO JOSE DOS PINHAIS                            	   ADMINISTRACAO             
+142408	50.30	PR CURITIBA                                        	 CURITIBA                                        	   ADMINISTRACAO             
+422254	50.50	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 355732	50.50	PI TERESINA                                        	 TERESINA                                        	   ADMINISTRACAO             
+130170	50.50	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
 131218	50.50	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
 106676	50.50	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
 7814	50.50	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
-422254	50.50	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
-49605	50.80	PR CURITIBA                                        	 CURITIBA                                        	   ADMINISTRACAO             
 164685	50.80	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
-71325	50.80	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
 388701	50.80	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
-345170	51.00	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
+71325	50.80	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
+49605	50.80	PR CURITIBA                                        	 CURITIBA                                        	   ADMINISTRACAO             
 180621	51.00	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
+345170	51.00	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
 427785	51.00	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
-72731	51.30	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
-166314	51.30	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 205101	51.30	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
 15294	51.30	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
+166314	51.30	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 64305	51.30	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
-336507	51.50	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
+72731	51.30	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
 271291	51.50	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 387342	51.50	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
-167833	51.50	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
+336507	51.50	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
 118340	51.50	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
+167833	51.50	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
 162993	51.50	PR CURITIBA                                        	 CURITIBA                                        	   ADMINISTRACAO             
 308793	51.80	PR SAO JOSE DOS PINHAIS                            	 SAO JOSE DOS PINHAIS                            	   ADMINISTRACAO             
 133850	51.80	PR CURITIBA                                        	 CURITIBA                                        	   ADMINISTRACAO             
 402164	51.80	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
+317012	51.80	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
 81136	51.80	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 119746	51.80	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
-317012	51.80	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
-88300	51.80	PI TERESINA                                        	 TERESINA                                        	   ADMINISTRACAO             
 29095	51.80	PI TERESINA                                        	 TERESINA                                        	   ADMINISTRACAO             
-155589	51.80	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
 21887	51.80	MT CUIABA                                          	 CUIABA                                          	   ADMINISTRACAO             
+155589	51.80	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
+88300	51.80	PI TERESINA                                        	 TERESINA                                        	   ADMINISTRACAO             
 47978	52.00	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
 258469	52.00	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
-427229	52.00	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
-285465	52.00	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
 18642	52.00	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 11372	52.00	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
+285465	52.00	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
+427229	52.00	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
 89539	52.00	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 266521	52.30	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 99721	52.30	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
-49454	52.30	PI TERESINA                                        	 TERESINA                                        	   ADMINISTRACAO             
 410910	52.30	PI TERESINA                                        	 TERESINA                                        	   ADMINISTRACAO             
+49454	52.30	PI TERESINA                                        	 TERESINA                                        	   ADMINISTRACAO             
 100312	52.30	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
 380734	52.30	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
 19284	52.30	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
 415432	52.30	PI PARNAIBA                                        	 PARNAIBA                                        	   ADMINISTRACAO             
-454208	52.50	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
 401893	52.50	PI PARNAIBA                                        	 PARNAIBA                                        	   ADMINISTRACAO             
+454208	52.50	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
 1370	52.50	PR CURITIBA                                        	 CURITIBA                                        	   ADMINISTRACAO             
-430923	52.50	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 235866	52.50	PR CURITIBA                                        	 CURITIBA                                        	   ADMINISTRACAO             
+430923	52.50	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 135818	52.80	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
 284402	52.80	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 415741	53.00	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
-267396	53.00	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
-439069	53.00	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
-183899	53.00	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
-52569	53.00	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 209822	53.00	MT PRIMAVERA DO LESTE                              	 PRIMAVERA DO LESTE                              	   ADMINISTRACAO             
 121373	53.00	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
 335581	53.00	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
+52569	53.00	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
+183899	53.00	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
+439069	53.00	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
+267396	53.00	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 324555	53.30	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
 195348	53.30	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
-60631	53.30	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
-350312	53.30	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
 379237	53.30	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
+350312	53.30	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
 267657	53.30	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
+60631	53.30	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
 59542	53.30	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
 49975	53.50	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
+32247	53.50	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
+115074	53.50	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
 453379	53.50	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
 321747	53.50	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
-32247	53.50	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 451403	53.50	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
-115074	53.50	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
 301105	53.50	MT PRIMAVERA DO LESTE                              	 PRIMAVERA DO LESTE                              	   ADMINISTRACAO             
+301840	53.50	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
+30272	53.50	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 229720	53.50	PR SAO JOSE DOS PINHAIS                            	 SAO JOSE DOS PINHAIS                            	   ADMINISTRACAO             
 190046	53.50	PR CURITIBA                                        	 CURITIBA                                        	   ADMINISTRACAO             
-454137	53.50	PR CURITIBA                                        	 CURITIBA                                        	   ADMINISTRACAO             
-30272	53.50	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
-301840	53.50	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 375246	53.50	PR SAO JOSE DOS PINHAIS                            	 SAO JOSE DOS PINHAIS                            	   ADMINISTRACAO             
-378110	53.80	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
+454137	53.50	PR CURITIBA                                        	 CURITIBA                                        	   ADMINISTRACAO             
 294443	53.80	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
-37256	53.80	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
+378110	53.80	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
 284633	53.80	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 179989	53.80	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
 123883	53.80	MT PRIMAVERA DO LESTE                              	 PRIMAVERA DO LESTE                              	   ADMINISTRACAO             
 305092	53.80	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
-357755	53.80	PI TERESINA                                        	 TERESINA                                        	   ADMINISTRACAO             
-124947	53.80	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
 70951	53.80	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
+124947	53.80	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
+357755	53.80	PI TERESINA                                        	 TERESINA                                        	   ADMINISTRACAO             
 190369	53.80	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
+37256	53.80	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
+299622	54.00	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
 392635	54.00	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
 429859	54.00	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
-299622	54.00	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
 436352	54.00	PR CURITIBA                                        	 CURITIBA                                        	   ADMINISTRACAO             
 374514	54.00	PR CURITIBA                                        	 CURITIBA                                        	   ADMINISTRACAO             
-106091	54.30	PR SAO JOSE DOS PINHAIS                            	 SAO JOSE DOS PINHAIS                            	   ADMINISTRACAO             
 279415	54.30	PR CURITIBA                                        	 CURITIBA                                        	   ADMINISTRACAO             
+106091	54.30	PR SAO JOSE DOS PINHAIS                            	 SAO JOSE DOS PINHAIS                            	   ADMINISTRACAO             
 327058	54.30	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
 114641	54.30	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
 464932	54.30	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
+78289	54.50	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
 51603	54.50	PI TERESINA                                        	 TERESINA                                        	   ADMINISTRACAO             
 267147	54.50	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
-78289	54.50	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
+34474	54.50	PR CURITIBA                                        	 CURITIBA                                        	   ADMINISTRACAO             
+84187	54.50	PR CURITIBA                                        	 CURITIBA                                        	   ADMINISTRACAO             
 332468	54.50	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 62175	54.50	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
-84187	54.50	PR CURITIBA                                        	 CURITIBA                                        	   ADMINISTRACAO             
-34474	54.50	PR CURITIBA                                        	 CURITIBA                                        	   ADMINISTRACAO             
 123309	54.80	PR CURITIBA                                        	 CURITIBA                                        	   ADMINISTRACAO             
 294257	54.80	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
 271484	54.80	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
 5213	54.80	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
-22350	54.80	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
 414861	54.80	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
 452861	54.80	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
 145535	54.80	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
-115010	55.00	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
+22350	54.80	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
 369726	55.00	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
 182292	55.00	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
+115010	55.00	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
 205606	55.00	PR CURITIBA                                        	 CURITIBA                                        	   ADMINISTRACAO             
 255793	55.30	PR SAO JOSE DOS PINHAIS                            	 SAO JOSE DOS PINHAIS                            	   ADMINISTRACAO             
-281116	55.30	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
 53055	55.30	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
+281116	55.30	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
 12390	55.30	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
 280714	55.30	MT PRIMAVERA DO LESTE                              	 PRIMAVERA DO LESTE                              	   ADMINISTRACAO             
-425270	55.50	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
 67407	55.50	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
-88839	55.50	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
+425270	55.50	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
 130673	55.50	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
+88839	55.50	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
 292061	55.50	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 276000	55.50	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 348614	55.80	PR CURITIBA                                        	 CURITIBA                                        	   ADMINISTRACAO             
 140865	55.80	PR SAO JOSE DOS PINHAIS                            	 SAO JOSE DOS PINHAIS                            	   ADMINISTRACAO             
 280726	55.80	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
 382513	55.80	MT PRIMAVERA DO LESTE                              	 PRIMAVERA DO LESTE                              	   ADMINISTRACAO             
-461815	55.80	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
+280009	55.80	PI TERESINA                                        	 TERESINA                                        	   ADMINISTRACAO             
 124597	55.80	MT PRIMAVERA DO LESTE                              	 PRIMAVERA DO LESTE                              	   ADMINISTRACAO             
 85413	55.80	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
+461815	55.80	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
 311610	55.80	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
-280009	55.80	PI TERESINA                                        	 TERESINA                                        	   ADMINISTRACAO             
 153042	56.00	PI TERESINA                                        	 TERESINA                                        	   ADMINISTRACAO             
 66198	56.00	MT CUIABA                                          	 CUIABA                                          	   ADMINISTRACAO             
-48121	56.00	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
 246816	56.00	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
-71811	56.00	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
+48121	56.00	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
 3916	56.00	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
+71811	56.00	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 48161	56.00	PR CURITIBA                                        	 CURITIBA                                        	   ADMINISTRACAO             
+171898	56.30	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
+258502	56.30	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 361018	56.30	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 368930	56.30	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
-51336	56.30	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
 253930	56.30	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
-258502	56.30	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
-171898	56.30	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
+51336	56.30	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
 384724	56.30	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
 265994	56.50	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
 228864	56.50	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
 105583	56.80	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
 22724	56.80	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
-21798	56.80	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
 433602	56.80	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
+21798	56.80	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
 5659	56.80	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
 214949	56.80	PR CURITIBA                                        	 CURITIBA                                        	   ADMINISTRACAO             
 425187	56.80	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 202039	57.00	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
-443742	57.00	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
-81689	57.00	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
-401904	57.00	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
-214669	57.00	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
-76729	57.00	PI TERESINA                                        	 TERESINA                                        	   ADMINISTRACAO             
 310850	57.00	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
-131227	57.30	MT PRIMAVERA DO LESTE                              	 PRIMAVERA DO LESTE                              	   ADMINISTRACAO             
-387819	57.30	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
+443742	57.00	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
+214669	57.00	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
+401904	57.00	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
+76729	57.00	PI TERESINA                                        	 TERESINA                                        	   ADMINISTRACAO             
+81689	57.00	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
 68791	57.30	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
+387819	57.30	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
+131227	57.30	MT PRIMAVERA DO LESTE                              	 PRIMAVERA DO LESTE                              	   ADMINISTRACAO             
 394101	57.50	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
+46627	57.50	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
+253017	57.50	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 228543	57.50	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
 164090	57.50	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
-253017	57.50	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
-46627	57.50	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 214421	57.50	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
 80915	57.50	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
 311853	57.80	PI TERESINA                                        	 TERESINA                                        	   ADMINISTRACAO             
@@ -793,51 +793,51 @@
 317407	58.00	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
 120699	58.30	MT PRIMAVERA DO LESTE                              	 PRIMAVERA DO LESTE                              	   ADMINISTRACAO             
 212501	58.30	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
-225218	58.30	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
-122665	58.30	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 7008	58.30	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
+122665	58.30	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 81658	58.30	PR SAO JOSE DOS PINHAIS                            	 SAO JOSE DOS PINHAIS                            	   ADMINISTRACAO             
+225218	58.30	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 438411	58.30	PR SAO JOSE DOS PINHAIS                            	 SAO JOSE DOS PINHAIS                            	   ADMINISTRACAO             
 210753	58.50	PR CURITIBA                                        	 CURITIBA                                        	   ADMINISTRACAO             
 351965	58.50	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
-433353	58.50	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
 152828	58.50	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
+433353	58.50	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
 425803	58.50	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
-410926	58.50	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
-355550	58.50	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
-14281	58.50	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
-261845	58.50	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
-27309	58.50	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
 348074	58.50	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
-169350	58.80	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
+14281	58.50	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
+355550	58.50	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
+27309	58.50	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
+261845	58.50	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
+410926	58.50	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
 367133	58.80	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
-30824	58.80	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
 213197	58.80	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
-401313	58.80	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
-313733	58.80	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
-138277	58.80	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
+30824	58.80	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
+169350	58.80	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
 409557	58.80	MT PRIMAVERA DO LESTE                              	 PRIMAVERA DO LESTE                              	   ADMINISTRACAO             
 454475	58.80	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
+401313	58.80	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
 417884	58.80	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
 114544	58.80	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
+313733	58.80	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
+138277	58.80	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 76327	59.00	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
 312745	59.00	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
-457856	59.30	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
 352040	59.30	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
+457856	59.30	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
 166169	59.30	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 379843	59.30	PR SAO JOSE DOS PINHAIS                            	 SAO JOSE DOS PINHAIS                            	   ADMINISTRACAO             
 108933	59.50	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
+382884	59.50	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
 395287	59.50	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
 130949	59.50	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
 452191	59.50	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
-382884	59.50	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
 162535	59.80	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
 173538	59.80	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
-44810	59.80	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
 63641	59.80	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
 82456	59.80	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
-198972	59.80	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
+44810	59.80	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
 417697	59.80	PR CURITIBA                                        	 CURITIBA                                        	   ADMINISTRACAO             
+198972	59.80	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 106751	60.00	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
 96889	60.00	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
 3861	60.00	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
@@ -845,38 +845,38 @@
 441443	60.00	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
 226563	60.00	PI TERESINA                                        	 TERESINA                                        	   ADMINISTRACAO             
 319299	60.00	MT CUIABA                                          	 CUIABA                                          	   ADMINISTRACAO             
+183839	60.30	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
 107705	60.30	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
 103618	60.30	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
 12753	60.30	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
 315733	60.30	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
 21433	60.30	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
-183839	60.30	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
 265237	60.30	PR SAO JOSE DOS PINHAIS                            	 SAO JOSE DOS PINHAIS                            	   ADMINISTRACAO             
 59605	60.50	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
-252985	60.50	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
-469266	60.50	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
 374759	60.50	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
+469266	60.50	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
+252985	60.50	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
 230931	60.50	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
-122455	60.80	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
-94490	60.80	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 295148	60.80	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
 228222	60.80	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
+122455	60.80	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
 5885	60.80	PR CURITIBA                                        	 CURITIBA                                        	   ADMINISTRACAO             
+94490	60.80	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 142597	61.00	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
-212488	61.00	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
 4194	61.00	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
-52017	61.00	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 189407	61.00	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
 73527	61.00	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
+212488	61.00	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
+52017	61.00	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 447781	61.30	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
-86358	61.30	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
-200258	61.30	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
 266889	61.30	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
 191157	61.30	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
+200258	61.30	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
+86358	61.30	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
 329987	61.30	PI TERESINA                                        	 TERESINA                                        	   ADMINISTRACAO             
 45171	61.30	PI TERESINA                                        	 TERESINA                                        	   ADMINISTRACAO             
-140465	61.30	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 256471	61.30	PR SAO JOSE DOS PINHAIS                            	 SAO JOSE DOS PINHAIS                            	   ADMINISTRACAO             
+140465	61.30	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 417510	61.50	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
 403081	61.50	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
 164535	61.50	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
@@ -884,41 +884,41 @@
 165788	61.80	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
 259302	61.80	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
 215769	61.80	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
-256727	61.80	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 228957	61.80	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
-275900	61.80	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
+256727	61.80	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 376528	61.80	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
+275900	61.80	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 435515	61.80	PR CURITIBA                                        	 CURITIBA                                        	   ADMINISTRACAO             
 348112	62.00	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 116081	62.00	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
 173481	62.00	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
-112212	62.30	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
 428336	62.30	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
+112212	62.30	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
 433866	62.30	PR SAO JOSE DOS PINHAIS                            	 SAO JOSE DOS PINHAIS                            	   ADMINISTRACAO             
 302587	62.50	PR CURITIBA                                        	 CURITIBA                                        	   ADMINISTRACAO             
 226760	62.50	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
-278666	62.50	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
 109120	62.50	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
+278666	62.50	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
 163934	62.50	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
 80507	62.50	PI TERESINA                                        	 TERESINA                                        	   ADMINISTRACAO             
 346552	62.50	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
 386649	62.50	MT PRIMAVERA DO LESTE                              	 PRIMAVERA DO LESTE                              	   ADMINISTRACAO             
 139669	62.80	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
-150205	62.80	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
 233237	62.80	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
+150205	62.80	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
 157560	62.80	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
 460650	63.00	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
 398699	63.00	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 134115	63.00	PR CURITIBA                                        	 CURITIBA                                        	   ADMINISTRACAO             
 359807	63.30	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 169792	63.30	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
-241850	63.50	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 166187	63.50	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
 77617	63.50	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
 52638	63.50	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
-145396	63.80	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
+241850	63.50	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 335967	63.80	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
 217201	63.80	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
+145396	63.80	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
 333852	63.80	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 414264	64.00	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 272718	64.00	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
@@ -931,21 +931,21 @@
 448374	64.80	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
 206712	64.80	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 339678	65.00	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
-456165	65.00	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
 255215	65.00	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
-188515	65.30	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
+456165	65.00	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
 301503	65.30	MT PRIMAVERA DO LESTE                              	 PRIMAVERA DO LESTE                              	   ADMINISTRACAO             
+188515	65.30	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 231457	65.50	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 414859	65.50	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
 200146	65.50	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
-273070	65.80	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 382871	65.80	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
 336096	65.80	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
-325691	66.00	PI TERESINA                                        	 TERESINA                                        	   ADMINISTRACAO             
+273070	65.80	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 56650	66.00	PI TERESINA                                        	 TERESINA                                        	   ADMINISTRACAO             
+325691	66.00	PI TERESINA                                        	 TERESINA                                        	   ADMINISTRACAO             
 346047	66.30	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
-432962	66.30	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 25193	66.30	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
+432962	66.30	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 349722	66.50	PR CURITIBA                                        	 CURITIBA                                        	   ADMINISTRACAO             
 464169	66.80	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 440588	66.80	MT PRIMAVERA DO LESTE                              	 PRIMAVERA DO LESTE                              	   ADMINISTRACAO             
@@ -961,10 +961,10 @@
 169983	68.30	AM MANAUS                                          	 MANAUS                                          	   ADMINISTRACAO             
 90902	68.30	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 112768	68.30	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
-52319	68.80	PR CURITIBA                                        	 CURITIBA                                        	   ADMINISTRACAO             
 205218	68.80	PR CURITIBA                                        	 CURITIBA                                        	   ADMINISTRACAO             
-105072	68.80	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
+52319	68.80	PR CURITIBA                                        	 CURITIBA                                        	   ADMINISTRACAO             
 114415	68.80	PI TERESINA                                        	 TERESINA                                        	   ADMINISTRACAO             
+105072	68.80	MG VICOSA                                          	 VICOSA                                          	   ADMINISTRACAO             
 424746	69.00	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
 129163	69.30	PR LONDRINA                                        	 LONDRINA                                        	   ADMINISTRACAO             
 195190	69.30	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
@@ -975,11 +975,11 @@
 216227	69.80	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
 196197	69.80	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
 428679	69.80	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
-167165	70.00	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
 447253	70.00	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
 324583	70.00	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
-397177	70.00	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
+167165	70.00	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
 149018	70.00	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
+397177	70.00	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
 382868	70.30	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
 411299	70.80	SE SAO CRISTOVAO                                   	 SAO CRISTOVAO                                   	   ADMINISTRACAO             
 463527	71.50	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
@@ -991,7 +991,7 @@
 223710	72.80	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
 347068	73.30	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
 60648	73.50	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
-273715	73.80	P	R CURITIBA                                        	 CURITIBA                                        	   ADMINISTRACAO             
+273715	73.80	PR CURITIBA                                        	 CURITIBA                                        	   ADMINISTRACAO             
 92372	74.80	PR CURITIBA                                        	 CURITIBA                                        	   ADMINISTRACAO             
 444331	76.80	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
 217886	76.80	DF BRASILIA                                        	 BRASILIA                                        	   ADMINISTRACAO             
