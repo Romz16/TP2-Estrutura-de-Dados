@@ -10,6 +10,7 @@
 int leItemFita(int i, int j, TipoBloco *blocos, FILE *vetorFitas){
     int retorno = 1;
 
+    ContadoresIndividuais.transferencias++;
     if(fread(&blocos->campoAluno, sizeof(Aluno), 1, vetorFitas) == 1){
             blocos->fimFita = 0;
             blocos->fitaOrigem = j; 
@@ -35,9 +36,11 @@ void ordenaBloco(TipoBloco blocos[]){
     int i, j, min_idx;
     for (i = 0; i < MAXFITAS/2-1; i++){
         min_idx = i;
-        for (j = i+1; j < MAXFITAS/2; j++)
+        for (j = i+1; j < MAXFITAS/2; j++){
+            ContadoresIndividuais.comparacoes++;
             if (blocos[j].campoAluno.nota < blocos[min_idx].campoAluno.nota)
                 min_idx = j;
+            }
 
         if(min_idx != i){
             TipoBloco temp = blocos[min_idx];
@@ -94,6 +97,7 @@ void intercalacao(int situacao, int quantidade){
             
             //Escreve -1 para determinar o fim de um bloco
             blocos[0].campoAluno.nota = -1;
+            ContadoresIndividuais.transferencias++;
             fwrite(&blocos[0], sizeof(Aluno), 1, vetorFitas[fitaEscritaAtual]);
             blocos[0].campoAluno.nota = INT_MAX;
             
@@ -167,9 +171,11 @@ void intercalacao(int situacao, int quantidade){
         }
 
         //Escreve na fita de saida = Inicializa com 20 
-        if(blocos[0].fimBloco != 1)
+        if(blocos[0].fimBloco != 1){
+            ContadoresIndividuais.transferencias++;
             fwrite(&blocos[0].campoAluno, sizeof(Aluno), 1, vetorFitas[fitaEscritaAtual]);
-       
+        }
+
         //Função leTipoAluno
         leItemFita(0, blocos[0].fitaOrigem, &blocos[0], vetorFitas[blocos[0].fitaOrigem]);
      

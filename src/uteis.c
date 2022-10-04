@@ -346,8 +346,8 @@ void funcaoTestesAutomatizados(){
         
         printf("\n-------------------MEDIA DOS RESULTADOS-------------------\n\n");
 
-        printf("Numero Tranferencia Media Indexacao: %lf\n", (double)ContadoresAcumulados.transferencias/(double)quantidadeTestes);
-        printf("Numero Comparacoes Media Indexacao: %lf\n", (double)ContadoresAcumulados.comparacoes/(double)quantidadeTestes);
+        printf("Numero Tranferencia Media Indexacao: %.3lf\n", (double)ContadoresAcumulados.transferencias/(double)quantidadeTestes);
+        printf("Numero Comparacoes Media Indexacao: %.3lf\n", (double)ContadoresAcumulados.comparacoes/(double)quantidadeTestes);
         printf("Tempo decorrido Media Indexacao: %lf\n\n", (double)ContadoresAcumulados.tempo/(double)quantidadeTestes);
 
         gerenciaContadores(1);

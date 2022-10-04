@@ -4,10 +4,11 @@ void ordenaAlunos(Aluno blocos[]){
     int i, j, min_idx;
     for (i = 0; i < MAXFITAS/2-1; i++){
         min_idx = i;
-        for (j = i+1; j < MAXFITAS/2; j++)
+        for (j = i+1; j < MAXFITAS/2; j++){
+            ContadoresIndividuais.comparacoes++;
             if (blocos[j].nota < blocos[min_idx].nota)
                 min_idx = j;
-
+        }
         if(min_idx != i){
             Aluno temp = blocos[min_idx];
             blocos[min_idx] = blocos[i];
@@ -34,12 +35,15 @@ void criaBlocos(int quantidade, int situacao){
 
 
     for (int i = 0; i < quantidaBlocos; i++){
+        ContadoresIndividuais.transferencias++;
         fread(alunos, sizeof(Aluno)*(AREA_MAX), 1, arquivo);
         
         ordenaAlunos(alunos);
 
+        ContadoresIndividuais.transferencias++;
         fwrite(alunos, sizeof(Aluno)*(AREA_MAX), 1, vetorFitas[countFitas]);
         alunos[0].nota = -1;
+        ContadoresIndividuais.transferencias++;
         fwrite(&alunos[0], sizeof(Aluno), 1, vetorFitas[countFitas]);
     
         countFitas++;
@@ -47,12 +51,15 @@ void criaBlocos(int quantidade, int situacao){
             countFitas = 0;
     }
 
+    ContadoresIndividuais.transferencias++;
     fread(alunos, sizeof(Aluno)*blocoFinal, 1, arquivo);
     
     ordenaAlunos(alunos);
 
+    ContadoresIndividuais.transferencias++;
     fwrite(alunos, sizeof(Aluno)*(blocoFinal), 1, vetorFitas[countFitas]);
     alunos[0].nota = -1;
+    ContadoresIndividuais.transferencias++;
     fwrite(&alunos[0], sizeof(Aluno), 1, vetorFitas[countFitas]);
 
     for (int i = 0; i < AREA_MAX; i++){
@@ -61,7 +68,15 @@ void criaBlocos(int quantidade, int situacao){
 }
 
 void sortInterno(int situacao, int quantidade){
+    
+    clock_t inicio = clock();
+    
     resetFitas(0);
     criaBlocos(quantidade+1, situacao);
     intercalacao(situacao, quantidade+1);
+    
+    clock_t fim = clock();
+    
+    ContadoresIndividuais.tempo = (double)(fim - inicio) / CLOCKS_PER_SEC;
+    
 }

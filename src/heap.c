@@ -11,11 +11,13 @@ void heapify(Aluno arr[], int N, int i){
     int maior = i;
     int left = 2 * i + 1;
     int right = 2 * i + 2;
- 
+    
+    ContadoresIndividuais.comparacoes++;
     if (left < N && (arr[left].nota < arr[maior].nota)){
         maior = left;
 	}
 
+    ContadoresIndividuais.comparacoes++;
     if (right < N && (arr[right].nota < arr[maior].nota)){
         maior = right;
 	}
@@ -31,10 +33,12 @@ void heapifyMax(Aluno arr[], int N, int i){
     int left = 2 * i + 1;
     int right = 2 * i + 2;
  
+    ContadoresIndividuais.comparacoes++;
     if (left < N && (arr[left].nota > arr[maior].nota)){
         maior = left;
 	}
 
+    ContadoresIndividuais.comparacoes++;
     if (right < N && (arr[right].nota > arr[maior].nota)){
         maior = right;
 	}

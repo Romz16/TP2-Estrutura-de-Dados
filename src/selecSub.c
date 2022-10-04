@@ -21,6 +21,7 @@ int driverSelecSub(int quantidade, int situacao){
 
   //Leitura dos 20 (AREA_MAX_SEL) primeiros itens do arquivo para a memoria principal
   for (int i = 0; i < AREA_MAX_SEL && i < quantidade; i++){
+    ContadoresIndividuais.transferencias++;
     fread(&alunoTmp, sizeof(Aluno), 1, arquivo);
     alunos[i] = alunoTmp;
   }    
@@ -30,15 +31,18 @@ int driverSelecSub(int quantidade, int situacao){
 
   for (int i = 0; i <= quantidade; i++){
     //Escreve o item 0 do vetor de alunos (menor) para o fita escrita atual (countFitas)
+    ContadoresIndividuais.transferencias++;
     fwrite(&alunos[0], sizeof(Aluno), 1, vetorFitas[countFitas]);
     
     //Se não chegou nos 20 ultimos
     if(i < quantidade-AREA_MAX_SEL){
 
       //Leitura de mais um item do arquivo
+      ContadoresIndividuais.transferencias++;
       fread(&alunoTmp, sizeof(Aluno), 1, arquivo);
 
       //Verifica se ele é menor que o item que acabou de ser escrito 
+      ContadoresIndividuais.comparacoes++;
       if(alunoTmp.nota < alunos[0].nota){
         //Item e marcado
         alunos[0] = alunoTmp;
@@ -58,6 +62,7 @@ int driverSelecSub(int quantidade, int situacao){
       if(countMarcados == AREA_MAX_SEL && countFitas != MAXFITAS/2-1){
         //Escreve um aluno com nota -1 para diferenciar os blocos
         alunoTmp.nota = -1;
+        ContadoresIndividuais.transferencias++;
         fwrite(&alunoTmp, sizeof(Aluno), 1, vetorFitas[countFitas]);
 
         countFitas++;
@@ -66,6 +71,7 @@ int driverSelecSub(int quantidade, int situacao){
       }
       else if(countMarcados == AREA_MAX_SEL && countFitas == MAXFITAS/2-1){
         alunoTmp.nota = -1;
+        ContadoresIndividuais.transferencias++;
         fwrite(&alunoTmp, sizeof(Aluno), 1, vetorFitas[countFitas]);
         
         countFitas = 0;
@@ -90,8 +96,11 @@ int driverSelecSub(int quantidade, int situacao){
       //Item no vetor alunos maiores que esse item fica na fita atual       
       int index = AREA_MAX_SEL-1;
       for (int i = 0; i < AREA_MAX_SEL-1; i++){
-        if(alunos[i].nota >= alunoTmp.nota)
+        ContadoresIndividuais.comparacoes++;
+        if(alunos[i].nota >= alunoTmp.nota){
+          ContadoresIndividuais.transferencias++;
           fwrite(&alunos[i], sizeof(Aluno), 1, vetorFitas[countFitas]);
+        }
         else{
           index = i;
           break;
@@ -99,6 +108,7 @@ int driverSelecSub(int quantidade, int situacao){
       }
 
       alunoTmp.nota = -1;
+      ContadoresIndividuais.transferencias++;
       fwrite(&alunoTmp, sizeof(Aluno), 1, vetorFitas[countFitas]);
 
       if(countFitas != MAXFITAS/2-1){
@@ -111,11 +121,13 @@ int driverSelecSub(int quantidade, int situacao){
 
       //Item no vetor alunos menores que esse item fica na proxima fita 
       for (int j = index /* int j = 0 */; j < AREA_MAX_SEL-1; j++){
+        ContadoresIndividuais.transferencias++;
         fwrite(&alunos[j], sizeof(Aluno), 1, vetorFitas[countFitas]);
       }    
 
       if(index != AREA_MAX_SEL-1){
         alunoTmp.nota = -1;
+        ContadoresIndividuais.transferencias++;
         fwrite(&alunoTmp, sizeof(Aluno), 1, vetorFitas[countFitas]);
       }
 
@@ -132,7 +144,14 @@ int driverSelecSub(int quantidade, int situacao){
 }
 
 void selecSub(int situacao, int quantidade){
+    
+    clock_t inicio = clock();
+    
     resetFitas(0);
     driverSelecSub(quantidade+3, situacao);
     intercalacao(situacao, quantidade+3);
+
+    clock_t fim = clock();
+    
+    ContadoresIndividuais.tempo = (double)(fim - inicio) / CLOCKS_PER_SEC;
 }

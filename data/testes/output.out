@@ -8,16 +8,16 @@ SITUACAO: 3
 -----------------TESTE: 1/1-----------------
 
 Arquivo de Resultado Gerado: "resultado.txt" 
-Numero Tranferencia Media Indexacao: 0
-Numero Comparacoes Media Indexacao: 0
+Numero Tranferencia Media Indexacao: 6156
+Numero Comparacoes Media Indexacao: 399139
 Tempo decorrido Media Indexacao: 0.000000
 
 
 -------------------MEDIA DOS RESULTADOS-------------------
 
-Numero Tranferencia Media Indexacao: 0.000000
-Numero Comparacoes Media Indexacao: 0.000000
-Tempo decorrido Media Indexacao: 0.000000
+Numero Tranferencia Media Indexacao: 6156.000
+Numero Comparacoes Media Indexacao: 399139.000
+Tempo decorrido Media Indexacao: 0.019296
 
 
 ----------------------------------------------------------------------------------------------------------------------------
