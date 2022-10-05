@@ -95,13 +95,13 @@ void gerarArquivosBinarios(){
 }
 
 void imprimeContadores(Contadores conts){
-    // printf("Numero Tranferencia Media Indexacao: %li\n", ContadoresAcumulados.transferencias);
-    // printf("Numero Comparacoes Media Indexacao: %li\n", ContadoresAcumulados.comparacoes);
-    // printf("Tempo decorrido Media Indexacao: %lf\n\n", ContadoresAcumulados.tempo);
+    // printf("Numero Tranferencia Indexacao: %li\n", ContadoresAcumulados.transferencias);
+    // printf("Numero Comparacoes Indexacao: %li\n", ContadoresAcumulados.comparacoes);
+    // printf("Tempo decorrido Indexacao: %lf\n\n", ContadoresAcumulados.tempo);
 
-    printf("Numero Tranferencia Media Indexacao: %li\n", conts.transferencias);
-    printf("Numero Comparacoes Media Indexacao: %li\n", conts.comparacoes);
-    printf("Tempo decorrido Media Indexacao: %lf\n\n", conts.tempo);
+    printf("Numero Tranferencia Indexacao: %li\n", conts.transferencias);
+    printf("Numero Comparacoes Indexacao: %li\n", conts.comparacoes);
+    printf("Tempo decorrido Indexacao: %lf\n\n", conts.tempo);
 }
 
 int abrirFitas(FILE **fp){
