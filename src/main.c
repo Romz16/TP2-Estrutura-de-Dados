@@ -2,11 +2,6 @@
 
 int main(int argc, char const *argv[]) {
 
-    //int quantidade = 100000;  
-    //int situacao = 1;   
-
-    //selecSub(situacao, quantidade);
-
     printf("\n===== TP1 - Estrutura de Dados II =====\n\n");
 
     int metodo = -1;      
