@@ -19,6 +19,7 @@ int driverSelecSub(int quantidade, int situacao){
   int countFitasUsadas = 0;
   int countMarcados = 0;
 
+
   //Leitura dos 20 (AREA_MAX_SEL) primeiros itens do arquivo para a memoria principal
   for (int i = 0; i < AREA_MAX_SEL && i < quantidade; i++){
     ContadoresIndividuais.transferencias++;
@@ -85,7 +86,9 @@ int driverSelecSub(int quantidade, int situacao){
     else{
 
       //Verifica qual o primeiro item do bloco atual
+      
       alunoTmp = alunos[0];
+      printf("------%.2lf------\n", alunoTmp.nota);
 
       alunoTmp = alunos[0];
       alunos[0] = alunos[AREA_MAX_SEL-1];
@@ -119,9 +122,11 @@ int driverSelecSub(int quantidade, int situacao){
         countFitas++;
       }
 
+      printf("-------%i-------\n", countFitas);
       //Item no vetor alunos menores que esse item fica na proxima fita 
       for (int j = index /* int j = 0 */; j < AREA_MAX_SEL-1; j++){
         ContadoresIndividuais.transferencias++;
+        printf("-------%i-------\n", countFitas);
         fwrite(&alunos[j], sizeof(Aluno), 1, vetorFitas[countFitas]);
       }    
 
