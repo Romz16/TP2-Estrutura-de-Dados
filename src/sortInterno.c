@@ -78,5 +78,5 @@ void sortInterno(int situacao, int quantidade){
     clock_t fim = clock();
     
     ContadoresIndividuais.tempo = (double)(fim - inicio) / CLOCKS_PER_SEC;
-    
+    imprimeContadores(ContadoresIndividuais);
 }

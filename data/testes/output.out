@@ -1,23 +1,65 @@
 
 ===== TP1 - Estrutura de Dados II =====
 
-METODO: 2 
-QUANTIDADE: 1000 
+METODO: 3 
+QUANTIDADE: 100000 
+SITUACAO: 1
+
+-----------------TESTE: 1/1-----------------
+
+Numero Tranferencia Media Indexacao: 4350084
+Numero Comparacoes Media Indexacao: 4691148
+Tempo decorrido Media Indexacao: 3.243936
+
+Arquivo de Resultado Gerado: "resultado.txt" 
+
+-------------------MEDIA DOS RESULTADOS-------------------
+
+Numero Tranferencia Media Indexacao: 4350084.000
+Numero Comparacoes Media Indexacao: 4691148.000
+Tempo decorrido Media Indexacao: 3.243936
+
+
+----------------------------------------------------------------------------------------------------------------------------
+
+METODO: 3 
+QUANTIDADE: 100000 
+SITUACAO: 2
+
+-----------------TESTE: 1/1-----------------
+
+Numero Tranferencia Media Indexacao: 1500630
+Numero Comparacoes Media Indexacao: 2158843
+Tempo decorrido Media Indexacao: 1.781133
+
+Arquivo de Resultado Gerado: "resultado.txt" 
+
+-------------------MEDIA DOS RESULTADOS-------------------
+
+Numero Tranferencia Media Indexacao: 1500630.000
+Numero Comparacoes Media Indexacao: 2158843.000
+Tempo decorrido Media Indexacao: 1.781133
+
+
+----------------------------------------------------------------------------------------------------------------------------
+
+METODO: 3 
+QUANTIDADE: 100000 
 SITUACAO: 3
 
 -----------------TESTE: 1/1-----------------
 
-Arquivo de Resultado Gerado: "resultado.txt" 
-Numero Tranferencia Media Indexacao: 6156
-Numero Comparacoes Media Indexacao: 399139
-Tempo decorrido Media Indexacao: 0.000000
+Numero Tranferencia Media Indexacao: 4393542
+Numero Comparacoes Media Indexacao: 4790802
+Tempo decorrido Media Indexacao: 5.286944
 
+Arquivo de Resultado Gerado: "resultado.txt" 
 
 -------------------MEDIA DOS RESULTADOS-------------------
 
-Numero Tranferencia Media Indexacao: 6156.000
-Numero Comparacoes Media Indexacao: 399139.000
-Tempo decorrido Media Indexacao: 0.019296
+Numero Tranferencia Media Indexacao: 4393542.000
+Numero Comparacoes Media Indexacao: 4790802.000
+Tempo decorrido Media Indexacao: 5.286944
 
 
 ----------------------------------------------------------------------------------------------------------------------------

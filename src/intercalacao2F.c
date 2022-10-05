@@ -155,7 +155,7 @@ void intercalacao(int situacao, int quantidade){
 
                 //Fitas de entrada
                 if(fitaEscritaAtual > MAXFITAS/2 - 1){
-                    if(fitaEscritaAtual == MAXFITAS)
+                    if(fitaEscritaAtual == MAXFITAS-1)
                         fitaEscritaAtual = MAXFITAS/2;
                     else
                         fitaEscritaAtual++;
@@ -203,6 +203,5 @@ void intercalacao(int situacao, int quantidade){
     }    
 
     geraArquivoTexto(nome);
-    imprimeContadores(ContadoresIndividuais);
 
 }
