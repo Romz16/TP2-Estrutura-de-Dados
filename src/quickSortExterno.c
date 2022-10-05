@@ -28,6 +28,9 @@ void quicksort(int quantidade, int situacao){
             copia = fopen(name,"wb");
             arquivo = fopen("data/arquivosBin/Ascendente.dat","rb");
 
+            // for (int i = 0; i < quantidade; i++)
+            //     fwrite(bloco,sizeof(Aluno),15,copia);
+
             while(fread(bloco,sizeof(Aluno),15,arquivo)!=0){
                 fwrite(bloco,sizeof(Aluno),15,copia);
             }
@@ -45,6 +48,9 @@ void quicksort(int quantidade, int situacao){
             copia = fopen(name,"wb");
             arquivo = fopen("data/arquivosBin/Descendente.dat","rb");
 
+            // for (int i = 0; i < quantidade; i++)
+            //     fwrite(bloco,sizeof(Aluno),15,copia);
+
             while(fread(bloco,sizeof(Aluno),15,arquivo)!=0){
                 fwrite(bloco,sizeof(Aluno),15,copia);
             }
@@ -61,7 +67,10 @@ void quicksort(int quantidade, int situacao){
 
             copia = fopen(name,"wb");
             arquivo = fopen("data/arquivosBin/Aleatorio.dat","rb");
-
+            
+            // for (int i = 0; i < quantidade; i++)
+            //     fwrite(bloco,sizeof(Aluno),15,copia);
+            
             while(fread(bloco,sizeof(Aluno),15,arquivo)!=0){
                 fwrite(bloco,sizeof(Aluno),15,copia);
             }

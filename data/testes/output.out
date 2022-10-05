@@ -1,65 +1,23 @@
 
 ===== TP1 - Estrutura de Dados II =====
 
-METODO: 1 
-QUANTIDADE: 100 
-SITUACAO: 1
-
------------------TESTE: 1/1-----------------
-
-Arquivo de Resultado Gerado: "resultado.txt" 
-Numero Tranferencia: 281
-Numero Comparacoes: 20520
-Tempo decorrido: 0.007726
-
-
--------------------MEDIA DOS RESULTADOS-------------------
-
-Numero Tranferencia Media: 281.000
-Numero Comparacoes Media: 20520.000
-Tempo decorrido Media: 0.007726
-
-
-----------------------------------------------------------------------------------------------------------------------------
-
-METODO: 1 
-QUANTIDADE: 100 
-SITUACAO: 2
-
------------------TESTE: 1/1-----------------
-
-Arquivo de Resultado Gerado: "resultado.txt" 
-Numero Tranferencia: 281
-Numero Comparacoes: 20520
-Tempo decorrido: 0.011491
-
-
--------------------MEDIA DOS RESULTADOS-------------------
-
-Numero Tranferencia Media: 281.000
-Numero Comparacoes Media: 20520.000
-Tempo decorrido Media: 0.011491
-
-
-----------------------------------------------------------------------------------------------------------------------------
-
-METODO: 1 
-QUANTIDADE: 100 
+METODO: 2 
+QUANTIDADE: 100000 
 SITUACAO: 3
 
 -----------------TESTE: 1/1-----------------
 
 Arquivo de Resultado Gerado: "resultado.txt" 
-Numero Tranferencia: 281
-Numero Comparacoes: 20520
-Tempo decorrido: 0.004915
+Numero Tranferencia: 805504
+Numero Comparacoes: 58871368
+Tempo decorrido: 1.578461
 
 
 -------------------MEDIA DOS RESULTADOS-------------------
 
-Numero Tranferencia Media: 281.000
-Numero Comparacoes Media: 20520.000
-Tempo decorrido Media: 0.004915
+Numero Tranferencia Media: 805504.000
+Numero Comparacoes Media: 58871368.000
+Tempo decorrido Media: 1.578461
 
 
 ----------------------------------------------------------------------------------------------------------------------------

@@ -7,13 +7,13 @@
 #include <string.h>
 #include <time.h>
 
-int leItemFita(int i, int j, TipoBloco *blocos, FILE *vetorFitas){
+int leItemFita(int fitaOrigem, TipoBloco *blocos, FILE *vetorFitas){
     int retorno = 1;
 
     ContadoresIndividuais.transferencias++;
     if(fread(&blocos->campoAluno, sizeof(Aluno), 1, vetorFitas) == 1){
             blocos->fimFita = 0;
-            blocos->fitaOrigem = j; 
+            blocos->fitaOrigem = fitaOrigem; 
 
             if(blocos->campoAluno.nota != -1)
                 blocos->fimBloco = 0;
@@ -63,7 +63,7 @@ void deletaFitasEntradaAtual(int fitaEscritaAtual, int fita, FILE *vetorFitas[MA
     size_t idx = fitaEscritaAtual;
 
     for (size_t i = 0; i < MAXFITAS/2 && idx < MAXFITAS; i++) {
-        sprintf (nomeArquivo, "data/fitas/fita%li.dat", i);
+        sprintf (nomeArquivo, "data/fitas/fita%li.dat", idx);
         vetorFitas[idx] = fopen (nomeArquivo, "r+b");
         if (!vetorFitas[idx]){ 
             printf("Erro ao Abrir arquivo Fita: %s\n", nomeArquivo);
@@ -84,35 +84,40 @@ void intercalacao(int situacao, int quantidade){
     //TipoBloco tmp;
 
     int fitaEscritaAtual = 20;
+    int fitaLeituraAtual = 0;
 
     for (int i = 0; i < MAXFITAS/2; i++)
-        leItemFita(i, i, &blocos[i], vetorFitas[i]);
+        leItemFita(i, &blocos[i], vetorFitas[i]);
     
     ordenaBloco(blocos);
 
+    int contadores = 0;
     while (1){    
 
         //Entrar aqui apenas quando 
         if(blocos[0].fimBloco == 1){
-            
+                        
             //Escreve -1 para determinar o fim de um bloco
-            blocos[0].campoAluno.nota = -1;
             ContadoresIndividuais.transferencias++;
+            blocos[0].campoAluno.nota = -1;
             fwrite(&blocos[0], sizeof(Aluno), 1, vetorFitas[fitaEscritaAtual]);
             blocos[0].campoAluno.nota = INT_MAX;
             
             //Verifica se chegou no fim das fitas de leitura atual
             //Funcao Ler primeiros elementos de cada fita
             int intercaladoSet = 1;
-            for (int i = 0; i < MAXFITAS/2; i++)
-                if(leItemFita(i, i, &blocos[i], vetorFitas[i]) == 0)
-                    intercaladoSet = 0;
 
+            if(fitaEscritaAtual > MAXFITAS/2 - 1)
+                fitaLeituraAtual = 0;
+            else if(fitaEscritaAtual < MAXFITAS/2 - 1)
+                fitaLeituraAtual = MAXFITAS/2;
+                
+            for (int i = 0; i < MAXFITAS/2; i++, fitaLeituraAtual++)
+                if(leItemFita(fitaLeituraAtual, &blocos[i], vetorFitas[fitaLeituraAtual]) == 0)
+                    intercaladoSet = 0;
+            
             //Se chegou no fim das fitas de leitura atual = intercalação dessas fitas esta completa
             if(intercaladoSet == 1){
-
-                //tmp.campoAluno.nota = -1;
-                //fwrite(&tmp.campoAluno, sizeof(Aluno), 1, vetorFitas[fitaEscritaAtual]);
                 
                 //Reseta arquivos fitaEscritaAtual pro comeco dos arquivos
                 int fitaComeco = -1;
@@ -126,7 +131,7 @@ void intercalacao(int situacao, int quantidade){
                     fitaEscritaAtual = MAXFITAS/2;
                     deletaFitasEntradaAtual(fitaEscritaAtual, 2, vetorFitas);
                 }
-                
+                                
                 for (int i = 0; i < MAXFITAS/2; i++, fitaComeco++)
                     rewind(vetorFitas[fitaComeco]);
                 
@@ -137,11 +142,12 @@ void intercalacao(int situacao, int quantidade){
                 int acabou = 0;
                 
                 for (int i = 0; i < MAXFITAS/2; i++, fitaComeco++)
-                    if(leItemFita(i, fitaComeco, &blocos[i], vetorFitas[fitaComeco]) == 0)
+                    if(leItemFita(fitaComeco, &blocos[i], vetorFitas[fitaComeco]) == 0)
                         acabou++;
 
-                if(acabou == 1)
+                if(acabou == 1){
                     break;
+                }
 
             }
             
@@ -150,26 +156,28 @@ void intercalacao(int situacao, int quantidade){
                 //Escreve -1 no fim da fitaEscritaAtual
                 //Marca fim do bloco na fita de escrita
 
-                //tmp.campoAluno.nota = -1;
-                //fwrite(&tmp.campoAluno, sizeof(Aluno), 1, vetorFitas[fitaEscritaAtual]);
-
                 //Fitas de entrada
                 if(fitaEscritaAtual > MAXFITAS/2 - 1){
-                    if(fitaEscritaAtual == MAXFITAS-1)
+                    if(fitaEscritaAtual == MAXFITAS-1){
                         fitaEscritaAtual = MAXFITAS/2;
-                    else
+                    }
+                    else{
                         fitaEscritaAtual++;
+                    }
                 }
                 //Fitas de Saida
                 else{
-                    if(fitaEscritaAtual == MAXFITAS/2 - 1)
+                    if(fitaEscritaAtual == MAXFITAS/2 - 1){
                         fitaEscritaAtual = 0;
-                    else
+                    }
+                    else{
                         fitaEscritaAtual++;
+                    }
                 }
             }
         }
 
+        
         //Escreve na fita de saida = Inicializa com 20 
         if(blocos[0].fimBloco != 1){
             ContadoresIndividuais.transferencias++;
@@ -177,12 +185,13 @@ void intercalacao(int situacao, int quantidade){
         }
 
         //Função leTipoAluno
-        leItemFita(0, blocos[0].fitaOrigem, &blocos[0], vetorFitas[blocos[0].fitaOrigem]);
-     
+        leItemFita(blocos[0].fitaOrigem, &blocos[0], vetorFitas[blocos[0].fitaOrigem]);
+
         ordenaBloco(blocos);
-        
+        contadores++;        
     }
-        
+    //printFitas();
+    
     if(fitaEscritaAtual == MAXFITAS/2)
         fitaEscritaAtual = 0;
     else if(fitaEscritaAtual == 0)
@@ -204,6 +213,5 @@ void intercalacao(int situacao, int quantidade){
 
     geraArquivoTexto(nome);
     remove(nome);
-
 
 }
