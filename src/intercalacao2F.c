@@ -203,5 +203,7 @@ void intercalacao(int situacao, int quantidade){
     }    
 
     geraArquivoTexto(nome);
+    remove(nome);
+
 
 }

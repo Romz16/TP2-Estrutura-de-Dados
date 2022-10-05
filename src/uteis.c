@@ -95,13 +95,13 @@ void gerarArquivosBinarios(){
 }
 
 void imprimeContadores(Contadores conts){
-    // printf("Numero Tranferencia Indexacao: %li\n", ContadoresAcumulados.transferencias);
-    // printf("Numero Comparacoes Indexacao: %li\n", ContadoresAcumulados.comparacoes);
-    // printf("Tempo decorrido Indexacao: %lf\n\n", ContadoresAcumulados.tempo);
+    // printf("Numero Tranferencia: %li\n", ContadoresAcumulados.transferencias);
+    // printf("Numero Comparacoes: %li\n", ContadoresAcumulados.comparacoes);
+    // printf("Tempo decorrido: %lf\n\n", ContadoresAcumulados.tempo);
 
-    printf("Numero Tranferencia Indexacao: %li\n", conts.transferencias);
-    printf("Numero Comparacoes Indexacao: %li\n", conts.comparacoes);
-    printf("Tempo decorrido Indexacao: %lf\n\n", conts.tempo);
+    printf("Numero Tranferencia: %li\n", conts.transferencias);
+    printf("Numero Comparacoes: %li\n", conts.comparacoes);
+    printf("Tempo decorrido: %lf\n\n", conts.tempo);
 }
 
 int abrirFitas(FILE **fp){
@@ -346,9 +346,9 @@ void funcaoTestesAutomatizados(){
         
         printf("\n-------------------MEDIA DOS RESULTADOS-------------------\n\n");
 
-        printf("Numero Tranferencia Media Indexacao: %.3lf\n", (double)ContadoresAcumulados.transferencias/(double)quantidadeTestes);
-        printf("Numero Comparacoes Media Indexacao: %.3lf\n", (double)ContadoresAcumulados.comparacoes/(double)quantidadeTestes);
-        printf("Tempo decorrido Media Indexacao: %lf\n\n", (double)ContadoresAcumulados.tempo/(double)quantidadeTestes);
+        printf("Numero Tranferencia Media: %.3lf\n", (double)ContadoresAcumulados.transferencias/(double)quantidadeTestes);
+        printf("Numero Comparacoes Media: %.3lf\n", (double)ContadoresAcumulados.comparacoes/(double)quantidadeTestes);
+        printf("Tempo decorrido Media: %lf\n\n", (double)ContadoresAcumulados.tempo/(double)quantidadeTestes);
 
         gerenciaContadores(1);
 

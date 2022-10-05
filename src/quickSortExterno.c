@@ -97,6 +97,7 @@ void quicksort(int quantidade, int situacao){
   
     imprimeContadores(conts);
     geraArquivoTexto(name);
+    remove(name);
 
     ContadoresIndividuais.comparacoes = conts.comparacoes;
     ContadoresIndividuais.transferencias = conts.transferencias;
