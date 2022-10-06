@@ -2,22 +2,22 @@
 ===== TP1 - Estrutura de Dados II =====
 
 METODO: 3 
-QUANTIDADE: 10000 
+QUANTIDADE: 1000 
 SITUACAO: 3
 
 -----------------TESTE: 1/1-----------------
 
-Numero Tranferencia: 147994
-Numero Comparacoes: 206859
-Tempo decorrido: 0.420621
+Numero Tranferencia: 9142
+Numero Comparacoes: 18144
+Tempo decorrido: 0.028246
 
 Arquivo de Resultado Gerado: "resultado.txt" 
 
 -------------------MEDIA DOS RESULTADOS-------------------
 
-Numero Tranferencia Media: 147994.000
-Numero Comparacoes Media: 206859.000
-Tempo decorrido Media: 0.420621
+Numero Tranferencia Media: 9142.000
+Numero Comparacoes Media: 18144.000
+Tempo decorrido Media: 0.028246
 
 
 ----------------------------------------------------------------------------------------------------------------------------
