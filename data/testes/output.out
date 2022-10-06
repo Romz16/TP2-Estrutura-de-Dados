@@ -1,24 +1,13 @@
+Gerando arquivo aleatorio...
+Gerando arquivo Descendente...
 
-===== TP1 - Estrutura de Dados II =====
-
-METODO: 2 
-QUANTIDADE: 100000 
-SITUACAO: 3
-
------------------TESTE: 1/1-----------------
+Numero Tranferencia: 47763372
+Numero Comparacoes: 49537052
+Tempo decorrido: 26.877434
 
 Arquivo de Resultado Gerado: "resultado.txt" 
-Numero Tranferencia: 805504
-Numero Comparacoes: 58871368
-Tempo decorrido: 1.578461
 
+Gerando arquivo Ascendente...
+Arquivos gerados com sucesso!
 
--------------------MEDIA DOS RESULTADOS-------------------
-
-Numero Tranferencia Media: 805504.000
-Numero Comparacoes Media: 58871368.000
-Tempo decorrido Media: 1.578461
-
-
-----------------------------------------------------------------------------------------------------------------------------
-
+Execute Novamente

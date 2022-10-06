@@ -20,10 +20,6 @@ short verificaArquivosBinarios(){
 
 void gerarArquivosBinarios(){
 
-    Contadores contCriacao;
-    contCriacao.comparacoes = 0;
-    contCriacao.transferencias = 0;
-
     FILE *provao = fopen("data/PROVAO.TXT","r");
     if(provao==NULL){
         printf("Nao foi possivel abrir o arquivo texto!\n");
@@ -36,49 +32,69 @@ void gerarArquivosBinarios(){
 
     Aluno aluno;
 
-    char nInscricao[9];
-    char nota[6];
-    char estado[3];
-    char cidade[50];
-    char curso[30];
+    char tmp[100];
     
     printf("Gerando arquivo aleatorio...\n");
    
     int i = 0;
-    while(i < MAX_TAM /* !feof(provao) */){
+    while(i < MAX_TAM ){
 
-        fscanf(provao,"%s %s %s",nInscricao,nota,estado);
-        fgets(cidade,50,provao);
-        fgets(curso,30,provao);
-
-        aluno.nInscricao = atol(nInscricao);
-        aluno.nota = atof(nota);
-        strcpy(aluno.estado,estado);
-        strcpy(aluno.cidade,cidade);
-        strcpy(aluno.curso,curso);
+        fscanf(provao, "%ld %lf", &aluno.nInscricao, &aluno.nota);
+        
+        //Le espaco
+        fgets(tmp, 2, provao);
+        //le estado
+        fgets(aluno.estado, 3, provao);
+        //Le espaco
+        fgets(tmp, 2, provao);
+        //le cidade
+        fgets(aluno.cidade, 50, provao);
+        //Le espaco
+        fgets(tmp, 3, provao);
+        //le curso
+        fgets(aluno.curso, 30, provao);
+        //le quebra de linha
+        fgets(tmp, 3, provao);
 
         fwrite(&aluno,sizeof(Aluno),1,aleatorio);
-        fwrite(&aluno,sizeof(Aluno),1,descendente); 
+        //fwrite(&aluno,sizeof(Aluno),1,descendente); 
 
         i++;
     }
 
     fclose(aleatorio);
-    
-    printf("Gerando arquivo Descendente...\n");
-          
-    //Ordenando o arquivo Descendente. 
-    FILE *ArqLi = fopen("data/arquivosBin/Descendente.dat","r+b");
-    FILE *ArqEi = fopen("data/arquivosBin/Descendente.dat","r+b");
-    FILE *ArqLEs = fopen("data/arquivosBin/Descendente.dat","r+b");
-    if(ArqLi==NULL || ArqEi==NULL || ArqLEs==NULL){
-        printf("Falha ao abrir arquivos!");
-        return;
-    }
-    QuickSortExterno(&ArqLi,&ArqEi,&ArqLEs,1,MAX_TAM-1,&contCriacao);
-    fclose(ArqLi); fclose(ArqEi);fclose(ArqLEs);
 
-    printf("Gerando arquivo Ascendente...\n");
+    printf("Gerando arquivo Descendente...\n\n");
+          
+    quicksort(MAX_TAM, 3);
+    FILE *txtOrdenadoDecendente = fopen("data/resultado.txt","r");
+    for (int i = 0; i < MAX_TAM; i++){
+        fscanf(txtOrdenadoDecendente, "%ld %lf", &aluno.nInscricao, &aluno.nota);
+        //printf("-%ld-%lf-", aluno.nInscricao, aluno.nota);
+        
+        //Le espaco
+        fgets(tmp, 2, txtOrdenadoDecendente);
+        //le estado
+        fgets(aluno.estado, 3, txtOrdenadoDecendente);
+        //printf("%s-", aluno.estado);
+        //Le espaco
+        fgets(tmp, 2, txtOrdenadoDecendente);
+        //le cidade
+        fgets(aluno.cidade, 50, txtOrdenadoDecendente);
+        //printf("%s-", aluno.cidade);
+        //Le espaco
+        fgets(tmp, 2, txtOrdenadoDecendente);
+        //le curso
+        fgets(aluno.curso, 30, txtOrdenadoDecendente);
+        //printf("%s-\n", aluno.curso);
+        //le quebra de linha
+        fgets(tmp, 3, txtOrdenadoDecendente);
+
+        fwrite(&aluno,sizeof(Aluno),1,descendente); 
+
+    }
+        
+    printf("\nGerando arquivo Ascendente...\n");
    
     fseek(descendente,0,SEEK_SET);
   
@@ -157,9 +173,9 @@ void resetFitas(int modo){
     int idx = 0;
    
     if(modo == -1){
-        remove("Aleatorio.dat");
-        remove("Ascendente.dat");
-        remove("Descendente.dat");
+        remove("data/Aleatorio.dat");
+        remove("data/Ascendente.dat");
+        remove("data/Descendente.dat");
         return;
     }
 
@@ -231,7 +247,7 @@ void geraArquivoTexto(char nomeArquivo[50]){
 
     while (fread(&AlunoTmp, sizeof(Aluno), 1, arquivo) == 1){
         if(AlunoTmp.nInscricao < 1000 && AlunoTmp.nota != -1)
-            fprintf(arquivoTxt, "%li\t\t.2%lf\t%s\t%s\t%s\n", AlunoTmp.nInscricao, AlunoTmp.nota, AlunoTmp.estado, AlunoTmp.cidade, AlunoTmp.curso);
+            fprintf(arquivoTxt, "%li\t\t%.2lf\t%s\t%s\t%s\n", AlunoTmp.nInscricao, AlunoTmp.nota, AlunoTmp.estado, AlunoTmp.cidade, AlunoTmp.curso);
         else if(AlunoTmp.nInscricao > 1000 && AlunoTmp.nota != -1)
             fprintf(arquivoTxt, "%li\t%.2lf\t%s\t%s\t%s\n", AlunoTmp.nInscricao, AlunoTmp.nota, AlunoTmp.estado, AlunoTmp.cidade, AlunoTmp.curso);
     }
@@ -268,7 +284,7 @@ void printRegistros(int situacao, int quantidade){
     for (int i = 0; i < quantidade; i++){
         fread(&AlunoTmp, sizeof(Aluno), 1, arquivo);
         if(AlunoTmp.nInscricao < 1000)
-            printf("%li\t\t.2%lf\t%s\t%s\t%s\n", AlunoTmp.nInscricao, AlunoTmp.nota, AlunoTmp.estado, AlunoTmp.cidade, AlunoTmp.curso);
+            printf("%li\t\t%.2lf\t%s\t%s\t%s\n", AlunoTmp.nInscricao, AlunoTmp.nota, AlunoTmp.estado, AlunoTmp.cidade, AlunoTmp.curso);
         else 
             printf("%li\t%.2lf\t%s\t%s\t%s\n", AlunoTmp.nInscricao, AlunoTmp.nota, AlunoTmp.estado, AlunoTmp.cidade, AlunoTmp.curso);
     }

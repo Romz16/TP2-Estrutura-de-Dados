@@ -1,13 +1,16 @@
 #include "headers/uteis.h"
 
-int main(int argc, char const *argv[]) {
+//Inverter a geração do quickSort
+//Gerar Ascendentemente
+//Inverter os arquivos na criação  
 
+int main(int argc, char const *argv[]) {
+    
     printf("\n===== TP1 - Estrutura de Dados II =====\n\n");
 
     int metodo = -1;      
     int quantidade = -1;  
     int situacao = 1;     
-    char opcional[10]; 
 
     if(argc == 2 && strcmp(argv[1], "testesAutomatizados") == 0){
         funcaoTestesAutomatizados();
@@ -23,16 +26,13 @@ int main(int argc, char const *argv[]) {
     metodo = atoi(argv[1]);
     quantidade = atoi(argv[2]);
     situacao = atoi(argv[3]);
-    if(argv[4] != NULL){
-        strcpy(opcional,argv[4]);
-    }
 
     if(metodo != 1 && metodo !=2 && metodo!=3){
         printf("Metodo invalido!\n");
         return 0;
     }
 
-    if (argv[4] != NULL) {
+    if (argv[4] != NULL && strcmp(argv[4], "-P") == 0){
         printRegistros(situacao, quantidade);
     }
         
@@ -49,6 +49,8 @@ int main(int argc, char const *argv[]) {
     //Criando os 3 arquivos binários de teste, caso não existam.
     if(!verificaArquivosBinarios()){
         gerarArquivosBinarios();
+        printf("\nPronto. Execute Novamente o Comando\n");
+        return 0;
     }
     gerenciaContadores(1);
 

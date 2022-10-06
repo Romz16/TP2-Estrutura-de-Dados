@@ -13,7 +13,7 @@
 typedef struct Aluno{
     long int nInscricao;
     double nota;
-    char estado[2];
+    char estado[3];
     char cidade[50];
     char curso[30];
 }Aluno;

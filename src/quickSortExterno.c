@@ -28,12 +28,14 @@ void quicksort(int quantidade, int situacao){
             copia = fopen(name,"wb");
             arquivo = fopen("data/arquivosBin/Ascendente.dat","rb");
 
-            // for (int i = 0; i < quantidade; i++)
-            //     fwrite(bloco,sizeof(Aluno),15,copia);
-
-            while(fread(bloco,sizeof(Aluno),15,arquivo)!=0){
-                fwrite(bloco,sizeof(Aluno),15,copia);
+            for (int i = 0; i < quantidade; i++){
+                fread(bloco,sizeof(Aluno),1,arquivo);
+                fwrite(bloco,sizeof(Aluno),1,copia);
             }
+
+            // while(fread(bloco,sizeof(Aluno),15,arquivo)!=0){
+            //     fwrite(bloco,sizeof(Aluno),15,copia);
+            // }
 
             ArqLEs = fopen("data/Ascendente_by_quicksort.dat","r+b");
             ArqLi = fopen("data/Ascendente_by_quicksort.dat","r+b");
@@ -48,12 +50,13 @@ void quicksort(int quantidade, int situacao){
             copia = fopen(name,"wb");
             arquivo = fopen("data/arquivosBin/Descendente.dat","rb");
 
-            // for (int i = 0; i < quantidade; i++)
-            //     fwrite(bloco,sizeof(Aluno),15,copia);
-
-            while(fread(bloco,sizeof(Aluno),15,arquivo)!=0){
-                fwrite(bloco,sizeof(Aluno),15,copia);
+            for (int i = 0; i < quantidade; i++){
+                fread(bloco,sizeof(Aluno),1,arquivo);
+                fwrite(bloco,sizeof(Aluno),1,copia);
             }
+            // while(fread(bloco,sizeof(Aluno),15,arquivo)!=0){
+            //     fwrite(bloco,sizeof(Aluno),15,copia);
+            // }
 
             ArqLEs = fopen("data/Descendente_by_quicksort.dat","r+b");
             ArqLi = fopen("data/Descendente_by_quicksort.dat","r+b");
@@ -68,12 +71,13 @@ void quicksort(int quantidade, int situacao){
             copia = fopen(name,"wb");
             arquivo = fopen("data/arquivosBin/Aleatorio.dat","rb");
             
-            // for (int i = 0; i < quantidade; i++)
-            //     fwrite(bloco,sizeof(Aluno),15,copia);
-            
-            while(fread(bloco,sizeof(Aluno),15,arquivo)!=0){
-                fwrite(bloco,sizeof(Aluno),15,copia);
+            for (int i = 0; i < quantidade; i++){
+                fread(bloco,sizeof(Aluno),1,arquivo);
+                fwrite(bloco,sizeof(Aluno),1,copia);
             }
+            // while(fread(bloco,sizeof(Aluno),15,arquivo)!=0){
+            //     fwrite(bloco,sizeof(Aluno),15,copia);
+            // }
             
 
             ArqLEs = fopen("data/Aleatorio_by_quicksort.dat","r+b");
