@@ -1,9 +1,5 @@
 #include "headers/uteis.h"
 
-//Inverter a geração do quickSort
-//Gerar Ascendentemente
-//Inverter os arquivos na criação  
-
 int main(int argc, char const *argv[]) {
     
     printf("\n===== TP1 - Estrutura de Dados II =====\n\n");

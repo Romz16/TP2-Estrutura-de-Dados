@@ -33,10 +33,6 @@ void quicksort(int quantidade, int situacao){
                 fwrite(bloco,sizeof(Aluno),1,copia);
             }
 
-            // while(fread(bloco,sizeof(Aluno),15,arquivo)!=0){
-            //     fwrite(bloco,sizeof(Aluno),15,copia);
-            // }
-
             ArqLEs = fopen("data/Ascendente_by_quicksort.dat","r+b");
             ArqLi = fopen("data/Ascendente_by_quicksort.dat","r+b");
             ArqEi = fopen("data/Ascendente_by_quicksort.dat","r+b");
@@ -54,9 +50,6 @@ void quicksort(int quantidade, int situacao){
                 fread(bloco,sizeof(Aluno),1,arquivo);
                 fwrite(bloco,sizeof(Aluno),1,copia);
             }
-            // while(fread(bloco,sizeof(Aluno),15,arquivo)!=0){
-            //     fwrite(bloco,sizeof(Aluno),15,copia);
-            // }
 
             ArqLEs = fopen("data/Descendente_by_quicksort.dat","r+b");
             ArqLi = fopen("data/Descendente_by_quicksort.dat","r+b");
@@ -75,10 +68,6 @@ void quicksort(int quantidade, int situacao){
                 fread(bloco,sizeof(Aluno),1,arquivo);
                 fwrite(bloco,sizeof(Aluno),1,copia);
             }
-            // while(fread(bloco,sizeof(Aluno),15,arquivo)!=0){
-            //     fwrite(bloco,sizeof(Aluno),15,copia);
-            // }
-            
 
             ArqLEs = fopen("data/Aleatorio_by_quicksort.dat","r+b");
             ArqLi = fopen("data/Aleatorio_by_quicksort.dat","r+b");
@@ -157,11 +146,6 @@ void QuickSortExterno(FILE **ArqLi, FILE **ArqEi,FILE **ArqLEs,int esq,int dir,C
     int i,j;
     Pivo pivo;
 
-    //Caso base da recursão, quando o subarquivo possui tamanho menor que o mínimo de momória de inertna disponível. A odenação neste caso se dá em memória interna.
-   // if(dir - esq <= 20){
-       // selectionSortExterno(esq,(dir-esq),ArqLi,ArqEi,conts);
-       // return ;
-   // } 
    if(dir - esq < 1){
         return;
    }
@@ -285,30 +269,4 @@ void escreveMax(FILE**ArqLEs,Aluno escrita,int *Es){
     fseek(*ArqLEs,(*Es-1)*sizeof(Aluno),SEEK_SET);
     fwrite(&escrita,sizeof(Aluno),1,*ArqLEs);
     (*Es)--;
-}
-
-void selectionSortExterno(int left,int tam,FILE**leitura,FILE**escrita,Contadores *conts){
-    fseek(*leitura,(left*sizeof(Aluno)),SEEK_SET);
-    fseek(*escrita,(left*sizeof(Aluno)),SEEK_SET);
-
-    Aluno *vetor = (Aluno*) malloc(tam*sizeof(Aluno));
-    
-    fread(vetor,sizeof(Aluno),tam,*leitura);
-
-    Aluno aux;
-    for(int i=0;i<tam;i++){
-        int maior = i;
-        for(int j=i+1;j<tam;j++){
-            conts->comparacoes++;
-            if(vetor[j].nota>vetor[maior].nota)
-                maior = j;            
-        }
-        aux = vetor[i];
-        vetor[i] = vetor[maior];
-        vetor[maior] = aux;
-    }
-
-    fwrite(vetor,sizeof(Aluno),tam,*escrita);   
-
-    conts->transferencias = conts->transferencias + 2;
 }
